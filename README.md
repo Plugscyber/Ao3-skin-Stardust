@@ -24,4 +24,4 @@ Like this 'color' because for some reason CSS only accept the American spelling.
 Always save your code. Back it up on Github or use a basic word editng program. Or
 when you try to modify it something will break and you won't be able to back it up with working code.
 Use the W3 website to learn code as I personally find they make it quite easy to learn. 
-Also please credit me. Although this code is modified for other peoples I have made some changes myself so also credit them too.
+Also please credit me. Although this code is modified for other peoples I have made some changes myself so also credit ElectricAlice and Vannetta!
