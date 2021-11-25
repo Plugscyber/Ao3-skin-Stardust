@@ -1,0 +1,77 @@
+/*
+ABOUT
+This site skin uses code based off ElectricAlice's iPad fix for their Tide skin. 
+This will work regardless of if you are using the light or dark version of Stardust.
+Note that these code comments will vanish when you click 'submit' to make the site skin, so make sure you can refrence this webpage if needed.
+*/
+
+/*
+IMPORTANT
+This skin is a work in progress. I am working on streamlining and improving it. I have not tested it with other types of tablets.
+*/
+
+/*
+TO USE
+(this will be on my Ao3 post but just incase.)
+Copy all of this into the Ao3 CSS box for your new skin. Call it something like 'Stardust Ipad fix' for convenience sake. 
+If you use Ao3 mainly or only on mobile or iPad DO NOT click use but still submit this skin.
+You need to make the mobile fix skin and then do some fiddling with parent skins and media settings in the advanced skin making settings. 
+Don't worry I will explain this in the mobile skin code comments.
+*/
+
+/*
+STARDUST iPad fix.
+*/
+
+#workskin {
+  margin: auto;
+}
+
+#workskin,
+.system .userstuff,
+.collection blockquote.userstuff {
+  width: 100%;
+  max-width: 45em;
+}
+
+div#inner {
+  width: 100%;
+}
+/*
+This makes the filter bar wider so it fits on the screen correctly.
+*/
+
+.filters dl,
+.filters dt {
+  width: 100%;
+}
+
+/*
+This makes the checkboxes bigger because I found them hard to click on ipad.
+*/
+
+
+.filters [type=radio] + .indicator:before,
+.filters [type=radio]:checked + .indicator:before,
+.filters [type=checkbox] + .indicator:before,
+.filters .exclude [type=checkbox] + .indicator:before,
+.filters [type=checkbox]:checked + .indicator:before,
+.filters .exclude [type=checkbox]:checked + .indicator:before,
+input[type=checkbox],
+input[type=radio],
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+.actions input[type=checkbox]:checked,
+label.action input[type=checkbox]:checked,
+input[type=checkbox]:hover,
+.actions input[type=checkbox]:hover {
+  width: 1em;
+  height: 1em;
+}
+/*
+I think this makes text boxes display correclty? I can't recall if this worked so may remove it.
+*/
+
+fieldset {
+  width: 100%;
+}
