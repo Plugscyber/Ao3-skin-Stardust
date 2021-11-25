@@ -1685,7 +1685,7 @@ These are the buttons for posting and previewing works.
 
 input[name="preview_button"] {
   color: #f7f7f7;
-  background: #26ba9a !important;
+  background: #ea6b6f !important;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -1705,7 +1705,7 @@ input[name="post_button"] {
 
 input[name="preview_button"]:hover {
   color: #f7f7f7 !important;
-  background: #14a085 !important;
+  background: #ea7b6f !important;
   border: none;
   border-bottom: none;
   background-image: none;
