@@ -1792,3 +1792,9 @@ makes line breaks stars.
   content: "☆★☆";
   font-size: 20px;
 }
+/* 
+Gets rid of the double border on chapter end notes. 
+*/
+.chapter .preface {
+  border-top: none;
+}
