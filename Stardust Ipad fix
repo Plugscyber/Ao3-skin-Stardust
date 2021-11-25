@@ -75,3 +75,9 @@ I think this makes text boxes display correclty? I can't recall if this worked s
 fieldset {
   width: 100%;
 }
+/*
+makes star line breaks less obnoxiosly big.
+*/
+.userstuff hr::before {
+  font-size: 12px;
+}
