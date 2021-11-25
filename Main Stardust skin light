@@ -1790,7 +1790,6 @@ makes line breaks stars.
 
 .userstuff hr::before {
   content: "☆★☆";
-  font-size: 20px;
 }
 /* 
 Gets rid of the double border on chapter end notes. 
