@@ -1766,8 +1766,16 @@ Gives blurbs some padding so they aren't squished.
 /*
 Makes the fic posting/update dates black so they are visable.
 */
-
-
 .blurb .datetime {
   color: #393E46;
+}
+/* 
+Makes bullet lists have stars instead of circles.
+*/
+.userstuff li {
+  list-style-type: none;
+}
+.userstuff li::before {
+  content: "★";
+  padding-right: 8px;
 }
