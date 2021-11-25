@@ -1,0 +1,1773 @@
+/*
+ABOUT
+This site skin uses code based off ElectricAlice's Minimal Ao3 skin, Tide Ao3 skin and site skin for a border around tags. 
+It also uses vanetta's tag scrolling code. This code has been modified to my own specfications.
+Note that these code comments will vanish when you click 'submit' to make the site skin, so make sure you can refrence this webpage if needed.
+*/
+
+/*
+IMPORTANT
+This skin is a work in progress, the code is messy and I am working on streamlining it. 
+*/
+
+/*
+TO USE
+(this will be on my Ao3 post but just incase.)
+Copy all of this into the Ao3 CSS box for your new skin. Call it something like 'Stardust main' for convenience sake. 
+If you ONlY use Ao3 on desktop then click 'use'. If you mainly use Ao3 on Ipad/tablet or mobile then DO NOT click use but still submit this skin.
+You need to make the Ipad fix and mobile fix skins and then do some fiddling with parent skins and media settings in the advanced skin making settings. 
+Don't worry I will explain this in the other skin codes.
+*/
+
+/*
+STARDUST LIGHT
+*/
+
+/*
+Font settings. If you want to change the skin font, change the first font on the 'font family' list. 
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  font-family: 'Trebuchet MS' , Calibri, 'Open Sans', sans-serif;
+  border-bottom: none;
+  font-weight: normal;
+}
+
+body,
+input,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+button,
+blockquote,
+.filters dt,
+.filters dd,
+.filters input[type=submit],
+.bookmark .user .meta,
+.datetime,
+a.work,
+span.symbol,
+.splash .news .meta,
+select {
+  font-family: 'Trebuchet MS', Calibri, 'Open Sans', sans-serif;
+}
+
+code,
+pre {
+  font-family: 'Trebuchet MS', Calibri, 'Open Sans', sans-serif;
+  font-size: 1em;
+  padding: 1em 0.5em;
+}
+
+/*
+This removes the box shadows and makes the skin flat.
+*/
+
+#header .menu,
+#header .dropdown:hover .current + .menu,
+.event .userstuff,
+.notice,
+.comment_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.alert.flash,
+.actions a:hover,
+.actions input:hover,
+.actions a:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus,
+.dynamic form,
+.ui-draggable form,
+#header .primary,
+.group.listbox,
+fieldset fieldset.listbox,
+#main li.blurb,
+.wrapper,
+#dashboard .secondary,
+.secondary,
+form blockquote.userstuff,
+.thread .comment,
+.toggled form,
+.listbox .index,
+form .notice,
+form ul.notes,
+form.verbose legend,
+.verbose form legend,
+span.question,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+.delete a,
+span.delete,
+#header ul.primary,
+.ui-sortable li,
+input,
+.actions input,
+input[type=submit],
+textarea,
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+button,
+.current,
+.actions label {
+  box-shadow: none;
+}
+
+#footer,
+.autocomplete .dropdown ul li:hover,
+li.selected,
+.autocomplete a:hover,
+form .notice,
+form ul.notes,
+form.verbose legend,
+.verbose form legend,
+input,
+.actions input,
+input[type=submit],
+textarea,
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+button,
+.current,
+.actions label {
+  background-image: none;
+}
+
+.actions input,
+input[type=submit],
+textarea,
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+button,
+.current,
+.actions label {
+  -webkit-appearance: none;
+}
+
+form .notice,
+form ul.notes,
+form.verbose legend,
+.verbose form legend,
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+input[type=submit],
+button,
+.current,
+.actions label,
+.notice,
+.comment_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.alert.flash,
+.actions a:hover,
+.actions input:hover,
+.actions a:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus,
+.toggled form,
+.dynamic form,
+.ui-draggable form {
+  border: none;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+button,
+.current,
+.actions label {
+  border: none;
+}
+
+input {
+  width: 96%;
+  border: 1px solid;
+}
+
+.actions a:hover,
+a:hover,
+.actions input:hover,
+#dashboard a:hover,
+.actions a:focus,
+.actions input:focus,
+#dashboard a:focus,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+#dashboard .current,
+#outer .current,
+#header .current,
+span.unread,
+.replied,
+span.claimed,
+dl.index dd,
+.own,
+.draft,
+.draft .unread,
+.child,
+.unwrangled,
+.unreviewed,
+.ui-sortable li:hover,
+#header .primary .menu .current {
+  border-color: initial;
+  box-shadow: none !important;
+}
+
+form .notice,
+form ul.notes,
+form.verbose legend,
+.verbose form legend,
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+input[type=submit],
+button,
+.current,
+.actions label {
+  border-bottom: none;
+}
+
+.listbox .index,
+.dashboard .listbox .index,
+.splash .news li,
+form dt,
+.picture .header {
+  border: none;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#header .menu,
+#header .dropdown:hover .current + .menu,
+.event .userstuff {
+  filter: none;
+}
+
+.autocomplete input,
+.autocomplete .dropdown ul li {
+  min-width: 10px;
+}
+
+*/
+This controls the check box apperances. Radio and checkbox are two different types of checkbox.
+*/
+
+.filters [type=radio] + .indicator:before,
+.filters [type=radio]:checked + .indicator:before,
+.filters [type=checkbox] + .indicator:before,
+.filters .exclude [type=checkbox] + .indicator:before,
+.filters [type=checkbox]:checked + .indicator:before,
+.filters .exclude [type=checkbox]:checked + .indicator:before,
+input[type=checkbox],
+input[type=radio],
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+.actions input[type=checkbox]:checked,
+label.action input[type=checkbox]:checked,
+input[type=checkbox]:hover,
+.actions input[type=checkbox]:hover {
+  width: 0.8em;
+  height: 0.8em;
+}
+
+input[type=radio] {
+  border-radius: 50%;
+}
+
+.filters [type=radio] + .indicator:before {
+  content: "";
+  vertical-align: -0.125em;
+  background: none;
+  background-color: #ebebeb;
+  border: none;
+}
+
+.filters [type=radio]:checked + .indicator:before {
+  content: "";
+  vertical-align: -0.125em;
+  background: none;
+  background-color: #ea6b6f;
+  border: 1px solid #ea6b6f;
+}
+
+.filters [type=checkbox] + .indicator:before,
+.filters .exclude [type=checkbox] + .indicator:before {
+  content: "";
+  padding: 0px;
+  border-radius: 0px;
+  vertical-align: -0.125em;
+  background: none;
+  background-color: #ebebeb;
+  border: 1px solid #393e46;
+}
+
+.filters [type=checkbox]:checked + .indicator:before,
+.filters .exclude [type=checkbox]:checked + .indicator:before {
+  content: "";
+  padding: 0px;
+  border-radius: 0px;
+  vertical-align: -0.125em;
+  background: none;
+  background-color: #ea6b6f;
+  border: 1px solid #ea6b6f;
+}
+
+.filters .exclude [type=checkbox]:checked + .indicator:before {
+  background-color: #bd203a;
+}
+
+input[type=checkbox],
+input[type=radio],
+.actions input[type=checkbox],
+label.action input[type=checkbox] {
+  background-color: #ebebeb;
+  border: 1px solid #e8e8e8;
+}
+
+input[type=checkbox],
+input[type=radio],
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+.actions input[type=checkbox]:checked,
+label.action input[type=checkbox]:checked,
+input[type=checkbox]:hover,
+.actions input[type=checkbox]:hover {
+  display: inline-block;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+.actions input[type=checkbox]:checked,
+label.action input[type=checkbox]:checked,
+input[type=checkbox]:hover,
+.actions input[type=checkbox]:hover {
+  background-color: #ea6b6f;
+  border: none;
+}
+/*
+This makes the tags colourful and have the little stars on them.
+*/
+
+fieldset.work.meta .fandom.required ul.autocomplete {
+  background: transparent;
+}
+
+.favorite a.tag {
+  border: none;
+}
+/* 
+If you want something other than a star before tags search 'UTF-8 symbols'.
+Go to the W3 website and when you see a symbol you like, click 'try it' to get the decimal or hexadecimal reference.
+Put it in 'content' between the quote marks. 
+*/
+
+.relationships a::before {
+  content: "☆";
+  padding: 0 .25em 0 0;
+}
+/* 
+If you want to change the colors of the tags you need to change the Hex code in 'background color' 
+Try this website for a starting point: https://www.webmonkey.com/color-codes/ 
+*/
+
+.tags li.relationships:nth-of-type(3n+1) a.tag {
+  background-color: #ff8e43;
+}
+
+.tags li.relationships:nth-of-type(3n+2) a.tag {
+  background-color: #ffa366;
+}
+
+.tags li.relationships:nth-of-type(3n+3) a.tag {
+  background-color: #ffb98a;
+}
+
+.characters a::before {
+  content: "☆";
+  padding: 0 .25em 0 0;
+}
+
+.tags li.characters:nth-of-type(3n+1) a.tag {
+  background-color: #f8b920;
+}
+
+.tags li.characters:nth-of-type(3n+2) a.tag {
+  background-color: #f9c443;
+}
+
+.tags li.characters:nth-of-type(3n+3) a.tag {
+  background-color: #facf66;
+}
+
+.freeforms a::before {
+  content: "☆";
+  padding: 0 .25em 0 0;
+}
+
+.tags li.freeforms:nth-of-type(3n+1) a.tag {
+  background-color: #d0cfcc;
+}
+
+.tags li.freeforms:nth-of-type(3n+2) a.tag {
+  background-color: #dcdcda;
+}
+
+.tags li.freeforms:nth-of-type(3n+3) a.tag {
+  background-color: #e9e8e7;
+}
+
+.tags li.freeforms a.tag:hover,
+.tags li.characters a.tag:hover,
+.tags li.relationships a.tag:hover {
+  background-color: #393E46;
+  color: white;
+}
+
+.commas li:after {
+  content: "";
+}
+
+li.blurb .tags {
+  max-height: 8.5em;
+  overflow-y: auto;
+}
+
+li.blurb .fandoms {
+  max-height: 3.75em;
+  overflow-y: auto;
+}
+*/ 
+This makes the tags black with white text when hovered over. 
+*/
+
+a.tag:hover,
+.listbox .heading a.tag:visited:hover {
+  background: #393E46;
+  color: #fff;
+}
+
+/* 
+This is the code for the filter boxes apperance. 
+*/
+
+.filters .expander {
+  padding: 0 .25em 0 0;
+  font-size: 1.05em;
+  background: none;
+  border-radius: .25em;
+}
+
+.filters .expanded .expander {
+  background-color: #393E46;
+  background-image: none;
+  color: #f7f7f7;
+}
+/* 
+This makes the star solid before the filter button is clicked on. 
+*/
+
+.filters .expander::before {
+  content: "★";
+  padding: 0 .25em 0 0;
+}
+/* 
+This makes the star an outline and white after the filter button is clicked on. Also makes the filter exander turn black. 
+*/
+
+.filters .expanded .expander::before {
+  content: "☆";
+  color: #f7f7f7;
+  padding: 0 .25em 0 0;
+}
+
+.filters input:checked + .indicator + span {
+  font-weight: inherit;
+}
+
+dl.stats dt {
+  display: none;
+}
+
+/*
+These are the fic stat symbols. Remove this code to get rid of them or change the url to change them.
+*/
+
+
+li.collection dl.stats dt,
+li.series dl.stats dt,
+dl.series dl.stats dt {
+  display: inline-block !important;
+}
+
+dl.stats dd.kudos::before {
+  background: url(https://64.media.tumblr.com/23a3c6f134a96386f50fb8982a353590/8b704f26c7323545-01/s100x200/31e25f0be03646918168c4d49bd2ee9733b2cd59.png);
+}
+
+dl.stats dd.words::before {
+  background: url(https://64.media.tumblr.com/fff96d500a04ddf12517a48d83b228d2/b2e751421a20aa0c-a7/s100x200/c848a67de8f463ccdafa5b60948c61a172d5fe24.png);
+}
+
+dl.stats dd.chapters::before {
+  background: url(https://64.media.tumblr.com/a8ca48310f24581ae539336583690b26/b2e751421a20aa0c-5c/s100x200/a51b914598b64c3ddf6f705b278f11a68301d443.png);
+}
+
+dl.stats dd.comments::before {
+  background: url(https://64.media.tumblr.com/7172c0bbe03a0eef7b236014dc78c905/8b704f26c7323545-78/s250x400/f37ba1ff69b5ef2ad7e5fe66b61fd748badc00d1.png);
+}
+
+dl.stats dd.bookmarks::before {
+  background: url(https://64.media.tumblr.com/9b95d189a57699762d2262536e922ece/b2e751421a20aa0c-2a/s100x200/1aabb2ad7b90746f0469aefaa39af5b83728f8b9.png);
+}
+
+dl.stats dd.hits::before {
+  background: url(https://64.media.tumblr.com/b2b8862a356132ac1aa41e9e9f0ddd1d/b2e751421a20aa0c-9e/s100x200/dcd2bcb1adbbb8f9e1844b61aee3dd3a653531e3.png);
+}
+
+dl.stats dd.collections::before {
+  background: url(https://64.media.tumblr.com/ae825c2ad8071426c298c5b52970e294/b2e751421a20aa0c-18/s100x200/d1eb5dd259e2db588cda2100057c2c8fd9efaaf0.png);
+}
+
+dl.work dl.stats dd.published::before {
+  background: url(https://64.media.tumblr.com/7e13419071a7eeb35f48a76c7aa0ba36/b2e751421a20aa0c-5d/s250x400/7f351f60793ad683e4a9dc4de55e4ee4d625f9d2.png);
+}
+
+dl.work dl.stats dd.status::before {
+  background: url(https://64.media.tumblr.com/0ef9349a36cf808783e9488a97b64678/b2e751421a20aa0c-10/s250x400/8df1d3da298f875381822968f8e71ed4d7bcae31.png);
+}
+
+ul.statistics dl.stats dd.subscriptions::before {
+  background: url(https://64.media.tumblr.com/64db76a65209eff79515dfc23842eb54/fd0b10e0262ddb71-14/s250x400/921de73c3d5bb819f4e3c58c7c45bd4c6edfe55f.png);
+}
+
+ul.statistics dl.stats dd::before,
+li.work dl.stats dd::before,
+li.bookmark dl.stats dd::before,
+dl.work dl.stats dd::before {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  content: " ";
+  background-size: 14px 14px !important;
+  margin-right: 5px;
+}
+
+dl.stats dd.published::before,
+dl.stats dd.status::before {
+  width: 0px;
+  margin-right: 0px;
+}
+/* 
+This makes the skin have its off white background and grey elements
+/*
+
+
+body,
+th,
+tr:hover,
+col.name,
+form blockquote.userstuff,
+input:focus,
+select:focus,
+select,
+textarea:focus,
+.autocomplete div.dropdown ul,
+#ui-datepicker-div,
+#ibox_wrapper,
+#ibox_content,
+.toggled form,
+.dynamic form,
+.secondary,
+.listbox .index,
+.dashboard .listbox .index,
+.nomination dt {
+  background: #f7f7f7;
+}
+
+.comment_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.alert.flash {
+  color: #eee;
+  background-color: #ce4c4c;
+  border: none;
+  box-shadow: none;
+  margin-top: 10px !important;
+}
+
+.home .header h2 {
+  border-bottom: 0px;
+}
+
+.subscription dd {
+  background-color: transparent !important;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite a:hover {
+  color: #eee;
+  background-color: #393e46;
+}
+
+#dashboard .actions a,
+#dashboard .actions a:visited {
+  color: #393E46 !important;
+}
+
+.blurb ul.required-tags {
+  background: #eeeeee !important;
+}
+
+.filters dl {
+  background: #eeeeee;
+}
+
+#dashboard .actions .current {
+  color: #f7f7f7;
+  background: #393e46;
+}
+
+#dashboard.own {
+  border: none;
+}
+
+.announcement .userstuff h2 {
+  margin-top: 10px;
+  color: #f7f7f7;
+}
+
+fieldset fieldset,
+fieldset dl dl,
+.fieldset,
+fieldset {
+  background: #f7f7f7;
+}
+
+#header .user a,
+#header .user a:visited {
+  margin: 2px;
+  color: #393E46 !important;
+}
+
+.picture .header {
+  border: none;
+}
+
+li.comment,
+.thread .even {
+  border-radius: 0.75em;
+}
+
+.bookmark div.user {
+  border-radius: 0.5em;
+}
+
+.blurb .header .heading {
+  background: transparent !important;
+}
+
+.blurb .stats {
+  color: #000000;
+}
+
+.module .heading h4,
+.module .heading h5,
+h5.module .fandoms .heading,
+.blurb dl.stats,
+.blurb dl.stats dd,
+.meta .stats,
+.meta .stats dl dt,
+.meta .stats dl dd,
+.blurb dl.stats dt,
+.dashboard .own .work {
+  background: transparent !important;
+}
+
+h5.heading,
+.user .datetime,
+.bookmark .user .userstuff,
+.bookmark .user .meta {
+  margin: 10px;
+}
+
+.reading h4.viewed {
+  background: #eeeeee;
+  border: 1px solid #393E46;
+  padding: 0.50em;
+  border-radius: .25em;
+}
+
+.posted {
+  font-size: 0.8em;
+}
+
+#header .dropdown .menu .current {
+  background-color: #393E46;
+  color: #eee;
+}
+
+#header .menu,
+#header .menu li a:link,
+#header .menu li a:visited {
+  border-radius: 0.75em;
+  background: #eeeeee !important;
+  color: #393E46 !important;
+  border: none;
+}
+
+#header .menu li a:hover,
+#header .dropdown:hover a {
+  color: #393E46 !important;
+  background: #f7f7f7 !important;
+}
+
+li.blurb {
+  border-radius: 0.75em;
+  background: #eeeeee;
+  border: none;
+}
+
+.filters .submit input {
+  height: 100%;
+  margin: 1em 0;
+  min-height: 1.286em;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  color: #f7f7f7;
+  background: #393E46;
+}
+
+#header #search > * {
+  width: 70%;
+  white-space: nowrap;
+  margin-right: 60px;
+}
+
+form.verbose legend,
+.verbose form legend {
+  height: auto;
+  width: auto;
+  font-size: 100%;
+  background: #929aab;
+  color: #f7f7f7;
+  border: none;
+  padding: .5em;
+  box-shadow: none;
+  opacity: 1;
+  margin: 10px;
+  border-radius: .5em;
+}
+/* 
+I don't advise changing the font here. Ao3 doesn't like it and I haven't gotten around to working out why. 
+*/
+
+.actions input[type="text"],
+.textarea,
+.autocomplete input,
+form.search input[type="text"],
+form.search input[type="text"],
+li.search fieldset,
+.search input[type="text"] {
+  color: #393E46;
+  background: #f7f7f7;
+  border: 1px solid #393E46;
+  border-radius: .25em;
+  box-shadow: none;
+  font: 90% Avenir, Helvetica, Arial, sans-serif;
+  padding: 5px;
+  width: 90%;
+}
+
+.input,
+.highlighted {
+  border: none;
+}
+
+.filters input:checked + .indicator + span {
+  font-weight: inherit;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .menu,
+#small_login,
+#header .dropdown:hover .current+.menu,
+.actions a,
+.actions a:link,
+.actions a:active,
+.actions a:visited,
+.current span,
+.current,
+a.current,
+.actions .current,
+.current,
+.current a:visited,
+.current a:link,
+#dashboard .current,
+.actions a:active,
+span.unread,
+.replied,
+span.claimed,
+.own,
+.unread,
+.child,
+.unwrangled,
+.unreviewed {
+  color: #f7f7f7;
+  background: #393E46;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+dl.index dd {
+  color: #393e46;
+}
+
+.draft,
+.draft .wrapper {
+  color: #393E46;
+}
+
+#header h2,
+#footer ul,
+#footer ul.navigation a,
+.autocomplete .dropdown ul li:hover,
+li.selected,
+a.tag:hover {
+  color: #eee;
+}
+
+tbody tr,
+thead td,
+#header #small_login,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+form dt,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+.search span.tip,
+#header ul.primary .current {
+  border-color: #f7f7f7;
+}
+
+.heading a,
+.userstuff,
+.heading,
+#heading h3,
+.splash .module h3 {
+  color: #393E46;
+}
+
+.listbox>.heading {
+  color: #393E46;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.listbox .index,
+.dashboard .listbox .index,
+.splash .news li,
+form dt,
+.picture .header {
+  border: none;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+a.tag {
+  border-bottom: none;
+}
+
+.actions a,
+.actions a:link,
+.actions a:visited,
+.current,
+a.current,
+.current a:visited,
+.current a:link {
+  color: #f7f7f7 !important;
+  background: #393E46;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+.listbox {
+  border: none;
+  border-radius: 0.5em;
+}
+
+.actions a:hover,
+a:hover,
+.actions input:hover,
+#dashboard a:hover,
+.actions a:focus,
+.actions input:focus,
+#dashboard a:focus,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+#dashboard .current,
+#outer .current,
+#header .current,
+span.unread,
+.replied,
+span.claimed,
+dl.index dd,
+.own,
+.draft,
+.draft .unread,
+.child,
+.unwrangled,
+.unreviewed,
+.ui-sortable li:hover,
+#header .primary .menu .current {
+  border-color: initial;
+  box-shadow: none !important;
+}
+
+.action.top,
+.action a:link {
+  background: #393E46;
+  color: #f7f7f7;
+  height: auto;
+  font-weight: bolder;
+  padding: .15em .25em;
+}
+
+.splash .module h3 {
+  border-bottom: none;
+  font-variant: small-caps;
+  font-size: 1.914em;
+}
+
+.title {
+  font-variant: small-caps;
+}
+
+.published,
+.comments {
+  font-size: 14px;
+  font-variant: small-caps;
+}
+
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  -webkit-appearance: none;
+}
+
+li.relationships,
+li.relationships a,
+.thread .even,
+.preface h3 {
+  background-color: transparent;
+}
+
+a:hover,
+.splash .browse a:hover {
+  color: #929AAB;
+}
+
+#login-block,
+li.blurb,
+fieldset,
+form dl,
+#dashboard ul.navigation,
+#dashboard ul,
+#symbols-key dl,
+.toggled form,
+.dynamic form,
+div.comment,
+li.comment,
+.comment div.icon,
+.autocomplete div.dropdown ul,
+#modal,
+.bookmark p.count span,
+.ui-sortable li:hover,
+.actions a:hover,
+.actions input:hover,
+.userstuff blockquote {
+  border-color: #eeeeee;
+}
+
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  box-shadow: none;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .menu,
+#small_login,
+#header .dropdown:hover .current+.menu,
+#dashboard .current,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+span.unread,
+.replied,
+span.claimed,
+dl.index dd,
+.own,
+.draft,
+.draft .wrapper,
+.unread,
+.child,
+.unwrangled,
+.unreviewed {
+  background: #eeeeee;
+}
+
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+a.cloud4,
+a.cloud5 {
+  color: #393E46;
+}
+
+a:visited,
+a.cloud6 {
+  color: #393E46;
+}
+
+thead,
+tfoot,
+tfoot td,
+th,
+tr:hover,
+col.name,
+input,
+textarea,
+#modal .content,
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+span.unread,
+.replied,
+span.claimed,
+.system .latest h3,
+.system div.news h3,
+.listbox,
+fieldset fieldset.listbox,
+dl.meta,
+.picture .header,
+.bookmark .user {
+  border-color: #393E46;
+  background: #f7f7f7;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+li.blurb,
+.blurb .blurb,
+.listbox .index,
+.dashboard .listbox .index {
+  box-shadow: none;
+}
+
+#header ul.primary {
+  box-shadow: none;
+  padding: 1em;
+}
+
+#workskin img {
+  max-width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.autocomplete div.dropdown ul {
+  border: 1px solid #393E46;
+  border-radius: 0.5em;
+}
+
+table,
+thead td,
+#header #small_login,
+#dashboard a:hover,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+.ui-sortable li:hover,
+.listbox,
+fieldset fieldset.listbox,
+.readings-index h3,
+.search span.tip,
+.flash,
+.notice,
+.error,
+.comment_error {
+  background: #eeeeee;
+}
+
+.comment h4.byline {
+  background: transparent;
+}
+
+body,
+#main.error,
+#main.slow,
+#main.maintenance,
+.required .autocomplete,
+.autocomplete .notice,
+.post .required .warnings,
+.listbox .heading,
+.listbox .heading a:visited,
+.userstuff h2,
+.userstuff caption,
+.userstuff table,
+.userstuff td,
+.userstuff col,
+.userstuff tr,
+.userstuff thead,
+.userstuff tfoot,
+.userstuff tbody,
+.userstuff th,
+.userstuff thead td,
+.userstuff th a,
+.userstuff th a:link,
+a.cloud3,
+#header .search input[type="text"] {
+  color: #393E46;
+}
+
+.draft {
+  border-color: #393E46;
+}
+
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+span.unread,
+.replied,
+span.claimed {
+  border-bottom-color: #393E46;
+}
+
+.ui-sortable li:hover,
+.secondary,
+.wrapper,
+.ui-draggable form {
+  box-shadow: none;
+}
+
+#header #small_login {
+  box-shadow: none;
+}
+
+.delete a,
+span.delete {
+  box-shadow: none;
+}
+
+#header .primary .menu .current {
+  color: #00273d !important;
+}
+
+a,
+a:link,
+#dashboard a,
+#dashboard span,
+.autocomplete div.dropdown ul,
+.actions a:visited,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+a.tag,
+.tags a,
+a.cloud1,
+a.cloud2 {
+  color: #000e16;
+}
+
+.userstuff h3,
+#header .primary a,
+#header .primary .current,
+#header .primary input,
+#header .search input {
+  border-color: #00273d;
+}
+
+.userstuff h3 {
+  border-bottom: 0px;
+  font-size: 1.8em;
+}
+
+.userstuff h2 {
+  font-size: 2em;
+}
+
+.actions a:active,
+.current,
+a.current,
+.current a:visited {
+  box-shadow: none;
+}
+
+#header ul.primary,
+#footer,
+.autocomplete .dropdown ul li:hover,
+li.selected,
+a.tag:hover {
+  background: #393E46;
+}
+
+#header #greeting img,
+#header .heading a,
+#header fieldset,
+#header form,
+#header p,
+#header .user a:hover,
+#header .user a:focus,
+#header .user .current,
+#dashboard a:hover,
+.actions a:hover,
+.actions input:hover,
+.delete a,
+span.delete,
+span.unread,
+.replied,
+span.claimed,
+.draggable,
+.droppable,
+span.requested,
+a.work,
+.blurb h4 a:link,
+.blurb h4 img,
+.system .latest h3,
+.system div.news h3,
+.system .tweets h3,
+.required,
+.error,
+a.cloud7,
+a.cloud8 {
+  color: #393E46;
+}
+
+#outer #header #greeting .icon,
+#dashboard.own,
+.error,
+.comment_error,
+#header ul.primary,
+.LV_invalid,
+.LV_invalid_field,
+input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active,
+#header .primary a,
+#header .primary .current,
+#header .primary input,
+#header .search input {
+  border-color: #393E46;
+}
+
+#dashboard a,
+.unread,
+#dashboard span,
+#dashboard.own,
+fieldset dl,
+fieldset.actions,
+fieldset dl fieldset dl,
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.dashboard .own,
+.mods li,
+dl.stats dt,
+.blurb .header .heading,
+.blurb .header ul,
+.blurb .header p.status,
+fieldset.comments,
+.userstuff table,
+.userstuff td,
+.userstuff col,
+.userstuff tr,
+.userstuff thead,
+.userstuff tfoot,
+.userstuff tbody,
+.userstuff th,
+.userstuff thead td,
+.userstuff th a,
+.userstuff th a:link {
+  background: #f7f7f7;
+}
+
+#footer ul.navigation a {
+  color: #f7f7f7;
+}
+
+#footer a:hover,
+fieldset dl,
+fieldset.actions,
+fieldset dl fieldset dl,
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+#outer.wrapper,
+#inner.wrapper,
+dl.index,
+dl.stats,
+.listbox,
+fieldset fieldset.listbox,
+.listbox li.blurb,
+fieldset.comments,
+dl.nomination {
+  box-shadow: none;
+}
+
+h2,
+.system p#signup,
+#header h2 {
+  text-shadow: none;
+}
+
+.dashboard .listbox {
+  border: 1px solid #929AAB;
+}
+
+.comment fieldset {
+  border: 0px;
+}
+/* 
+This makes the icons have rounded edges, remove it to change them to square. Or change the number to increase or decrease the roundness. 
+If unfamiliar with the em mesurment, look it up first to avoid unexpected results.
+*/
+
+#greeting img.icon {
+  border-radius: .75em;
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.primary .icon,
+.icon {
+  border-radius: .75em;
+  height: 7em;
+  width: 7em;
+}
+
+.picture .icon img {
+  border-radius: .75em;
+  height: 7em;
+  width: 7em;
+  margin: -8px;
+}
+
+.icon {
+  padding: 5px;
+}
+
+.comment div.icon {
+  border-bottom: 0px;
+}
+
+/* 
+I can't recall what this bit does. 
+*/
+
+span.symbol {
+  color: #393E46;
+  background: #f7f7f7;
+  border: 1px solid;
+  vertical-align: super;
+  border-radius: .75em;
+  box-shadow: none;
+}
+
+.notice {
+  border: 1px solid #393E46;
+  color: #393E46;
+  background: #f7f7f7;
+  box-shadow: none;
+  padding: 1em;
+}
+
+#modal-bg {
+  background: #393E46;
+}
+
+.splash .browse li a:before {
+  color: #393E46;
+  content: "\272D";
+  padding: 0 .25em 0 0;
+}
+/*
+These are checkbox buttons. I need to check what they are for but I think this code makes them flat.
+*/
+
+
+.btn,
+input[type=submit],
+.actions li a,
+.actions li input,
+.actions li input[type="submit"],
+.actions li label {
+  color: #f7f7f7;
+  background: #393E46;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+.btn:hover,
+input[type="submit"]:hover,
+.actions li input[type="submit"]:hover,
+.actions .current:hover {
+  color: #393E46;
+  background: #f7f7f7;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+.tags input[type='radio'],
+.filters [type="radio"] + .indicator::before,
+.filters [type="radio"] + .indicator::before {
+  color: #393E46;
+  background: #f7f7f7;
+  border: 1px solid #393E46;
+  border-radius: 1em;
+  box-shadow: none;
+}
+
+/* 
+I don't recall what this does either but I think it is more skin color stuff. 
+*/
+
+#header .primary>li:first-of-type {
+  margin-left: 2em;
+}
+
+#dashboard a,
+.unread,
+#dashboard span,
+#dashboard.own,
+fieldset dl,
+fieldset.actions,
+fieldset dl fieldset dl,
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.dashboard .own,
+.mods li,
+dl.stats dt,
+.blurb .header .heading,
+.blurb .header ul,
+.blurb .header p.status,
+fieldset.comments,
+.userstuff table,
+.userstuff td,
+.userstuff col,
+.userstuff tr,
+.userstuff thead,
+.userstuff tfoot,
+.userstuff tbody,
+.userstuff th,
+.userstuff thead td,
+.userstuff th a,
+.userstuff th a:link {
+  background: #ffffff;
+}
+
+.assignment dl.stats,
+.assignment dl.stats dt,
+.assignment dl.stats dd,
+dl.stats,
+dl.stats dt {
+  background: transparent;
+  color: #000000;
+}
+
+.assignment .index dt {
+  margin-bottom: 5px;
+}
+
+.blurb dl.stats {
+  margin-bottom: 5px;
+}
+
+#dashboard {
+  border-bottom: 0px solid #f7f7f7;
+  border-top: 0px solid #f7f7f7;
+  padding: .5em 0;
+  border-radius: .25em;
+}
+
+.userstuff p {
+  color: #000000;
+  outline: none;
+  font-size: medium;
+}
+
+.user .datetime {
+  color: #000000;
+}
+
+.preface blockquote {
+  border: 0;
+  font-size: xx-small;
+}
+
+p.kudos {
+  background: none;
+  padding: .5em;
+}
+
+ul.series,
+ul.series li {
+  color: #000000;
+}
+
+.own .header,
+.inbox .actions,
+.inbox .comments,
+.pseud .header,
+.collection .header {
+  background-color: transparent;
+}
+
+.own .type {
+  color: #000000;
+}
+
+.faq .example,
+.guideline .example {
+  border: 0px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.comment .icon .visitor {
+  background: url(/images/imageset.png) no-repeat -1px -76px;
+  padding: 0px;
+  margin: 5px;
+}
+
+.skins .primary .icon,
+.admin .primary .icon {
+  padding: 0px;
+  margin: 10px;
+  border-radius: .75em;
+}
+
+.bookmark .count a {
+  color: #393E46;
+}
+
+.announcement .userstuff {
+  background: #ce4c4c;
+  border-color: #ce4c4c;
+  color: #ffffff;
+}
+
+.announcement .userstuff p {
+  color: #ffffff;
+}
+
+.announcement input[type="submit"],
+.announcement .action {
+  background: #fff none;
+  border: 1px solid #ce4c4c;
+  color: #000000;
+  font-size: .875em;
+  padding: .25em .5em;
+  border-radius: 2em;
+}
+
+/*
+These are the buttons for posting and previewing works.
+*/
+
+input[name="preview_button"] {
+  color: #f7f7f7;
+  background: #26ba9a !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+input[name="post_button"] {
+  color: #f7f7f7;
+  background: #ea6b6f !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+input[name="preview_button"]:hover {
+  color: #f7f7f7 !important;
+  background: #14a085 !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+input[name="post_button"]:hover {
+  color: #f7f7f7 !important;
+  background: #ea7b6f !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+/* 
+more stuff I need to check the functions of but I think this is related to tag padding? 
+*/
+
+a.tag,
+a.tag:visited,
+a.tag:link {
+  display: inline-block;
+  padding: 3px 6px;
+  margin: 4px 0px;
+  border-radius: 5px;
+}
+/*
+This makes links change colour when visted.
+*/
+
+
+.blurb h4.heading a:link:visited,
+.blurb h4.heading a:visited {
+  color: #ea6b6f !important;
+}
+
+/* 
+This makes it so the current page button is highlighted in a colour.
+*/
+
+
+.pagination .current {
+  background-color: #ea6b6f;
+}
+
+/* 
+Gives blurbs some padding so they aren't squished. 
+*/
+
+.blurb blockquote {
+  clear: none;
+  margin: .643em auto;
+  text-align: left;
+  padding: 10px;
+}
+/*
+Makes the fic posting/update dates black so they are visable.
+*/
+
+
+.blurb .datetime {
+  color: #393E46;
+}
