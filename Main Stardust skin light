@@ -1779,3 +1779,16 @@ Makes bullet lists have stars instead of circles.
   content: "★";
   padding-right: 8px;
 }
+/*
+makes line breaks stars.
+*/
+.userstuff hr {
+  border: none;
+  border-bottom: none;
+  text-align: center;
+}
+
+.userstuff hr::before {
+  content: "☆★☆";
+  font-size: 20px;
+}
