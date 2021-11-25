@@ -344,7 +344,7 @@ input[type=radio] {
 }
 
 .filters .exclude [type=checkbox]:checked + .indicator:before {
-  background-color: #bd203a;
+  background-color: #ea6b6f;
 }
 
 input[type=checkbox],
