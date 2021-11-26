@@ -13,9 +13,11 @@ This skin is a work in progress. I am working on streamlining and improving it. 
 /*
 TO USE
 (this will be on my Ao3 post but just incase.)
-Copy all of this into the Ao3 CSS box for your new skin. Call it something like 'Stardust Ipad fix' for convenience sake. 
-If you use Ao3 mainly or only on mobile or iPad DO NOT click use but still submit this skin.
-You need to make the mobile fix skin and then do some fiddling with parent skins and media settings in the advanced skin making settings. 
+1. Copy all of this into the Ao3 CSS box for your new skin. Call it something like 'Stardust Ipad fix' for convenience sake. 
+
+2. If you use Ao3 mainly or only on mobile or iPad DO NOT click use but still submit this skin.
+
+3. You need to make the mobile fix skin and then do some fiddling with parent skins and media settings in the advanced skin making settings. 
 Don't worry I will explain this in the mobile skin code comments.
 */
 
