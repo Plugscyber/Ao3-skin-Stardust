@@ -1,3 +1,31 @@
+/*
+ABOUT
+This site skin uses code based off ElectricAlice's mobile fix for their Tide skin. 
+This will work regardless of if you are using the light or dark version of Stardust.
+Note that these code comments will vanish when you click 'submit' to make the site skin, so make sure you can refrence this webpage if needed.
+*/
+
+/*
+IMPORTANT
+This skin is a work in progress. I am working on streamlining and improving it. 
+*/
+
+/*
+TO USE
+(this will be on my Ao3 post but just incase.)
+1. Copy all of this into the Ao3 CSS box for your new skin. Call it something like 'Stardust mobile fix' for convenience sake. 
+
+2. Go to the 'advanced' tab and then go to media. Select 'only screen and (max-width: 42em)'.
+
+3. Go to parent skins. Type in the name of the main and ipad skins add them as parent skins for this skin.
+
+3. Now you can click use!
+*/
+
+/*
+STARDUST mobile fix.
+*/
+
 #workskin,
 .userstuff {
   font-size: 110%;
