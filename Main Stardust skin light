@@ -279,7 +279,7 @@ form dt,
   min-width: 10px;
 }
 
-*/
+/*
 This controls the check box apperances. Radio and checkbox are two different types of checkbox.
 */
 
