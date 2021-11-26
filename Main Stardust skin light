@@ -69,6 +69,237 @@ pre {
   font-size: 1em;
   padding: 1em 0.5em;
 }
+/*needed to make fonts work from what ElectricAlice says.*/
+html,
+body,
+div,
+span,
+applet,
+object,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+.filters dt,
+.filters dd,
+.filters input[type=submit],
+.filters .expander {
+  font-size: 100%;
+}
+/*
+
+A lot of Dyslexic freindly text formatting. Delete if you don't like.
+
+*/
+#chapters,
+#chapters p,
+textarea,
+#footer li,
+.preface.group blockquote.userstuff,
+.preface.group blockquote.userstuff p,
+.comment .userstuff,
+#workskin,
+.blurb .userstuff,
+.news .userstuff,
+.system .userstuff,
+.collection blockquote.userstuff,
+#inner.wrapper,
+#modal,
+h3,
+.filters dt,
+.filters dd,
+.filters input[type=submit],
+.filters .expander,
+.userstuff li,
+.userstuff ul,
+.userstuff p,
+.userstuff h2,
+.userstuff h1,
+.userstuff h3,
+.userstuff h4,
+p.note,
+blockquote,
+body,
+input,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+button,
+#main,
+select {
+  line-height: 1.8em;
+}
+
+.blurb dl.stats,
+.actions li a,
+.actions li input,
+.actions li input[type=submit],
+input[type=submit],
+.actions li .current,
+.actions li label,
+#header .primary .menu a,
+#header .primary .menu .current,
+form.search input[type=text],
+dd.autocomplete li.input,
+input[type=radio],
+select,
+input[type=checkbox],
+input[type=file],
+input.number,
+p input,
+p select,
+.heading select,
+li select,
+input:focus,
+select:focus,
+textarea:focus,
+input,
+p.type,
+.meta dd,
+#chapters,
+#chapters p,
+textarea,
+#footer li,
+.preface.group blockquote.userstuff,
+.preface.group blockquote.userstuff p,
+.userstuff p,
+.comment .userstuff,
+#workskin,
+.blurb .userstuff,
+.news .userstuff,
+.system .userstuff,
+.collection blockquote.userstuff,
+body,
+#header,
+#outer.wrapper,
+#inner.wrapper,
+.secondary,
+#modal,
+.filters .expander {
+  word-spacing: 0.21em;
+}
+
+.blurb dl.stats,
+.actions li a,
+.actions li input,
+.actions li input[type=submit],
+input[type=submit],
+.actions li .current,
+.actions li label,
+#header .primary .menu a,
+#header .primary .menu .current,
+form.search input[type=text],
+dd.autocomplete li.input,
+input[type=radio],
+select,
+input[type=checkbox],
+input[type=file],
+input.number,
+p input,
+p select,
+.heading select,
+li select,
+input:focus,
+select:focus,
+textarea:focus,
+input,
+textarea,
+p.type,
+.meta dd,
+body,
+#header,
+#outer.wrapper,
+#inner.wrapper,
+.secondary,
+#modal,
+.filters .expander {
+  letter-spacing: 0.02em;
+}
+
+#chapters,
+#chapters p,
+textarea,
+#footer li,
+.preface.group blockquote.userstuff,
+.preface.group blockquote.userstuff p,
+.userstuff p,
+.comment .userstuff,
+div#comments_placeholder,
+.blurb dl.stats,
+#workskin,
+.blurb .userstuff,
+.news .userstuff,
+.system .userstuff,
+.collection blockquote.userstuff {
+  text-align: left;
+}
+
+#workskin {
+  text-align: left !important;
+}
+
+div#comments_placeholder,
+#workskin,
+.blurb .userstuff,
+.news .userstuff,
+.system .userstuff,
+.collection blockquote.userstuff {
+  width: 70%;
+  max-width: 45em;
+}
+
+.comment .userstuff {
+  width: 95%;
+}
+
+.blurb .userstuff {
+  padding: 20px 0;
+}
+
+.userstuff p {
+  margin: 2em auto;
+}
+
 
 /*
 This removes the box shadows and makes the skin flat.
