@@ -230,8 +230,9 @@ select {
   line-height: 1.8em;
 }
 
+
 h4.heading {
-  font-size: 1.640625em;
+  font-size: 1.3em;
   font-weight: 700;
 }
 
