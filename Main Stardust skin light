@@ -40,7 +40,7 @@ h6,
 .heading {
   font-family: 'Trebuchet MS' , Calibri, 'Open Sans', sans-serif;
   border-bottom: none;
-  font-weight: normal;
+  font-weight: 700;
 }
 
 body,
@@ -69,7 +69,71 @@ pre {
   font-size: 1em;
   padding: 1em 0.5em;
 }
-/*needed to make fonts work from what ElectricAlice says.*/
+
+#footer li,
+.comment .userstuff,
+.blurb dl.stats,
+.actions li a,
+.actions li input,
+.actions li input[type=submit],
+input[type=submit],
+.actions li .current,
+.actions li label,
+#header .primary .menu a,
+#header .primary .menu .current,
+form.search input[type=text],
+dd.autocomplete li.input,
+input[type=radio],
+input[type=checkbox],
+input[type=file],
+input.number,
+p input,
+p select,
+.heading select,
+li select,
+input:focus,
+select:focus,
+textarea:focus,
+textarea,
+p.type,
+.meta dd,
+#workskin,
+.blurb .userstuff,
+.news .userstuff,
+.system .userstuff,
+.collection blockquote.userstuff,
+#header h1,
+#header,
+#outer.wrapper,
+#inner.wrapper,
+#modal,
+.filters .expander,
+.qtip-content,
+h5,
+h6,
+h4.viewed,
+p.note,
+blockquote,
+body,
+input,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+button,
+#main,
+select {
+  font-size: 1em;
+}
+
+.home .header h2,
+.preface h3,
+.faq .categories h3,
+.userstuff h3,
+#footer a {
+  border-bottom: none;
+}
+
 html,
 body,
 div,
@@ -125,11 +189,7 @@ td,
 .filters .expander {
   font-size: 100%;
 }
-/*
 
-A lot of Dyslexic freindly text formatting. Delete if you don't like.
-
-*/
 #chapters,
 #chapters p,
 textarea,
@@ -168,6 +228,32 @@ button,
 #main,
 select {
   line-height: 1.8em;
+}
+
+h4.heading {
+  font-size: 1.640625em;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.3125em;
+}
+
+h4.heading .datetime {
+  padding: 5px;
+  font-size: 0.5376em;
+}
+
+.preface a:hover {
+  text-decoration: none;
+}
+
+#header {
+  font-size: 1.05em;
+}
+
+.news h4.heading {
+  margin: 0;
 }
 
 .blurb dl.stats,
@@ -299,11 +385,6 @@ div#comments_placeholder,
 .userstuff p {
   margin: 2em auto;
 }
-
-
-/*
-This removes the box shadows and makes the skin flat.
-*/
 
 #header .menu,
 #header .dropdown:hover .current + .menu,
@@ -514,10 +595,6 @@ form dt,
   min-width: 10px;
 }
 
-/*
-This controls the check box apperances. Radio and checkbox are two different types of checkbox.
-*/
-
 .filters [type=radio] + .indicator:before,
 .filters [type=radio]:checked + .indicator:before,
 .filters [type=checkbox] + .indicator:before,
@@ -618,9 +695,6 @@ input[type=checkbox]:hover,
   background-color: #ea6b6f;
   border: none;
 }
-/*
-This makes the tags colourful and have the little stars on them.
-*/
 
 fieldset.work.meta .fandom.required ul.autocomplete {
   background: transparent;
@@ -629,20 +703,11 @@ fieldset.work.meta .fandom.required ul.autocomplete {
 .favorite a.tag {
   border: none;
 }
-/* 
-If you want something other than a star before tags search 'UTF-8 symbols'.
-Go to the W3 website and when you see a symbol you like, click 'try it' to get the decimal or hexadecimal reference.
-Put it in 'content' between the quote marks. 
-*/
 
 .relationships a::before {
   content: "☆";
   padding: 0 .25em 0 0;
 }
-/* 
-If you want to change the colors of the tags you need to change the Hex code in 'background color' 
-Try this website for a starting point: https://www.webmonkey.com/color-codes/ 
-*/
 
 .tags li.relationships:nth-of-type(3n+1) a.tag {
   background-color: #ff8e43;
@@ -710,19 +775,12 @@ li.blurb .fandoms {
   max-height: 3.75em;
   overflow-y: auto;
 }
-*/ 
-This makes the tags black with white text when hovered over. 
-*/
 
 a.tag:hover,
 .listbox .heading a.tag:visited:hover {
   background: #393E46;
   color: #fff;
 }
-
-/* 
-This is the code for the filter boxes apperance. 
-*/
 
 .filters .expander {
   padding: 0 .25em 0 0;
@@ -736,17 +794,11 @@ This is the code for the filter boxes apperance.
   background-image: none;
   color: #f7f7f7;
 }
-/* 
-This makes the star solid before the filter button is clicked on. 
-*/
 
 .filters .expander::before {
   content: "★";
   padding: 0 .25em 0 0;
 }
-/* 
-This makes the star an outline and white after the filter button is clicked on. Also makes the filter exander turn black. 
-*/
 
 .filters .expanded .expander::before {
   content: "☆";
@@ -761,11 +813,6 @@ This makes the star an outline and white after the filter button is clicked on. 
 dl.stats dt {
   display: none;
 }
-
-/*
-These are the fic stat symbols. Remove this code to get rid of them or change the url to change them.
-*/
-
 
 li.collection dl.stats dt,
 li.series dl.stats dt,
@@ -830,10 +877,6 @@ dl.stats dd.status::before {
   width: 0px;
   margin-right: 0px;
 }
-/* 
-This makes the skin have its off white background and grey elements
-/*
-
 
 body,
 th,
@@ -1033,9 +1076,6 @@ form.verbose legend,
   margin: 10px;
   border-radius: .5em;
 }
-/* 
-I don't advise changing the font here. Ao3 doesn't like it and I haven't gotten around to working out why. 
-*/
 
 .actions input[type="text"],
 .textarea,
@@ -1663,10 +1703,6 @@ h2,
 .comment fieldset {
   border: 0px;
 }
-/* 
-This makes the icons have rounded edges, remove it to change them to square. Or change the number to increase or decrease the roundness. 
-If unfamiliar with the em mesurment, look it up first to avoid unexpected results.
-*/
 
 #greeting img.icon {
   border-radius: .75em;
@@ -1696,10 +1732,6 @@ If unfamiliar with the em mesurment, look it up first to avoid unexpected result
   border-bottom: 0px;
 }
 
-/* 
-I can't recall what this bit does. 
-*/
-
 span.symbol {
   color: #393E46;
   background: #f7f7f7;
@@ -1726,10 +1758,6 @@ span.symbol {
   content: "\272D";
   padding: 0 .25em 0 0;
 }
-/*
-These are checkbox buttons. I need to check what they are for but I think this code makes them flat.
-*/
-
 
 .btn,
 input[type=submit],
@@ -1768,10 +1796,6 @@ input[type="submit"]:hover,
   border-radius: 1em;
   box-shadow: none;
 }
-
-/* 
-I don't recall what this does either but I think it is more skin color stuff. 
-*/
 
 #header .primary>li:first-of-type {
   margin-left: 2em;
@@ -1914,10 +1938,6 @@ ul.series li {
   border-radius: 2em;
 }
 
-/*
-These are the buttons for posting and previewing works.
-*/
-
 input[name="preview_button"] {
   color: #f7f7f7;
   background: #ea6b6f !important;
@@ -1957,9 +1977,6 @@ input[name="post_button"]:hover {
   border-radius: .25em;
   box-shadow: none;
 }
-/* 
-more stuff I need to check the functions of but I think this is related to tag padding? 
-*/
 
 a.tag,
 a.tag:visited,
@@ -1969,28 +1986,15 @@ a.tag:link {
   margin: 4px 0px;
   border-radius: 5px;
 }
-/*
-This makes links change colour when visted.
-*/
-
 
 .blurb h4.heading a:link:visited,
 .blurb h4.heading a:visited {
   color: #ea6b6f !important;
 }
 
-/* 
-This makes it so the current page button is highlighted in a colour.
-*/
-
-
 .pagination .current {
   background-color: #ea6b6f;
 }
-
-/* 
-Gives blurbs some padding so they aren't squished. 
-*/
 
 .blurb blockquote {
   clear: none;
@@ -1998,25 +2002,20 @@ Gives blurbs some padding so they aren't squished.
   text-align: left;
   padding: 10px;
 }
-/*
-Makes the fic posting/update dates black so they are visable.
-*/
+
 .blurb .datetime {
   color: #393E46;
 }
-/* 
-Makes bullet lists have stars instead of circles.
-*/
+
 .userstuff li {
   list-style-type: none;
 }
+
 .userstuff li::before {
   content: "★";
   padding-right: 8px;
 }
-/*
-makes line breaks stars.
-*/
+
 .userstuff hr {
   border: none;
   border-bottom: none;
@@ -2024,11 +2023,9 @@ makes line breaks stars.
 }
 
 .userstuff hr::before {
-  content: "--☆★☆--";
+  content: "—☆★☆—";
 }
-/* 
-Gets rid of the double border on chapter end notes. 
-*/
+
 .chapter .preface {
   border-top: none;
 }
