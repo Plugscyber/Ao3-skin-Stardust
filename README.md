@@ -2,7 +2,7 @@
 An Ao3 site skin
 
 Decided to make this just in case anyone has problems with the site skin or modifying it. 
-This is only basic troubleshooting if you do complex modifications and no more CSS than me I probably can't help you.
+This is only basic troubleshooting if you do complex modifications and know more CSS than me I probably can't help you.
 
 1. 'The site skin doesn't work'/'my modification doesn't work'
 
