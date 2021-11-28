@@ -13,6 +13,8 @@ Make sure you followed the instructions for the ipad and mobile fix exactly. If 
 
 Check that the commas you use are straight not curly. It shouldn't happen when you copy paste from Github, but if you copy pasted it to say a MS word document before putting it in Ao3 or did the code modifications in MS word the commas may have changed the curly commas, Ao3's css field doesn't like this for some reason.
 
+Also, on ipad or mobile you device might not be able to handle copying all this code in browser without crashing. So you may have to copy in sections. Genrally, installing this skin on desktop is easier. When copy pasting on desktop, check that you've selected all of the code.
+
 
 2. 'my modification doesn't work'
 
