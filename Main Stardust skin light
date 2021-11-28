@@ -69,7 +69,9 @@ pre {
   font-size: 1em;
   padding: 1em 0.5em;
 }
-
+/*
+font sizing 
+*/
 #footer li,
 .comment .userstuff,
 .blurb dl.stats,
@@ -133,7 +135,9 @@ select {
 #footer a {
   border-bottom: none;
 }
-
+/*
+according to EletricAlice this is needed so fonts dont do weird things.
+*/
 html,
 body,
 div,
@@ -189,7 +193,9 @@ td,
 .filters .expander {
   font-size: 100%;
 }
-
+/*
+line height settings.
+*/
 #chapters,
 #chapters p,
 textarea,
@@ -229,7 +235,9 @@ button,
 select {
   line-height: 1.8em;
 }
-
+/*
+hedding size. This mostly affects fic title sizing on search/profile.
+*/
 
 h4.heading {
   font-size: 1.3em;
@@ -239,7 +247,9 @@ h4.heading {
 h4 {
   font-size: 1.3125em;
 }
-
+/*
+the size of the date and time text for fic updates.
+*/
 h4.heading .datetime {
   padding: 5px;
   font-size: 0.5376em;
@@ -248,11 +258,12 @@ h4.heading .datetime {
 .preface a:hover {
   text-decoration: none;
 }
-
+/*
+header font size.
+*/
 #header {
   font-size: 1.05em;
 }
-
 .news h4.heading {
   margin: 0;
 }
