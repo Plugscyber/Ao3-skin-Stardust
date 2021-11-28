@@ -1954,7 +1954,6 @@ dl.stats dt {
 .userstuff p {
   color: #000000;
   outline: none;
-  font-size: medium;
 }
 
 .user .datetime {
@@ -1963,7 +1962,6 @@ dl.stats dt {
 
 .preface blockquote {
   border: 0;
-  font-size: xx-small;
 }
 
 p.kudos {
