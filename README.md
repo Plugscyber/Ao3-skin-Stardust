@@ -4,16 +4,19 @@ An Ao3 site skin
 Decided to make this just in case anyone has problems with the site skin or modifying it. 
 This is only basic troubleshooting if you do complex modifications and know more CSS than me I probably can't help you.
 
-1. 'The site skin doesn't work'/'my modification doesn't work'
+1. 'The site skin doesn't work'
 
-Check that the commas you use are straight not curly. 
-It shouldn't happen when you copy paste from Github.
-But if you copy pasted it to say a MS word document before putting it in Ao3 or did the code modifications in MS word the commas may have changed the curly commas.
-Ao3's css feild doesn't like this for some reason.
+Check that this isn't a known issue. I haven't published this skin directly on ao3 for a reason.
+The mobile version has broken formatting currently. Though the ipad and desktop versions should be useable.
 
-Make sure that you didn't accidentally remove any curly brackets or double them up. It will break the CSS code if you do. 
-Also check that you didn't miss any semicolons on the ends of your declarations this will also break the code. 
-Declarations all the bits where you say things like 'make the text black' and they look like this 'color: black;'
+Make sure you followed the instructions for the ipad and mobile fix exactly. If the media sizing or parent skin settings are wrong the skin won't work. 
+
+Check that the commas you use are straight not curly. It shouldn't happen when you copy paste from Github, but if you copy pasted it to say a MS word document before putting it in Ao3 or did the code modifications in MS word the commas may have changed the curly commas, Ao3's css field doesn't like this for some reason.
+
+
+2. 'my modification doesn't work'
+
+Make sure that you didn't accidentally remove any curly brackets or double them up. It will break the CSS code if you do. Also check that you didn't miss any semicolons on the ends of your declarations this will also break the code. Declarations all the bits where you say things like 'make the text black' and they look like this 'color: black;'
 
 If you are British like me make sure you are spelling the word colour the American way.
 Like this 'color' because for some reason CSS only accept the American spelling.
