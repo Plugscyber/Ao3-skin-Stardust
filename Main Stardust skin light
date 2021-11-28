@@ -984,8 +984,6 @@ ul.notes,
 .alert.flash {
   color: #eee;
   background-color: #ce4c4c;
-  border: none;
-  box-shadow: none;
   margin-top: 10px !important;
 }
 
