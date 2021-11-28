@@ -267,7 +267,9 @@ header font size.
 .news h4.heading {
   margin: 0;
 }
-
+/* 
+word spacing settings.
+*/
 .blurb dl.stats,
 .actions li a,
 .actions li input,
@@ -316,7 +318,9 @@ body,
 .filters .expander {
   word-spacing: 0.21em;
 }
-
+/*
+letter spacing settings.
+*/
 .blurb dl.stats,
 .actions li a,
 .actions li input,
@@ -353,7 +357,9 @@ body,
 .filters .expander {
   letter-spacing: 0.02em;
 }
-
+/*
+makes the text align left.
+*/
 #chapters,
 #chapters p,
 textarea,
@@ -371,11 +377,16 @@ div#comments_placeholder,
 .collection blockquote.userstuff {
   text-align: left;
 }
-
+/*
+tries to force left text align in custom work skins
+*/
 #workskin {
   text-align: left !important;
 }
-
+/*
+I need to fiddle with this and document it because I want full width comment boxes on desktop.
+Smaller width text in those comment boxes if I can.
+*/
 div#comments_placeholder, #workskin,
 .blurb .userstuff,
 .news .userstuff,
@@ -396,9 +407,10 @@ div#comments_placeholder, #workskin,
 }
 
 .comment .userstuff {
-  /* 
-  resets the width of the paragraph comments after being reduced as a part of .userstuff
-  */
+/* 
+  resets the width of the paragraph comments after being reduced as a part of .userstuff. 
+  need to check this as I'm not sure it works how I want it too.
+*/
   width: 95%;
 }
 
@@ -409,6 +421,9 @@ div#comments_placeholder, #workskin,
 .userstuff p {
   margin: 2em auto;
 }
+/*
+gets rid of box shadows and makes skin flat.
+*/
 
 #header .menu,
 #header .dropdown:hover .current + .menu,
@@ -618,6 +633,9 @@ form dt,
 .autocomplete .dropdown ul li {
   min-width: 10px;
 }
+/*
+Check box settings.
+*/
 
 .filters [type=radio] + .indicator:before,
 .filters [type=radio]:checked + .indicator:before,
@@ -723,15 +741,22 @@ input[type=checkbox]:hover,
 fieldset.work.meta .fandom.required ul.autocomplete {
   background: transparent;
 }
-
+/*
+tag settings.
+*/
 .favorite a.tag {
   border: none;
 }
-
+/*
+stars on tags. can be swapped for another html symbol.
+*/
 .relationships a::before {
   content: "☆";
   padding: 0 .25em 0 0;
 }
+/*
+colourful tags.
+*/
 
 .tags li.relationships:nth-of-type(3n+1) a.tag {
   background-color: #ff8e43;
@@ -778,14 +803,18 @@ fieldset.work.meta .fandom.required ul.autocomplete {
 .tags li.freeforms:nth-of-type(3n+3) a.tag {
   background-color: #e9e8e7;
 }
-
+/*
+tags are black with white text on hover.
+*/
 .tags li.freeforms a.tag:hover,
 .tags li.characters a.tag:hover,
 .tags li.relationships a.tag:hover {
   background-color: #393E46;
   color: white;
 }
-
+/*
+no commas after tags.
+*/
 .commas li:after {
   content: "";
 }
@@ -805,6 +834,9 @@ a.tag:hover,
   background: #393E46;
   color: #fff;
 }
+/*
+filter settings.
+*/
 
 .filters .expander {
   padding: 0 .25em 0 0;
@@ -818,7 +850,9 @@ a.tag:hover,
   background-image: none;
   color: #f7f7f7;
 }
-
+/*
+filter star settings.
+*/
 .filters .expander::before {
   content: "★";
   padding: 0 .25em 0 0;
@@ -833,7 +867,9 @@ a.tag:hover,
 .filters input:checked + .indicator + span {
   font-weight: inherit;
 }
-
+/*
+stat symbols.
+*/
 dl.stats dt {
   display: none;
 }
@@ -901,7 +937,9 @@ dl.stats dd.status::before {
   width: 0px;
   margin-right: 0px;
 }
-
+/*
+skin colour settings.
+*/
 body,
 th,
 tr:hover,
@@ -1100,7 +1138,9 @@ form.verbose legend,
   margin: 10px;
   border-radius: .5em;
 }
-
+/*
+don't change the font here. Ao3 doesn't like it.
+*/
 .actions input[type="text"],
 .textarea,
 .autocomplete input,
@@ -1727,6 +1767,9 @@ h2,
 .comment fieldset {
   border: 0px;
 }
+/*
+makes icons rounded.
+*/
 
 #greeting img.icon {
   border-radius: .75em;
@@ -1782,7 +1825,9 @@ span.symbol {
   content: "\272D";
   padding: 0 .25em 0 0;
 }
-
+/*
+buttons!
+*/
 .btn,
 input[type=submit],
 .actions li a,
@@ -1961,7 +2006,9 @@ ul.series li {
   padding: .25em .5em;
   border-radius: 2em;
 }
-
+/*
+more buttons.
+*/
 input[name="preview_button"] {
   color: #f7f7f7;
   background: #ea6b6f !important;
@@ -2015,7 +2062,9 @@ a.tag:link {
 .blurb h4.heading a:visited {
   color: #ea6b6f !important;
 }
-
+/*
+makes current pagnation red.
+*/
 .pagination .current {
   background-color: #ea6b6f;
 }
@@ -2026,11 +2075,15 @@ a.tag:link {
   text-align: left;
   padding: 10px;
 }
-
+/*
+makes date time black so it isn't white.
+*/
 .blurb .datetime {
   color: #393E46;
 }
-
+/*
+makes bullet points stars but needs fixing so not affecting ordered lists.
+*/
 .userstuff li {
   list-style-type: none;
 }
@@ -2039,7 +2092,9 @@ a.tag:link {
   content: "★";
   padding-right: 8px;
 }
-
+/*
+star text dividers.
+*/
 .userstuff hr {
   border: none;
   border-bottom: none;
