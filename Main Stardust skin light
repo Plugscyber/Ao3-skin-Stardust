@@ -28,7 +28,9 @@ STARDUST LIGHT
 */
 
 /*
-Font settings. If you want to change the skin font, change the first font on the 'font family' list. 
+----
+Font settings. 
+----
 */
 
 h1,
@@ -236,7 +238,7 @@ select {
   line-height: 1.8em;
 }
 /*
-hedding size. This mostly affects fic title sizing on search/profile.
+hedding size. 
 */
 
 h4.heading {
@@ -422,7 +424,11 @@ div#comments_placeholder, #workskin,
   margin: 2em auto;
 }
 /*
-gets rid of box shadows and makes skin flat.
+----
+Skin flattening 
+----
+
+makes the skin flat.
 */
 
 #header .menu,
@@ -634,7 +640,9 @@ form dt,
   min-width: 10px;
 }
 /*
+----
 Check box settings.
+----
 */
 
 .filters [type=radio] + .indicator:before,
@@ -742,7 +750,9 @@ fieldset.work.meta .fandom.required ul.autocomplete {
   background: transparent;
 }
 /*
+----
 tag settings.
+----
 */
 .favorite a.tag {
   border: none;
@@ -835,7 +845,9 @@ a.tag:hover,
   color: #fff;
 }
 /*
+----
 filter settings.
+----
 */
 
 .filters .expander {
@@ -938,7 +950,9 @@ dl.stats dd.status::before {
   margin-right: 0px;
 }
 /*
-skin colour settings.
+---
+skin colours.
+---
 */
 body,
 th,
@@ -1768,6 +1782,9 @@ h2,
   border: 0px;
 }
 /*
+----
+icon styling.
+----
 makes icons rounded.
 */
 
@@ -1798,7 +1815,11 @@ makes icons rounded.
 .comment div.icon {
   border-bottom: 0px;
 }
-
+/*
+----
+does something else.
+----
+*/
 span.symbol {
   color: #393E46;
   background: #f7f7f7;
@@ -1826,7 +1847,9 @@ span.symbol {
   padding: 0 .25em 0 0;
 }
 /*
+----
 buttons!
+----
 */
 .btn,
 input[type=submit],
@@ -1855,7 +1878,9 @@ input[type="submit"]:hover,
   border-radius: .25em;
   box-shadow: none;
 }
-
+/*
+check what this does and that it doesn't need clean up.
+*/
 .tags input[type='radio'],
 .filters [type="radio"] + .indicator::before,
 .filters [type="radio"] + .indicator::before {
@@ -1869,7 +1894,9 @@ input[type="submit"]:hover,
 #header .primary>li:first-of-type {
   margin-left: 2em;
 }
-
+/*
+more colour stuff. clean up.
+*/
 #dashboard a,
 .unread,
 #dashboard span,
@@ -1969,7 +1996,9 @@ ul.series li {
   background-color: #ffffff;
   border-radius: 5px;
 }
-
+/*
+more icon stuff? move to icon section.
+*/
 .comment .icon .visitor {
   background: url(/images/imageset.png) no-repeat -1px -76px;
   padding: 0px;
@@ -1986,7 +2015,9 @@ ul.series li {
 .bookmark .count a {
   color: #393E46;
 }
-
+/*
+announcement styling? move elsewhere or make its own section.
+*/
 .announcement .userstuff {
   background: #ce4c4c;
   border-color: #ce4c4c;
@@ -2007,7 +2038,7 @@ ul.series li {
   border-radius: 2em;
 }
 /*
-more buttons.
+more buttons. Make neat button section.
 */
 input[name="preview_button"] {
   color: #f7f7f7;
@@ -2048,7 +2079,9 @@ input[name="post_button"]:hover {
   border-radius: .25em;
   box-shadow: none;
 }
-
+/*
+not sure what this styles. But check it doesn't need clean up.
+*/
 a.tag,
 a.tag:visited,
 a.tag:link {
@@ -2057,18 +2090,27 @@ a.tag:link {
   margin: 4px 0px;
   border-radius: 5px;
 }
-
+/*
+----
+makes visted fic titles red.
+----
+*/
 .blurb h4.heading a:link:visited,
 .blurb h4.heading a:visited {
   color: #ea6b6f !important;
 }
 /*
-makes current pagnation red.
+----
+active pagenation styling
+----
+makes current pagnation red. put in colour section.
 */
 .pagination .current {
   background-color: #ea6b6f;
 }
-
+/*
+okay this should go somewhere else to be neat.
+*/
 .blurb blockquote {
   clear: none;
   margin: .643em auto;
@@ -2076,13 +2118,16 @@ makes current pagnation red.
   padding: 10px;
 }
 /*
-makes date time black so it isn't white.
+makes date time black so it isn't white. put in colour section,
 */
 .blurb .datetime {
   color: #393E46;
 }
 /*
-makes bullet points stars but needs fixing so not affecting ordered lists.
+----
+list styling
+----
+makes bullet points stars but needs fixing so not affecting ordered lists. put somewhere else.
 */
 .userstuff li {
   list-style-type: none;
@@ -2093,7 +2138,10 @@ makes bullet points stars but needs fixing so not affecting ordered lists.
   padding-right: 8px;
 }
 /*
+---- 
 star text dividers.
+----
+put somewhere else.
 */
 .userstuff hr {
   border: none;
@@ -2104,7 +2152,8 @@ star text dividers.
 .userstuff hr::before {
   content: "—☆★☆—";
 }
-
+/* what is this here for again?
+*/
 .chapter .preface {
   border-top: none;
 }
