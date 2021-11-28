@@ -365,17 +365,29 @@ div#comments_placeholder,
   text-align: left !important;
 }
 
-div#comments_placeholder,
-#workskin,
+div#comments_placeholder, #workskin,
 .blurb .userstuff,
 .news .userstuff,
 .system .userstuff,
 .collection blockquote.userstuff {
+  /*
+  -----------------PARAGRAPH WIDTH-----------------
+  This sets the width of the reading paragraphs.
+  It sets a percentage according to the width of the screen 
+  (reduce or increase the percentage of width: 70%; to change this. remember the semicolon.)
+  but it doesn't allow it to go over a certain amount of width, so that even HUGE screens
+  will have a maximum width for the text.
+  (reduce or increase this by changing the number on the max-width: 45em; remember the semicolon.)
+  It is reset on the mobile skin to 100%
+  */
   width: 70%;
   max-width: 45em;
 }
 
 .comment .userstuff {
+  /* 
+  resets the width of the paragraph comments after being reduced as a part of .userstuff
+  */
   width: 95%;
 }
 
