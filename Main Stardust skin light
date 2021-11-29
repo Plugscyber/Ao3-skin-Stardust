@@ -1338,18 +1338,12 @@ dl.index dd,
 
 .splash .module h3 {
   border-bottom: none;
-  font-variant: small-caps;
   font-size: 1.914em;
-}
-
-.title {
-  font-variant: small-caps;
 }
 
 .published,
 .comments {
   font-size: 14px;
-  font-variant: small-caps;
 }
 
 .actions a,
