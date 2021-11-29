@@ -419,9 +419,12 @@ div#comments_placeholder, #workskin,
 .blurb .userstuff {
   padding: 20px 0;
 }
-
+/*
+Makes the fic body, summary and notes bigger on desktop.
+*/
 .userstuff p {
   margin: 2em auto;
+  font-size: 1.2em;
 }
 /*
 ----
