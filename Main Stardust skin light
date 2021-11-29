@@ -386,24 +386,13 @@ tries to force left text align in custom work skins
   text-align: left !important;
 }
 /*
-I need to fiddle with this and document it because I want full width comment boxes on desktop.
-Smaller width text in those comment boxes if I can.
+Paragraph width. add 'div#comments_placeholder,' to this list for half size comments.
 */
-div#comments_placeholder, #workskin,
+#workskin,
 .blurb .userstuff,
 .news .userstuff,
 .system .userstuff,
 .collection blockquote.userstuff {
-  /*
-  -----------------PARAGRAPH WIDTH-----------------
-  This sets the width of the reading paragraphs.
-  It sets a percentage according to the width of the screen 
-  (reduce or increase the percentage of width: 70%; to change this. remember the semicolon.)
-  but it doesn't allow it to go over a certain amount of width, so that even HUGE screens
-  will have a maximum width for the text.
-  (reduce or increase this by changing the number on the max-width: 45em; remember the semicolon.)
-  It is reset on the mobile skin to 100%
-  */
   width: 70%;
   max-width: 45em;
 }
