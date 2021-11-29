@@ -1611,11 +1611,6 @@ a.cloud2 {
 
 .userstuff h3 {
   border-bottom: 0px;
-  font-size: 1.8em;
-}
-
-.userstuff h2 {
-  font-size: 2em;
 }
 
 .actions a:active,
@@ -2009,7 +2004,6 @@ announcement styling? move elsewhere or make its own section.
   background: #fff none;
   border: 1px solid #ce4c4c;
   color: #000000;
-  font-size: .875em;
   padding: .25em .5em;
   border-radius: 2em;
 }
