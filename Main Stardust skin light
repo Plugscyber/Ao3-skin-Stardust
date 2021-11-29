@@ -2127,3 +2127,7 @@ put somewhere else.
 .chapter .preface {
   border-top: none;
 }
+
+form.inbox {
+  overflow-x: visible;
+}
