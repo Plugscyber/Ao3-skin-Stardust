@@ -393,3 +393,9 @@ input[type="submit"],
 li.characters {
   padding: 10px;
 }
+/*
+Reduces font size of fics text, notes and summary after increasing on desktop.
+*/
+.userstuff p {
+  font-size: 1em;
+}
