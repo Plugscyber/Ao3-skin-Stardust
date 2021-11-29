@@ -84,3 +84,9 @@ makes star line breaks less obnoxiosly big.
 .userstuff hr::before {
   font-size: 12px;
 }
+/*
+Reduces body, notes and summary size after increasing on desktop.
+*/
+.userstuff p {
+  font-size: 1.05em;
+}
