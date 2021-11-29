@@ -631,6 +631,9 @@ form dt,
 .autocomplete .dropdown ul li {
   min-width: 10px;
 }
+.chapter .preface {
+  border-top: none;
+}
 /*
 ----
 Check box settings.
@@ -2121,13 +2124,11 @@ put somewhere else.
 
 .userstuff hr::before {
   content: "—☆★☆—";
-}
-/* what is this here for again?
-*/
-.chapter .preface {
-  border-top: none;
-}
 
+}
+/*
+quick and likely messy fix to scroll box in inbox on desktop due to line height.
+*/
 form.inbox {
   overflow-x: visible;
 }
