@@ -1340,12 +1340,6 @@ dl.index dd,
   border-bottom: none;
   font-size: 1.914em;
 }
-
-.published,
-.comments {
-  font-size: 14px;
-}
-
 .actions a,
 .action,
 .actions input,
