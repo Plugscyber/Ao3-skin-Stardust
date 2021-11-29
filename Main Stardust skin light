@@ -634,6 +634,10 @@ form dt,
 .chapter .preface {
   border-top: none;
 }
+
+.comment fieldset {
+  border: 0px;
+}
 /*
 ----
 Check box settings.
@@ -1754,8 +1758,11 @@ h2,
   border: 1px solid #929AAB;
 }
 
-.comment fieldset {
-  border: 0px;
+/*
+makes date time black so it isn't white. put in colour section,
+*/
+.blurb .datetime {
+  color: #393E46;
 }
 /*
 ----
@@ -2091,12 +2098,6 @@ okay this should go somewhere else to be neat.
   padding: 10px;
 }
 /*
-makes date time black so it isn't white. put in colour section,
-*/
-.blurb .datetime {
-  color: #393E46;
-}
-/*
 ----
 list styling
 ----
@@ -2124,7 +2125,6 @@ put somewhere else.
 
 .userstuff hr::before {
   content: "—☆★☆—";
-
 }
 /*
 quick and likely messy fix to scroll box in inbox on desktop due to line height.
