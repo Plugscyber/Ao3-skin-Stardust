@@ -2107,13 +2107,13 @@ okay this should go somewhere else to be neat.
 ----
 list styling
 ----
-makes bullet points stars but needs fixing so not affecting ordered lists. put somewhere else.
+makes bullet points stars.
 */
-.userstuff li {
+div.userstuff ul li {
   list-style-type: none;
 }
 
-.userstuff li::before {
+div.userstuff ul li::before {
   content: "★";
   padding-right: 8px;
 }
