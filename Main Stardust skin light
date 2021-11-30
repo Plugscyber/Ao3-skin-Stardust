@@ -250,6 +250,12 @@ h4 {
   font-size: 1.3125em;
 }
 /*
+Stops icon text overlap in comments.
+*/
+.comment h4.byline {
+  padding: .25em .25em .25em 120px;
+}
+/*
 the size of the date and time text for fic updates.
 */
 h4.heading .datetime {
