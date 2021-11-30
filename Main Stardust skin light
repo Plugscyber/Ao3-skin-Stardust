@@ -402,14 +402,6 @@ Paragraph width.
   width: 70%;
   max-width: 45em;
 }
-
-.comment .userstuff {
-/* 
-  resets the width of the paragraph comments after being reduced as a part of .userstuff. 
-  need to check this as I'm not sure it works how I want it too.
-*/
-  width: 95%;
-}
 /*
 Makes comments in inbox specfically have text that doesn't wrap under images.
 */
