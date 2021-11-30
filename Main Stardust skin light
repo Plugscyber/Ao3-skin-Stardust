@@ -405,7 +405,7 @@ Paragraph width.
 /*
 Makes comments in inbox specfically have text that doesn't wrap under images.
 */
-li#feedback_comment_485029231.read.comment.group blockquote.userstuff p {
+blockquote.userstuff p {
   width: 70%;
   max-width: 45em;
 }
