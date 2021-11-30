@@ -1797,8 +1797,8 @@ makes icons rounded.
   margin: -8px;
 }
 
-.icon {
-  padding: 5px;
+img.icon {
+  padding: 1px;
 }
 
 .comment div.icon {
