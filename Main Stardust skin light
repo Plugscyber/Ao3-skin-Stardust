@@ -392,7 +392,7 @@ tries to force left text align in custom work skins
   text-align: left !important;
 }
 /*
-Paragraph width. add 'div#comments_placeholder,' to this list for half size comments.
+Paragraph width. 
 */
 #workskin,
 .blurb .userstuff,
@@ -409,6 +409,13 @@ Paragraph width. add 'div#comments_placeholder,' to this list for half size comm
   need to check this as I'm not sure it works how I want it too.
 */
   width: 95%;
+}
+/*
+Makes comments in inbox specfically have text that doesn't wrap under images.
+*/
+li#feedback_comment_485029231.read.comment.group blockquote.userstuff p {
+  width: 70%;
+  max-width: 45em;
 }
 
 .blurb .userstuff {
