@@ -90,3 +90,10 @@ Reduces body, notes and summary size after increasing on desktop.
 .userstuff p {
   font-size: 1.05em;
 }
+/*
+Reduces size of heading font in inbox and stops it overlapping with icons.
+*/
+.comment h4.byline {
+  font-size: 1.2em;
+  padding: .25em .25em .25em 130px;
+}
