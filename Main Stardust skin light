@@ -403,11 +403,18 @@ Paragraph width.
   max-width: 45em;
 }
 /*
-Makes comments in inbox specfically have text that doesn't wrap under images.
+Makes comments in inbox and on fics have text that doesn't wrap under images.
 */
-blockquote.userstuff p {
+ol.comment.index.group blockquote.userstuff p {
   width: 70%;
   max-width: 45em;
+  margin-left: 7em;
+}
+
+ol.thread blockquote.userstuff p {
+  width: 70%;
+  max-width: 45em;
+  margin-left: 7em;
 }
 
 .blurb .userstuff {
