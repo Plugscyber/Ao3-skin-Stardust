@@ -1599,10 +1599,6 @@ span.delete {
   box-shadow: none;
 }
 
-#header .primary .menu .current {
-  color: #00273d !important;
-}
-
 a,
 a:link,
 #dashboard a,
