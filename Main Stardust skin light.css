@@ -1476,7 +1476,6 @@ input[type="submit"],
 button,
 .current,
 .actions label,
-.replied,
 span.claimed,
 .system .latest h3,
 .system div.news h3,
@@ -1490,8 +1489,9 @@ dl.meta,
   border-radius: 5px;
   margin-bottom: 10px;
 }
-/* remove the margin button from span.unread so it sits correctly with other inbox buttons*/
-span.unread {
+/* remove the margin button from span.unread and replied so they sit correctly with other inbox buttons*/
+span.unread,
+.replied {
   border-color: #393E46;
   background: #f7f7f7;
   border-radius: 5px;
