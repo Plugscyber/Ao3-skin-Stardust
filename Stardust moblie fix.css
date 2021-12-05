@@ -403,3 +403,11 @@ Reduces font size of fics text, notes and summary after increasing on desktop.
 #header .primary a {
   padding: 1em 0.5em;
 }
+/*adds padding to sumbmit button in mobile inbox.*/
+.actions li label {
+  padding: 0.6em;
+}
+/*adds some margin styling to comment icons*/
+.comment div.icon {
+  margin-left: 0.5em;
+}
