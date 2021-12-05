@@ -411,3 +411,8 @@ Reduces font size of fics text, notes and summary after increasing on desktop.
 .comment div.icon {
   margin-left: 0.5em;
 }
+/*makes span.unread button the same width as other inbox buttons*/
+
+span.unread {
+  padding: 0.6em;
+}
