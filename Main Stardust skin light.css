@@ -427,6 +427,10 @@ Makes the fic body, summary and notes bigger on desktop.
   margin: 2em auto;
   font-size: 1.2em;
 }
+/*wider bottom margin on news posts*/
+li.post.group {
+padding-bottom:1em;
+}
 /*
 ----
 Skin flattening 
