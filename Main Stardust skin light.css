@@ -1476,7 +1476,6 @@ input[type="submit"],
 button,
 .current,
 .actions label,
-span.unread,
 .replied,
 span.claimed,
 .system .latest h3,
@@ -1490,6 +1489,12 @@ dl.meta,
   background: #f7f7f7;
   border-radius: 5px;
   margin-bottom: 10px;
+}
+/* remove the margin button from span.unread so it sits correctly with other inbox buttons*/
+span.unread {
+  border-color: #393E46;
+  background: #f7f7f7;
+  border-radius: 5px;
 }
 
 li.blurb,
