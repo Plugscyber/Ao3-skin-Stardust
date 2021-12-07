@@ -7,7 +7,7 @@ Note that these code comments will vanish when you click 'submit' to make the si
 
 /*
 IMPORTANT
-This skin is a work in progress, the code is messy and I am working on streamlining it. This is currently a quick and dirty pallet swap from the light skin.
+This skin is a work in progress, the code is messy and I am working on streamlining it. This dark mode is still being worked on.
 */
 
 /*
@@ -1007,6 +1007,7 @@ textarea:focus,
 .dashboard .listbox .index,
 .nomination dt {
   background: #393E46;
+   color: #eeeeee;
 }
 
 .comment_notice,
@@ -1030,8 +1031,8 @@ ul.notes,
 
 .splash .favorite li:nth-of-type(odd) a:hover,
 .splash .favorite a:hover {
-  color: #eee;
-  background-color: #f7f7f7;
+ color: #464e59;
+  background-color: #eeeeee;
 }
 
 #dashboard .actions a,
@@ -1040,16 +1041,16 @@ ul.notes,
 }
 
 .blurb ul.required-tags {
-  background: #eeeeee !important;
+  background: #464e59 !important;
 }
 
 .filters dl {
-  background: #eeeeee;
+  background: #464e59;
 }
 
 #dashboard .actions .current {
-  color: #393E46;
-  background: #f7f7f7;
+  color: #eeeeee !important;
+  background: #393e46;
 }
 
 #dashboard.own {
@@ -1058,7 +1059,7 @@ ul.notes,
 
 .announcement .userstuff h2 {
   margin-top: 10px;
-  color: #393E46;
+  color: #393e46;
 }
 
 fieldset fieldset,
@@ -1071,7 +1072,7 @@ fieldset {
 #header .user a,
 #header .user a:visited {
   margin: 2px;
-  color: #f7f7f7 !important;
+ color: #eeeeee !important;
 }
 
 .picture .header {
@@ -1092,7 +1093,7 @@ li.comment,
 }
 
 .blurb .stats {
-  color: #000000;
+   color: #f7f7f7;
 }
 
 .module .heading h4,
@@ -1116,8 +1117,8 @@ h5.heading,
 }
 
 .reading h4.viewed {
-  background: #eeeeee;
-  border: 1px solid #f7f7f7;
+ background: #464e59;
+  border: 1px solid #eeeeee;
   padding: 0.50em;
   border-radius: .25em;
 }
@@ -1135,15 +1136,15 @@ h5.heading,
 #header .menu li a:link,
 #header .menu li a:visited {
   border-radius: 0.75em;
-  background: #eeeeee !important;
-  color: #f7f7f7 !important;
+  background: #464e59 !important;
+  color: #eeeeee !important;
   border: none;
 }
 
 #header .menu li a:hover,
 #header .dropdown:hover a {
-  color: #f7f7f7 !important;
-  background: #393E46 !important;
+   color: #eeeeee !important;
+  background: #393e46 !important;
 }
 
 li.blurb {
@@ -1159,8 +1160,8 @@ li.blurb {
   padding-left: 0;
   padding-right: 0;
   text-align: center;
-  color:  #393E46;
-  background: #f7f7f7;
+   color: #393e46;
+  background: #eeeeee;
 }
 
 #header #search > * {
@@ -1174,8 +1175,8 @@ form.verbose legend,
   height: auto;
   width: auto;
   font-size: 100%;
-  background: #929aab;
-  color: #393E46;
+  background: #b0ccd3;
+  color: #393e46;
   border: none;
   padding: .5em;
   box-shadow: none;
@@ -1193,9 +1194,9 @@ form.search input[type="text"],
 form.search input[type="text"],
 li.search fieldset,
 .search input[type="text"] {
-  color: #f7f7f7;
+  color: #eeeeee;
   background: #393E46;
-  border: 1px solid  #f7f7f7;
+ border: 1px solid #eeeeee;
   border-radius: .25em;
   box-shadow: none;
   font: 90% Avenir, Helvetica, Arial, sans-serif;
@@ -1240,8 +1241,8 @@ span.claimed,
 .child,
 .unwrangled,
 .unreviewed {
-  color: #393E46;
-  background: #f7f7f7;
+color: #393e46;
+  background: #eeeeee;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -1250,12 +1251,12 @@ span.claimed,
 }
 
 dl.index dd {
-  color: #393e46;
+  color: #eeeeee;
 }
 
 .draft,
 .draft .wrapper {
-  color: #393E46;
+   color: #eeeeee;
 }
 
 #header h2,
@@ -1264,7 +1265,7 @@ dl.index dd {
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
-  color: #eee;
+color: #464e59;
 }
 
 tbody tr,
@@ -1284,7 +1285,7 @@ a.current,
 .current a:visited,
 .search span.tip,
 #header ul.primary .current {
-  border-color: #393E46;
+border-color: #393e46;
 }
 
 .heading a,
@@ -1292,15 +1293,17 @@ a.current,
 .heading,
 #heading h3,
 .splash .module h3 {
-  color: #f7f7f7;
+  color: #eeeeee;
 }
 
 .listbox>.heading {
-  color: #f7f7f7;
+    color: #eeeeee;
   padding: 10px;
   padding-left: 15px;
 }
-
+.listbox .index {
+  background: #464e59;
+}
 .listbox .index,
 .dashboard .listbox .index,
 .splash .news li,
@@ -1324,8 +1327,8 @@ a.tag {
 a.current,
 .current a:visited,
 .current a:link {
-  color: #393E46 !important;
-  background: #f7f7f7;
+  color: #393e46 !important;
+  background: #eeeeee;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -1370,8 +1373,8 @@ dl.index dd,
 
 .action.top,
 .action a:link {
-  background: #f7f7f7;
-  color: #393E46;
+   background: #eeeeee;
+  color: #393e46;
   height: auto;
   font-weight: bolder;
   padding: .15em .25em;
@@ -1400,7 +1403,7 @@ li.relationships a,
 
 a:hover,
 .splash .browse a:hover {
-  color: #929AAB;
+    color: #b0ccd3;
 }
 
 #login-block,
@@ -1422,7 +1425,7 @@ li.comment,
 .actions a:hover,
 .actions input:hover,
 .userstuff blockquote {
-  border-color: #eeeeee;
+border-color: #464e59;
 }
 
 fieldset,
@@ -1458,7 +1461,7 @@ dl.index dd,
 .child,
 .unwrangled,
 .unreviewed {
-  background: #eeeeee;
+ background: #464e59;
 }
 
 .actions a,
@@ -1470,12 +1473,12 @@ button,
 .actions label,
 a.cloud4,
 a.cloud5 {
-  color: #f7f7f7;
+   color: #eeeeee;
 }
 
 a:visited,
 a.cloud6 {
-  color:#f7f7f7;
+    color: #eeeeee;
 }
 
 thead,
@@ -1502,8 +1505,8 @@ fieldset fieldset.listbox,
 dl.meta,
 .picture .header,
 .bookmark .user {
-  border-color:#f7f7f7;
-  background: #393E46;
+  border-color: #eeeeee;
+  background: #393e46;
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -1525,8 +1528,16 @@ li.blurb,
 #header ul.primary {
   box-shadow: none;
   padding: 1em;
+    background: #464E59;
+  border: 1px #464E59 solid;
 }
 
+#header .dropdown, #header .dropdown a, #header .dropdown a:hover { color: #b0ccd3 !important; 
+}
+#header .dropdown .menu .current {
+  background-color: #eeeeee;
+  color: #464e59;
+}
 #workskin img {
   max-width: 95%;
   display: block;
@@ -1559,13 +1570,25 @@ fieldset fieldset.listbox,
 .notice,
 .error,
 .comment_error {
-  background: #eeeeee;
+ background: #464e59;
 }
 
 .comment h4.byline {
   background: transparent;
 }
-
+form blockquote.userstuff,
+.ui-sortable li:hover,
+.listbox,
+fieldset fieldset.listbox,
+.readings-index h3,
+.search span.tip,
+.flash,
+.notice,
+.error,
+.comment_error {
+  background: #464e59;
+  color: #eeeeee;
+}
 body,
 #main.error,
 #main.slow,
@@ -1588,13 +1611,16 @@ body,
 .userstuff thead td,
 .userstuff th a,
 .userstuff th a:link,
-a.cloud3,
-#header .search input[type="text"] {
-  color:  #f7f7f7;
+a.cloud3 {
+   color: #eeeeee;;
 }
-
+#header .search input[type="text"], 
+#header .search input[type="text"]:focus{
+  color:#eeeeee !important;
+  
+}
 .draft {
-  border-color:  #f7f7f7;
+  border-color: #eeeeee;
 }
 
 .actions a,
@@ -1607,7 +1633,7 @@ button,
 span.unread,
 .replied,
 span.claimed {
-  border-bottom-color:  #f7f7f7;
+   border-bottom-color: #eeeeee;
 }
 
 .ui-sortable li:hover,
@@ -1640,9 +1666,11 @@ a.tag,
 .tags a,
 a.cloud1,
 a.cloud2 {
-  color: #000e16;
+   color: #b0ccd3;
 }
-
+#header .primary .menu .current {
+  color: #00273d !important;
+}
 .userstuff h3,
 #header .primary a,
 #header .primary .current,
@@ -1654,7 +1682,11 @@ a.cloud2 {
 .userstuff h3 {
   border-bottom: 0px;
 }
-
+.autocomplete .dropdown ul li:hover,
+li.selected,
+a.tag:hover {
+  background: #eeeeee;
+}
 .actions a:active,
 .current,
 a.current,
@@ -1699,7 +1731,7 @@ a.work,
 .error,
 a.cloud7,
 a.cloud8 {
-  color:#f7f7f7;
+  color: #eeeeee;
 }
 
 #outer #header #greeting .icon,
@@ -1717,7 +1749,7 @@ textarea.LV_invalid_field:active,
 #header .primary .current,
 #header .primary input,
 #header .search input {
-  border-color: #f7f7f7;
+    border-color: #eeeeee;
 }
 
 #dashboard a,
@@ -1749,13 +1781,33 @@ fieldset.comments,
 .userstuff thead td,
 .userstuff th a,
 .userstuff th a:link {
-  background: #393E46;
+ background: #393e46;
+}
+.dashboard .listbox {
+  border: 1px solid #b0ccd3;
 }
 
+span.symbol {
+  color: #eeeeee;
+  background: #393e46;
+  border: 1px solid;
+  vertical-align: super;
+  border-radius: .75em;
+  box-shadow: none;
+}
 #footer ul.navigation a {
   color: #393E46;
 }
-
+.notice {
+  border: 1px solid #eeeeee;
+  color: #eeeeee;
+  background: #393e46;
+  box-shadow: none;
+  padding: 1em;
+}
+#modal-bg {
+  background: #eeeeee;
+}
 #footer a:hover,
 fieldset dl,
 fieldset.actions,
@@ -1799,6 +1851,8 @@ makes date time black so it isn't white. put in colour section,
 .blurb .datetime {
   color: #f7f7f7;
 }
+#outer.wrapper {
+  background-color: #393e46 !important;
 /*
 ----
 icon styling.
@@ -1875,14 +1929,25 @@ input[type=submit],
 .actions li input,
 .actions li input[type="submit"],
 .actions li label {
-  color: #393E46;
-  background: #393E46;
+  color: #393e46;
+  background: #eeeeee;
   border: none;
   border-bottom: none;
   background-image: none;
   border-radius: .25em;
   box-shadow: none;
-
+  }
+.btn:hover,
+input[type="submit"]:hover,
+.actions li input[type="submit"]:hover,
+.actions .current:hover {
+  color: #eeeeee;
+  background: #393e46;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
 }
 /*
 check what this does and that it doesn't need clean up.
@@ -1890,9 +1955,9 @@ check what this does and that it doesn't need clean up.
 .tags input[type='radio'],
 .filters [type="radio"] + .indicator::before,
 .filters [type="radio"] + .indicator::before {
-  color: #f7f7f7;
-  background: #393E46;
-  border: 1px solid #f7f7f7;
+  color: #eeeeee;
+  background: #393e46;
+  border: 1px solid #eeeeee;
   border-radius: 1em;
   box-shadow: none;
 }
@@ -1932,7 +1997,7 @@ fieldset.comments,
 .userstuff thead td,
 .userstuff th a,
 .userstuff th a:link {
-  background: #ffffff;
+   background: #535D6D;
 }
 
 .assignment dl.stats,
@@ -1941,7 +2006,7 @@ fieldset.comments,
 dl.stats,
 dl.stats dt {
   background: transparent;
-  color: #000000;
+ color: #f7f7f7;
 }
 
 .assignment .index dt {
@@ -1953,19 +2018,19 @@ dl.stats dt {
 }
 
 #dashboard {
-  border-bottom: 0px solid #393E46
-  border-top: 0px solid  #393E46;
+  border-bottom: 0px solid #393e46;
+  border-top: 0px solid #393e46;
   padding: .5em 0;
   border-radius: .25em;
 }
 
 .userstuff p {
-  color: #000000;
+  color: #f7f7f7;
   outline: none;
 }
 
 .user .datetime {
-  color: #000000;
+    color: #f7f7f7;
 }
 
 .preface blockquote {
@@ -1979,7 +2044,7 @@ p.kudos {
 
 ul.series,
 ul.series li {
-  color: #000000;
+  color: #f7f7f7;
 }
 
 .own .header,
@@ -1991,13 +2056,13 @@ ul.series li {
 }
 
 .own .type {
-  color: #000000;
+color: #f7f7f7;
 }
 
 .faq .example,
 .guideline .example {
   border: 0px;
-  background-color: #ffffff;
+  background-color: #535D6D;
   border-radius: 5px;
 }
 /*
@@ -2017,19 +2082,19 @@ more icon stuff? move to icon section.
 }
 
 .bookmark .count a {
-  color: #f7f7f7;
+   color: #eeeeee;
 }
 /*
 announcement styling? move elsewhere or make its own section.
 */
 .announcement .userstuff {
-  background: #ce4c4c;
+ background: #ce4c4c;
   border-color: #ce4c4c;
-  color: #ffffff;
+  color: #535D6D;
 }
 
 .announcement .userstuff p {
-  color: #ffffff;
+ color: #535D6D;
 }
 
 .announcement input[type="submit"],
@@ -2040,12 +2105,21 @@ announcement styling? move elsewhere or make its own section.
   padding: .25em .5em;
   border-radius: 2em;
 }
+  
+.announcement input[type="submit"],
+.announcement .action {
+  background: #fff none;
+  border: 1px solid #ce4c4c;
+  color: #f7f7f7;
+  padding: .25em .5em;
+  border-radius: 2em;
+}
 /*
 more buttons. Make neat button section.
 */
 input[name="preview_button"] {
-  color:#393E46;
-  background: #ea6b6f !important;
+  color: #393e46;
+  background: #26ba9a !important;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -2054,8 +2128,8 @@ input[name="preview_button"] {
 }
 
 input[name="post_button"] {
-  color: #393E46;
-  background: #ea6b6f !important;
+ color: #393e46;
+  background: #ce4c4c !important;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -2064,8 +2138,8 @@ input[name="post_button"] {
 }
 
 input[name="preview_button"]:hover {
-  color: #393E46 !important;
-  background: #ea7b6f !important;
+ color: #393e46 !important;
+  background: #14a085 !important;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -2074,8 +2148,8 @@ input[name="preview_button"]:hover {
 }
 
 input[name="post_button"]:hover {
-  color: #393E46 !important;
-  background: #ea7b6f !important;
+color: #393e46 !important;
+  background: #802f35 !important;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -2102,6 +2176,16 @@ makes visted fic titles red.
 .blurb h4.heading a:visited {
   color: #ea6b6f !important;
 }
+
+#footer {
+background: #464E59 !important;
+color: #eeeeee;
+border-top: none !important;
+}
+#footer .heading, #footer ul, 
+ #footer ul.navigation a {
+  color: #eeeeee !important;
+  }
 /*
 ----
 active pagenation styling
