@@ -654,6 +654,19 @@ form dt,
 .comment fieldset {
   border: 0px;
 }
+
+.btn:hover,
+input[type="submit"]:hover,
+.actions li input[type="submit"]:hover,
+.actions .current:hover {
+  color: #393E46;
+  background: #f7f7f7;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
 /*
 ----
 Check box settings.
@@ -1869,19 +1882,7 @@ input[type=submit],
   background-image: none;
   border-radius: .25em;
   box-shadow: none;
-}
 
-.btn:hover,
-input[type="submit"]:hover,
-.actions li input[type="submit"]:hover,
-.actions .current:hover {
-  color: #393E46;
-  background: #f7f7f7;
-  border: none;
-  border-bottom: none;
-  background-image: none;
-  border-radius: .25em;
-  box-shadow: none;
 }
 /*
 check what this does and that it doesn't need clean up.
