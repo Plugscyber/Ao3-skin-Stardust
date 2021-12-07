@@ -769,6 +769,11 @@ fieldset.work.meta .fandom.required ul.autocomplete {
 tag settings.
 ----
 */
+h5.fandoms.heading {
+  /*this removes the commas in the fandom tags*/
+  color: transparent;
+}
+
 .favorite a.tag {
   border: none;
 }
