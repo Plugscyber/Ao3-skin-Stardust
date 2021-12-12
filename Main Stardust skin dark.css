@@ -1673,11 +1673,14 @@ a:link,
 .current,
 a.current,
 .current a:visited,
-a.tag,
-.tags a,
 a.cloud1,
 a.cloud2 {
-   color: #b0ccd3;
+  color: #b0ccd3;
+}
+
+a.tag,
+.tags a {
+  color: #393e46;
 }
 #header .primary .menu .current {
   color: #00273d !important;
