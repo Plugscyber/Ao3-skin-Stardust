@@ -797,9 +797,12 @@ h5.fandoms.heading {
   /*this removes the commas in the fandom tags*/
   color: transparent;
 }
-
+/*
+makes favorite tags all white background.
+*/
 .favorite a.tag {
   border: none;
+background: #eee;
 }
 /*
 stars on tags. can be swapped for another html symbol.
