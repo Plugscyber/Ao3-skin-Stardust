@@ -1872,7 +1872,7 @@ icon styling.
 ----
 makes icons rounded.
 */
-
+}
 #greeting img.icon {
   border-radius: .75em;
   height: 2.5em;
