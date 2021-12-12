@@ -782,6 +782,17 @@ fieldset.work.meta .fandom.required ul.autocomplete {
 tag settings.
 ----
 */
+/*
+gives tags padding and size.
+*/
+a.tag,
+a.tag:visited,
+a.tag:link {
+  display: inline-block;
+  padding: 3px 6px;
+  margin: 4px 0px;
+  border-radius: 5px;
+}
 h5.fandoms.heading {
   /*this removes the commas in the fandom tags*/
   color: transparent;
@@ -2082,17 +2093,7 @@ input[name="post_button"]:hover {
   border-radius: .25em;
   box-shadow: none;
 }
-/*
-not sure what this styles. But check it doesn't need clean up.
-*/
-a.tag,
-a.tag:visited,
-a.tag:link {
-  display: inline-block;
-  padding: 3px 6px;
-  margin: 4px 0px;
-  border-radius: 5px;
-}
+
 /*
 ----
 makes visted fic titles red.
