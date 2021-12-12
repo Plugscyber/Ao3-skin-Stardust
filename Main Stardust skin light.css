@@ -798,12 +798,21 @@ h5.fandoms.heading {
   color: transparent;
 }
 /*
-favorite tags all have grey background
+favorite tags all have grey background 
 */
-.favorite a.tag {
+.favorite a.tag,
+.splash .favorite li:nth-of-type(2n+1) a{ {
   border: none;
   background-color: #eee;
 }
+/*
+makes favorite tags all black background on hover
+*/
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite a:hover,
+favorite li:nth-of-type(2n+1) a:hover {
+ color: #f7f7f7;
+background-color: #464e59;
 }
 /*
 stars on tags. can be swapped for another html symbol.
