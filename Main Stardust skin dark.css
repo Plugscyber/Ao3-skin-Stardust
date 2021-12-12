@@ -707,8 +707,8 @@ input[type=radio] {
   content: "";
   vertical-align: -0.125em;
   background: none;
-  background-color: #ea6b6f;
-  border: 1px solid #ea6b6f;
+  background-color: #a66be1;
+  border: 1px solid  #a66be1;
 }
 
 .filters [type=checkbox] + .indicator:before,
@@ -729,12 +729,12 @@ input[type=radio] {
   border-radius: 0px;
   vertical-align: -0.125em;
   background: none;
-  background-color: #ea6b6f;
-  border: 1px solid #ea6b6f;
+  background-color:  #a66be1;
+  border: 1px solid  #a66be1;
 }
 
 .filters .exclude [type=checkbox]:checked + .indicator:before {
-  background-color: #ea6b6f;
+  background-color:  #a66be1;
 }
 
 input[type=checkbox],
@@ -770,7 +770,7 @@ input[type=radio]:checked,
 label.action input[type=checkbox]:checked,
 input[type=checkbox]:hover,
 .actions input[type=checkbox]:hover {
-  background-color: #ea6b6f;
+  background-color:  #a66be1;
   border: none;
 }
 
@@ -2173,17 +2173,7 @@ color: #393e46 !important;
   border-radius: .25em;
   box-shadow: none;
 }
-/*
-not sure what this styles. But check it doesn't need clean up.
-*/
-a.tag,
-a.tag:visited,
-a.tag:link {
-  display: inline-block;
-  padding: 3px 6px;
-  margin: 4px 0px;
-  border-radius: 5px;
-}
+
 /*
 ----
 makes visted fic titles red.
@@ -2191,7 +2181,7 @@ makes visted fic titles red.
 */
 .blurb h4.heading a:link:visited,
 .blurb h4.heading a:visited {
-  color: #ea6b6f !important;
+  color: #a66be1; !important;
 }
 
 #footer {
