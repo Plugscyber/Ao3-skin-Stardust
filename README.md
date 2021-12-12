@@ -6,8 +6,8 @@ This is only basic troubleshooting if you do complex modifications and know more
 
 1. 'The site skin doesn't work'
 
-Check that this isn't a known issue. I haven't published this skin directly on ao3 for a reason.
-The mobile version has broken formatting currently. Though the ipad and desktop versions should be useable.
+Check that this isn't a known issue. I haven't published this skin directly on ao3 for good reason.
+The mobile formatting still needs work but the ipad and light skin are usuable. The darkmmode still needs work.
 
 Make sure you followed the instructions for the ipad and mobile fix exactly. If the media sizing or parent skin settings are wrong the skin won't work. 
 
