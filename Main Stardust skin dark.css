@@ -813,15 +813,15 @@ colourful tags.
 */
 
 .tags li.relationships:nth-of-type(3n+1) a.tag {
-  background-color: #ff8e43;
+  background-color: #a17de8;
 }
 
 .tags li.relationships:nth-of-type(3n+2) a.tag {
-  background-color: #ffa366;
+  background-color: #b093ec;
 }
 
 .tags li.relationships:nth-of-type(3n+3) a.tag {
-  background-color: #ffb98a;
+  background-color: #c0a8f0;
 }
 
 .characters a::before {
@@ -830,15 +830,15 @@ colourful tags.
 }
 
 .tags li.characters:nth-of-type(3n+1) a.tag {
-  background-color: #f8b920;
+  background-color: #a8a8f0;
 }
 
 .tags li.characters:nth-of-type(3n+2) a.tag {
-  background-color: #f9c443;
+  background-color: #bebef4;
 }
 
 .tags li.characters:nth-of-type(3n+3) a.tag {
-  background-color: #facf66;
+  background-color: #d3d3f8;
 }
 
 .freeforms a::before {
