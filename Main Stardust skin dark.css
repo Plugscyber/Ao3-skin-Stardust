@@ -2133,9 +2133,10 @@ announcement styling? move elsewhere or make its own section.
 /*
 more buttons. Make neat button section.
 */
+
 input[name="preview_button"] {
   color: #393e46;
-  background: #26ba9a !important;
+  background: #a66be1 !important;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -2144,8 +2145,8 @@ input[name="preview_button"] {
 }
 
 input[name="post_button"] {
- color: #393e46;
-  background: #ce4c4c !important;
+  color: #393e46;
+  background: #a66be1 !important;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -2209,7 +2210,7 @@ active pagenation styling
 makes current pagnation red. put in colour section.
 */
 .pagination .current {
-  background-color: #ea6b6f;
+   background-color: #a66be1;
 }
 /*
 okay this should go somewhere else to be neat.
