@@ -1693,12 +1693,13 @@ a.current,
 .current a:visited {
   box-shadow: none;
 }
-
-#footer,
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
   background: #f7f7f7;
+}
+#footer {
+  background-color: #464e59;
 }
 
 #header #greeting img,
