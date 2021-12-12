@@ -810,7 +810,7 @@ makes favorite tags all black background on hover
 */
 .splash .favorite li:nth-of-type(odd) a:hover,
 .splash .favorite a:hover,
-favorite li:nth-of-type(2n+1) a:hover {
+.favorite li:nth-of-type(2n+1) a:hover {
  color: #f7f7f7;
 background-color: #464e59;
 }
