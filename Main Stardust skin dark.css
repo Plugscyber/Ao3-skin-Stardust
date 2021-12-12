@@ -800,9 +800,12 @@ h5.fandoms.heading {
 /*
 makes favorite tags all white background.
 */
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite a:hover,
 .favorite a.tag {
   border: none;
-background: #eee;
+   color: #f7f7f7;
+   background: #464e59;
 }
 /*
 stars on tags. can be swapped for another html symbol.
@@ -1041,12 +1044,6 @@ ul.notes,
 
 .subscription dd {
   background-color: transparent !important;
-}
-
-.splash .favorite li:nth-of-type(odd) a:hover,
-.splash .favorite a:hover {
- color: #464e59;
-  background-color: #eeeeee;
 }
 
 #dashboard .actions a,
