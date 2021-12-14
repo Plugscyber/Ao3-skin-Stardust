@@ -72,11 +72,11 @@ input[type=checkbox]:hover,
   height: 1em;
 }
 /*
-I think this makes text boxes display correclty? I can't recall if this worked so may remove it.
+makes filter text fit correctly
 */
-
 fieldset {
-  width: 100%;
+  max-width: 100%;
+  font-size: 0.9em;
 }
 /*
 makes star line breaks less obnoxiosly big.
