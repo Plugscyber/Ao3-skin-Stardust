@@ -97,3 +97,9 @@ Reduces size of heading font in inbox and stops it overlapping with icons.
   font-size: 1.2em;
   padding: .25em .25em .25em 130px;
 }
+/*
+fixes comment inbox buttons formatting
+*/
+ul.actions {
+  padding-right: 10px;
+}
