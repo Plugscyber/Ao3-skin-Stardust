@@ -1235,7 +1235,6 @@ li.search fieldset,
 .filters input:checked + .indicator + span {
   font-weight: inherit;
 }
-
 #header .actions a:hover,
 #header .actions a:focus,
 #header .dropdown:hover a,
@@ -1262,8 +1261,7 @@ span.claimed,
 .own,
 .unread,
 .child,
-.unwrangled,
-.unreviewed {
+.unwrangled {
   color: #f7f7f7;
   background: #393E46;
   border: none;
@@ -1271,6 +1269,9 @@ span.claimed,
   background-image: none;
   border-radius: .25em;
   box-shadow: none;
+}
+.unreviewed {
+color: #393e46;
 }
 
 dl.index dd {
