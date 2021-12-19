@@ -885,7 +885,9 @@ no commas after tags.
 .commas li:after {
   content: "";
 }
-
+/*
+scrolling tags for long tag feilds
+*/
 li.blurb .tags {
   max-height: 8.5em;
   overflow-y: auto;
