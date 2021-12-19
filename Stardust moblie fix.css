@@ -435,3 +435,18 @@ li.blurb .fandoms {
   padding-bottom: 5px;
 }
 
+ol.thread blockquote.userstuff p {
+  margin-left: 4em;
+}
+
+h4.heading.byline {
+  padding: .25em .25em .25em 4em;
+}
+
+.comment div.icon {
+  margin-left: 0.5em;
+}
+
+span.posted.datetime {
+  float: left;
+}
