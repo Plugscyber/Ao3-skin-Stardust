@@ -426,4 +426,12 @@ li.blurb .fandoms {
   max-height: 3.75em;
   overflow-y: auto;
 }
+/*dashboard current no longer over padded.*/
+
+#dashboard .actions .current {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
 
