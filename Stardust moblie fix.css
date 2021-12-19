@@ -434,9 +434,12 @@ li.blurb .fandoms {
   padding-right: 10px;
   padding-bottom: 5px;
 }
-
+/*makes comments style nicely*/
 ol.thread blockquote.userstuff p {
-  margin-left: 4em;
+  margin-left: 1em;
+  padding-top: 2em;
+  width: 80%;
+  max-width: 45em;
 }
 
 h4.heading.byline {
