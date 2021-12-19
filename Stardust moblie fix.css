@@ -41,7 +41,7 @@ div#inner,
 .blurb .userstuff,
 .news .userstuff,
 .system .userstuff {
-  width: 100% !important;
+  max-width: 100% !important;
 }
 
 #footer .module {
@@ -76,7 +76,7 @@ div#inner,
 #header .primary {
   display: block;
   margin: auto;
-  width: 100%;
+  max-width: 100%;
   text-align: center;
   float: none;
 }
