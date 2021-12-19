@@ -295,10 +295,10 @@ dl.stats dd,
 .action:visited {
   white-space: normal;
   height: initial;
-  padding-top: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
 }
 
 p.kudos {
@@ -384,10 +384,10 @@ input#site_search {
 
 input[type="submit"],
 #outer .current {
-  padding-top: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
 }
 
 li.characters {
@@ -452,4 +452,8 @@ h4.heading.byline {
 
 span.posted.datetime {
   float: left;
+}
+
+ol.pagination {
+  max-width: 80%;
 }
