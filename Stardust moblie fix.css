@@ -396,14 +396,22 @@ li.characters {
 font sizing.
 */
 
-blockquote.userstuff p {
+div.userstuff.module p,
+div.summary.module blockquote.userstuff p,
+div.notes.module blockquote.userstuff p {
   font-size: 0.9em;
 }
+
+li.post.group blockquote.userstuff p {
+  font-size: 1.05em;
+}
+
+ol.comment.index.group blockquote.userstuff p {
+  font-size: 1.2em;
+}
+
 blockquote.userstuff.summary p {
   font-size: 1em;
-}
-  li.post.group blockquote.userstuff p {
-  font-size: 1.05em;
 }
 /* makes header buttons not a mess*/
 #header .primary a {
