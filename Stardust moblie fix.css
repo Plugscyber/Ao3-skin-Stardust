@@ -377,8 +377,7 @@ input#site_search {
   float: right;
 }
 
- {
-  li.blurb .fandoms 
+ li.blurb .fandoms{
   padding-top: 10px;
 }
 
@@ -394,9 +393,13 @@ li.characters {
   padding: 10px;
 }
 /*
-Reduces font size of fics text, notes and summary after increasing on desktop.
+font sizing.
 */
-.userstuff p {
+
+blockquote.userstuff p {
+  font-size: 0.9em;
+}
+blockquote.userstuff.summary p {
   font-size: 1em;
 }
 /* makes header buttons not a mess*/
