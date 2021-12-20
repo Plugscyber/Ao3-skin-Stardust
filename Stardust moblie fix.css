@@ -402,6 +402,9 @@ blockquote.userstuff p {
 blockquote.userstuff.summary p {
   font-size: 1em;
 }
+  li.post.group blockquote.userstuff p {
+  font-size: 1.05em;
+}
 /* makes header buttons not a mess*/
 #header .primary a {
   padding: 1em 0.5em;
