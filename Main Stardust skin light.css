@@ -2045,12 +2045,6 @@ ul.series li {
   border-radius: 5px;
   
 }
-/* you have to style this aggressively for some reason the stop button being misaligned.*/
-.actions input,
-input[type="submit"] {
-  margin-bottom: 10px !important;
-  
-}
 /*
 announcement styling? move elsewhere or make its own section.
 */
