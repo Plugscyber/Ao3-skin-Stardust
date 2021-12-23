@@ -103,3 +103,7 @@ fixes comment inbox buttons formatting
 ul.actions li {
   display: inline-block;
 }
+div#inner.wrapper div#dashboard.region.own {
+  padding-left: 10px;
+}
+
