@@ -2172,3 +2172,8 @@ quick and likely messy fix to scroll box in inbox on desktop due to line height.
 form.inbox {
   overflow-x: visible;
 }
+/*makesa button black so it can be seen.
+*/
+fieldset p.submit.actions a#comment_cancel{
+background-color:#393e46;
+}
