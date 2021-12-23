@@ -919,6 +919,7 @@ filter settings.
   font-size: 1.05em;
   background: none;
   border-radius: .25em;
+  color:#eee;
 }
 
 .filters .expanded .expander {
