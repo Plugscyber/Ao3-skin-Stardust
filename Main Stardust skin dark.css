@@ -866,15 +866,15 @@ colourful tags.
 }
 
 .tags li.freeforms:nth-of-type(3n+1) a.tag {
-  background-color: #d0cfcc;
+  background-color: #b0ccd3;
 }
 
 .tags li.freeforms:nth-of-type(3n+2) a.tag {
-  background-color: #dcdcda;
+  background-color: #bed5da;
 }
 
 .tags li.freeforms:nth-of-type(3n+3) a.tag {
-  background-color: #e9e8e7;
+  background-color: #cedfe3;
 }
 /*
 tags are white with black text on hover.
