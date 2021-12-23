@@ -2278,3 +2278,6 @@ p.submit.actions a#comment_cancel {
   background-color: #eee;
 }
 
+div#user-works.work.listbox.group ul.index.group li {
+  background-color: #464e59;
+}
