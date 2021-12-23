@@ -2265,6 +2265,8 @@ quick and likely messy fix to scroll box in inbox on desktop due to line height.
 form.inbox {
   overflow-x: visible;
 }
+/*makes text white and backgrounds black on text editors. This only works on HTML editor for some reason.
+*/
 textarea,
 input {
   color: #eee;
