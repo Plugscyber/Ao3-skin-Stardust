@@ -419,16 +419,21 @@ blockquote.userstuff.summary p {
 }
 /*adds padding to sumbmit button in mobile inbox.*/
 .actions li label {
-  padding: 0.6em;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
 }
 /*adds some margin styling to comment icons*/
 .comment div.icon {
   margin-left: 0.5em;
 }
 /*makes span.unread button the same width as other inbox buttons*/
-
 span.unread {
-  padding: 0.6em;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
 }
 /*longer tag space before scrolling*/
 li.blurb .tags {
