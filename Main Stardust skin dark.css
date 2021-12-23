@@ -2271,4 +2271,7 @@ textarea,
 input {
   color: #eee;
 }
+p.submit.actions a#comment_cancel {
+  background-color: #eee;
+}
 
