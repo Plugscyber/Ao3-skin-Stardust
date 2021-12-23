@@ -2042,12 +2042,7 @@ check what this does and that it doesn't need clean up.
   margin-left: 2em;
 }
 
-/* you have to style this aggressively for some reason the stop button being misaligned.*/
-.actions input,
-input[type="submit"] {
-  margin-bottom: 10px !important;
-  
-}
+
 /*
 more colour stuff. clean up.
 */
