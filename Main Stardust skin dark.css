@@ -1982,6 +1982,50 @@ input[type="submit"]:hover,
   box-shadow: none;
 }
 /*
+more buttons. Make neat button section.
+*/
+
+input[name="preview_button"] {
+  color: #393e46;
+  background: #ea6b6f !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+input[name="post_button"] {
+  color: #393e46;
+  background:#ea6b6f !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+input[name="preview_button"]:hover {
+ color: #393e46 !important;
+  background: #ea7b6f  !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+input[name="post_button"]:hover {
+color: #393e46 !important;
+  background: #ea7b6f  !important;
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  border-radius: .25em;
+  box-shadow: none;
+}
+
+/*
 check what this does and that it doesn't need clean up.
 */
 .tags input[type='radio'],
@@ -1996,6 +2040,13 @@ check what this does and that it doesn't need clean up.
 
 #header .primary>li:first-of-type {
   margin-left: 2em;
+}
+
+/* you have to style this aggressively for some reason the stop button being misaligned.*/
+.actions input,
+input[type="submit"] {
+  margin-bottom: 10px !important;
+  
 }
 /*
 more colour stuff. clean up.
@@ -2145,49 +2196,6 @@ announcement styling? move elsewhere or make its own section.
   color: #f7f7f7;
   padding: .25em .5em;
   border-radius: 2em;
-}
-/*
-more buttons. Make neat button section.
-*/
-
-input[name="preview_button"] {
-  color: #393e46;
-  background: #ea6b6f !important;
-  border: none;
-  border-bottom: none;
-  background-image: none;
-  border-radius: .25em;
-  box-shadow: none;
-}
-
-input[name="post_button"] {
-  color: #393e46;
-  background:#ea6b6f !important;
-  border: none;
-  border-bottom: none;
-  background-image: none;
-  border-radius: .25em;
-  box-shadow: none;
-}
-
-input[name="preview_button"]:hover {
- color: #393e46 !important;
-  background: #ea7b6f  !important;
-  border: none;
-  border-bottom: none;
-  background-image: none;
-  border-radius: .25em;
-  box-shadow: none;
-}
-
-input[name="post_button"]:hover {
-color: #393e46 !important;
-  background: #ea7b6f  !important;
-  border: none;
-  border-bottom: none;
-  background-image: none;
-  border-radius: .25em;
-  box-shadow: none;
 }
 
 /*
