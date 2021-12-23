@@ -1860,6 +1860,23 @@ img.icon {
 .comment div.icon {
   border-bottom: 0px;
 }
+
+.comment .icon .visitor {
+  background: url(/images/imageset.png) no-repeat -1px -76px;
+  padding: 0px;
+  margin: 5px;
+}
+
+.skins .primary .icon,
+.admin .primary .icon {
+  padding: 0px;
+  margin: 10px;
+  border-radius: .75em;
+}
+
+.bookmark .count a {
+  color: #393E46;
+}
 /*
 ----
 does something else.
@@ -2026,25 +2043,13 @@ ul.series li {
   border: 0px;
   background-color: #ffffff;
   border-radius: 5px;
+  
 }
-/*
-more icon stuff? move to icon section.
-*/
-.comment .icon .visitor {
-  background: url(/images/imageset.png) no-repeat -1px -76px;
-  padding: 0px;
-  margin: 5px;
-}
-
-.skins .primary .icon,
-.admin .primary .icon {
-  padding: 0px;
-  margin: 10px;
-  border-radius: .75em;
-}
-
-.bookmark .count a {
-  color: #393E46;
+/* you have to style this aggressively for some reason the stop button being misaligned.*/
+.actions input,
+input[type="submit"] {
+  margin-bottom: 10px !important;
+  
 }
 /*
 announcement styling? move elsewhere or make its own section.
