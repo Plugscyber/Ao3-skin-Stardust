@@ -707,8 +707,8 @@ input[type=radio] {
   content: "";
   vertical-align: -0.125em;
   background: none;
-  background-color: #a66be1;
-  border: 1px solid  #a66be1;
+  background-color: #ea6b6f;
+  border: 1px solid #ea6b6f ;
 }
 
 .filters [type=checkbox] + .indicator:before,
@@ -729,12 +729,12 @@ input[type=radio] {
   border-radius: 0px;
   vertical-align: -0.125em;
   background: none;
-  background-color:  #a66be1;
-  border: 1px solid  #a66be1;
+  background-color:  #ea6b6f;
+  border: 1px solid  #ea6b6f;
 }
 
 .filters .exclude [type=checkbox]:checked + .indicator:before {
-  background-color:  #a66be1;
+  background-color: #ea6b6f ;
 }
 
 input[type=checkbox],
@@ -770,7 +770,7 @@ input[type=radio]:checked,
 label.action input[type=checkbox]:checked,
 input[type=checkbox]:hover,
 .actions input[type=checkbox]:hover {
-  background-color:  #a66be1;
+  background-color:  #ea6b6f ;
   border: none;
 }
 
@@ -824,17 +824,21 @@ stars on tags. can be swapped for another html symbol.
 /*
 colourful tags.
 */
-
+.tags li.relationships a.tag,
+.tags li.characters a.tag,
+.tags li.freeforms a.tag {
+  color: #393e46;
+}
 .tags li.relationships:nth-of-type(3n+1) a.tag {
-  background-color: #a17de8;
+  background-color: #ff8e43;
 }
 
 .tags li.relationships:nth-of-type(3n+2) a.tag {
-  background-color: #b093ec;
+  background-color: #ffa366;
 }
 
 .tags li.relationships:nth-of-type(3n+3) a.tag {
-  background-color: #c0a8f0;
+  background-color: #ffb98a;
 }
 
 .characters a::before {
@@ -843,16 +847,17 @@ colourful tags.
 }
 
 .tags li.characters:nth-of-type(3n+1) a.tag {
-  background-color: #a8a8f0;
+  background-color: #f8b920;
 }
 
 .tags li.characters:nth-of-type(3n+2) a.tag {
-  background-color: #bebef4;
+  background-color: #f9c443;
 }
 
 .tags li.characters:nth-of-type(3n+3) a.tag {
-  background-color: #d3d3f8;
+  background-color: #facf66;
 }
+
 
 .freeforms a::before {
   content: "☆";
@@ -2142,7 +2147,7 @@ more buttons. Make neat button section.
 
 input[name="preview_button"] {
   color: #393e46;
-  background: #a66be1 !important;
+  background: #ea6b6f !important;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -2152,7 +2157,7 @@ input[name="preview_button"] {
 
 input[name="post_button"] {
   color: #393e46;
-  background: #a66be1 !important;
+  background:#ea6b6f !important;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -2162,7 +2167,7 @@ input[name="post_button"] {
 
 input[name="preview_button"]:hover {
  color: #393e46 !important;
-  background: #14a085 !important;
+  background: #ea7b6f  !important;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -2172,7 +2177,7 @@ input[name="preview_button"]:hover {
 
 input[name="post_button"]:hover {
 color: #393e46 !important;
-  background: #802f35 !important;
+  background: #ea7b6f  !important;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -2187,7 +2192,7 @@ makes visted fic titles red.
 */
 .blurb h4.heading a:link:visited,
 .blurb h4.heading a:visited {
-  color: #a66be1; !important;
+  color: #ea6b6f; !important;
 }
 
 #footer {
@@ -2201,12 +2206,18 @@ border-top: none !important;
   }
 /*
 ----
-active pagenation styling
+pagenation styling
 ----
+*/
+}
+ol.pagination.actions li a {
+  background-color: #b0ccd3;
+}
+/*
 makes current pagnation red. put in colour section.
 */
 .pagination .current {
-   background-color: #a66be1;
+   background-color: #ea6b6f;
 }
 /*
 okay this should go somewhere else to be neat.
