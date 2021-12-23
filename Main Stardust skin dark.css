@@ -2265,3 +2265,6 @@ quick and likely messy fix to scroll box in inbox on desktop due to line height.
 form.inbox {
   overflow-x: visible;
 }
+form dd.required{
+color:#eee;
+}
