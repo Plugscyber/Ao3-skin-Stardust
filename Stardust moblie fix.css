@@ -417,8 +417,9 @@ blockquote.userstuff.summary p {
 #header .primary a {
   padding: 1em 0.5em;
 }
-/*adds padding to sumbmit button in mobile inbox.*/
-.actions li label {
+/*adds padding to sumbmit button in mobile inbox and fixes small active pagination button.*/
+.actions li label,
+li span.current{
   padding-top: 5px;
   padding-left: 10px;
   padding-right: 10px;
