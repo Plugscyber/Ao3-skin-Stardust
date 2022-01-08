@@ -455,7 +455,7 @@ h4.heading.byline {
 span.posted.datetime {
   float: left;
 }
-
+/*stops pagination making skin scroll sideways*/
 ol.pagination {
   max-width: 80%;
 }
