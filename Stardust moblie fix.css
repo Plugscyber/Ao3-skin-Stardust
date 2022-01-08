@@ -300,7 +300,15 @@ dl.stats dd,
   padding-right: 10px;
   padding-bottom: 5px;
 }
-
+.actions li label,
+li span.current,
+span.unread,
+input[type="submit"] {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
 p.kudos {
   background: none;
   padding: 0;
@@ -381,14 +389,6 @@ input#site_search {
   padding-top: 10px;
 }
 
-input[type="submit"],
-#outer .current {
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 5px;
-}
-
 li.characters {
   padding: 10px;
 }
@@ -416,26 +416,13 @@ blockquote.userstuff.summary p {
 /* makes header buttons not a mess*/
 #header .primary a {
   padding: 1em 0.5em;
-}
-/*adds padding to sumbmit button in mobile inbox and fixes small active pagination button.*/
-.actions li label,
-li span.current{
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 5px;
+
 }
 /*adds some margin styling to comment icons*/
 .comment div.icon {
   margin-left: 0.5em;
 }
-/*makes span.unread button the same width as other inbox buttons*/
-span.unread {
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 5px;
-}
+
 /*longer tag space before scrolling*/
 li.blurb .tags {
   max-height: 9.5em;
