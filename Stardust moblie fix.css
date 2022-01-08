@@ -459,3 +459,7 @@ span.posted.datetime {
 ol.pagination {
   max-width: 80%;
 }
+/*filter for inbox is now in better postion.*/
+form#inbox-filters.filters {
+  top: 20em;
+}
