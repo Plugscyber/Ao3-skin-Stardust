@@ -1726,9 +1726,8 @@ a.cloud7,
 a.cloud8 {
   color: #393E46;
 }
-/* makes buttons hover in readable colours*/
+/*corrects button colour*/
 .actions input:hover,
-ul.user.navigation.actions li span.current:hover,
 div.skins.home ul.actions li a:hover,
 ol.pagination.actions li a:hover,
 ul.user.navigation.actions li a:hover,
@@ -1741,18 +1740,21 @@ ul.actions li a:hover {
   color: #393E46;
   background-color: #fff;
 }
-/*makes button text white*/
-div.skins.home ul.actions li a,
+/* overrides hover to keep current pagination red*/
+ol.pagination.actions li span.current:hover {
+  background-color: #ea6b6f;
+  color: #f7f7f7;
+}
+/* stops button text being black*/
+ul div.skins.home ul.actions li a,
 ul.navigation.actions li a,
 ul.actions li a {
   color: #f7f7f7;
 }
-/*makesa button black so it can be seen.
-*/
-fieldset p.submit.actions a#comment_cancel{
-background-color:#393e46;
+/* stops a button being white I guess?*/
+fieldset p.submit.actions a#comment_cancel {
+  background-color: #393e46;
 }
-
 #outer #header #greeting .icon,
 #dashboard.own,
 .error,
