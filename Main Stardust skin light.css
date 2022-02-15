@@ -660,7 +660,7 @@ input[type="submit"]:hover,
 .actions li input[type="submit"]:hover,
 .actions .current:hover {
   color: #393E46;
-  background: #f7f7f7;
+  background: #fff;
   border: none;
   border-bottom: none;
   background-image: none;
