@@ -1728,7 +1728,10 @@ a.cloud8 {
 }
 /*corrects button colour*/
 
-div#user-works.work.listbox.group ul.index.group ul.actions li a:hover {
+
+div#user-works.work.listbox.group ul.index.group ul.actions li a:hover,
+div#user-series.series.listbox.group ol.index.group p.actions a:hover,
+div#user-bookmarks.bookmark.listbox.group ol.index.group div.own.user.module.group ul.actions li a:hover{
   background-color: #eee;
   
 }
