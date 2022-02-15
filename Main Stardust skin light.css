@@ -1733,7 +1733,8 @@ div.skins.home ul.actions li a:hover,
 ol.pagination.actions li a:hover,
 ul.user.navigation.actions li a:hover,
 fieldset.actions ul li a.check_all:hover,
-fieldset.actions ul li a.check_none:hover {
+fieldset.actions ul li a.check_none:hover,
+.comment.group ul.actions li a:hover {
   color: #393E46;
   background-color: #f7f7f7;
 }
