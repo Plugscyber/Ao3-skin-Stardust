@@ -1658,7 +1658,6 @@ a:link,
 #dashboard a,
 #dashboard span,
 .autocomplete div.dropdown ul,
-.actions a:visited,
 .actions a:active,
 .current,
 a.current,
@@ -1735,13 +1734,16 @@ ul.user.navigation.actions li a:hover,
 fieldset.actions ul li a.check_all:hover,
 fieldset.actions ul li a.check_none:hover,
 .comment.group ul.actions li a:hover,
-ul.rtf-html-switch.actions li a.rtf-link:hover {
+ul.rtf-html-switch.actions li a.rtf-link:hover,
+p.actions a#expand-fandoms:hover,
+ul.actions li a:hover {
   color: #393E46;
   background-color: #fff;
 }
 
 div.skins.home ul.actions li a,
-ul.navigation.actions li a {
+ul.navigation.actions li a,
+ul.actions li a {
   color: #f7f7f7;
 }
 
