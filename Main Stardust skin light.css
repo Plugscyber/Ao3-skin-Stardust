@@ -1736,6 +1736,9 @@ ul.user.navigation.actions li a:hover {
   background-color: #f7f7f7;
 
 }
+div.skins.home ul.actions li a{
+color: #f7f7f7;
+}
 
 #outer #header #greeting .icon,
 #dashboard.own,
