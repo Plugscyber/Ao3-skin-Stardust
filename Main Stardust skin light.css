@@ -1731,7 +1731,10 @@ a.cloud8 {
 div#user-works.work.listbox.group ul.index.group ul.actions li a:hover,
 div#user-series.series.listbox.group ol.index.group p.actions a:hover,
 div#user-bookmarks.bookmark.listbox.group ol.index.group div.own.user.module.group ul.actions li a:hover,
-div#main.bookmarks-index.dashboard.filtered.region ol.bookmark.index.group div.own.user.module.group ul.actions li a:hover {
+div#main.bookmarks-index.dashboard.filtered.region ol.bookmark.index.group div.own.user.module.group ul.actions li a:hover,
+div#main.series-index.dashboard.region ul.series.index.group p.actions a:hover,
+div#main.works-index.dashboard.filtered.region ol.work.index.group ul.actions li a:hover,
+div#main.preferences-index.dashboard.region fieldset dl dd span.actions a:hover{
   background-color: #eee;
 }
 .actions input:hover,
