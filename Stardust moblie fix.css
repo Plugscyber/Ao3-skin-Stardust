@@ -30,7 +30,61 @@ STARDUST mobile fix.
 .userstuff {
   font-size: 110%;
 }
+/*Font sizing. A mess right now but will try to streamline. Ao3 has some weird default font settings that are an arse to shift.
+*/
 
+.userstuff p {
+  font-size: 0.9em;
+}
+
+ol.thread blockquote.userstuff p {
+  font-size: 1.05em;
+}
+
+ol.comment.index.group blockquote.userstuff p {
+  font-size: 1.2em;
+}
+
+blockquote.userstuff.summary p {
+  font-size: 1.05em;
+}
+
+div#dashboard.region.own ul.navigation.actions li a {
+  font-size: 1.05em;
+}
+
+div.splash div.favorite.module.odd ul li a.tag {
+  font-size: 1.05em;
+}
+
+ul.news.index.group li.post.group blockquote.userstuff p {
+  font-size: 1.05em;
+}
+
+div.userstuff.module p {
+  font-size: 0.99em;
+}
+
+div.summary.module blockquote.userstuff p {
+  font-size: 0.99em;
+}
+
+div#notes.notes.module blockquote.userstuff p {
+  font-size: 0.99em;
+}
+
+dl.work.meta.group {
+  font-size: 1.2em;
+}
+
+ul.work.navigation.actions {
+  font-size: 1.2em;
+}
+
+div#feedback.feedback ul.actions {
+  font-size: 1.2em;
+
+}
 h4 {
   font-size: 1.2em;
 }
@@ -391,27 +445,7 @@ input#site_search {
 
 li.characters {
   padding: 10px;
-}
-/*
-font sizing.
-*/
 
-div.userstuff.module p,
-div.summary.module blockquote.userstuff p,
-div.notes.module blockquote.userstuff p {
-  font-size: 0.9em;
-}
-
-li.post.group blockquote.userstuff p {
-  font-size: 1.05em;
-}
-
-ol.comment.index.group blockquote.userstuff p {
-  font-size: 1.2em;
-}
-
-blockquote.userstuff.summary p {
-  font-size: 1em;
 }
 /* makes header buttons not a mess*/
 #header .primary a {
