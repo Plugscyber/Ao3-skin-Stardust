@@ -1727,6 +1727,7 @@ a.cloud8 {
   color: #393E46;
 }
 /*corrects button colour*/
+
 .actions input:hover,
 div.skins.home ul.actions li a:hover,
 ol.pagination.actions li a:hover,
@@ -1737,10 +1738,12 @@ fieldset.actions ul li a.check_none:hover,
 ul.rtf-html-switch.actions li a.rtf-link:hover,
 p.actions a#expand-fandoms:hover,
 ul.actions li a:hover,
- dl dd.skin p.actions a:hover,
-fieldset p.submit.actions a:hover {
+dl dd.skin p.actions a:hover,
+fieldset p.submit.actions a:hover,
+p.actions a:hover {
   color: #393E46;
   background-color: #fff;
+
 }
 /* overrides hover to keep current pagination red*/
 ol.pagination.actions li span.current:hover {
