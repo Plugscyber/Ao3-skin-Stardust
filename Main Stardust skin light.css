@@ -1747,7 +1747,6 @@ ol.pagination.actions li span.current:hover {
 }
 /* stops button text being black*/
 ul div.skins.home ul.actions li a,
-ul.navigation.actions li a,
 ul.actions li a {
   color: #f7f7f7;
 }
