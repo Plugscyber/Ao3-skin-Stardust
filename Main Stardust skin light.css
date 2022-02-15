@@ -1707,7 +1707,6 @@ a.tag:hover {
 #header .user .current,
 #dashboard a:hover,
 .actions a:hover,
-.actions input:hover,
 .delete a,
 span.delete,
 span.unread,
@@ -1727,6 +1726,11 @@ a.work,
 a.cloud7,
 a.cloud8 {
   color: #393E46;
+}
+
+.actions input:hover {
+  color: #393E46;
+  background-color: #f7f7f7;
 }
 
 #outer #header #greeting .icon,
