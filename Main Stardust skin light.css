@@ -1351,7 +1351,7 @@ a.tag {
 a.current,
 .current a:visited,
 .current a:link {
-  color: #f7f7f7 !important;
+  color: #f7f7f7;
   background: #393E46;
   border: none;
   border-bottom: none;
@@ -1727,10 +1727,13 @@ a.cloud7,
 a.cloud8 {
   color: #393E46;
 }
-
-.actions input:hover {
+.actions input:hover,
+ul.user.navigation.actions li span.current:hover,
+div.skins.home ul.actions li a:hover,
+ol.pagination.actions li a:hover {
   color: #393E46;
   background-color: #f7f7f7;
+
 }
 
 #outer #header #greeting .icon,
