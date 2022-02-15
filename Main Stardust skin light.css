@@ -1726,6 +1726,7 @@ a.cloud7,
 a.cloud8 {
   color: #393E46;
 }
+/* makes buttons hover in readable colours*/
 .actions input:hover,
 ul.user.navigation.actions li span.current:hover,
 div.skins.home ul.actions li a:hover,
@@ -1740,11 +1741,16 @@ ul.actions li a:hover {
   color: #393E46;
   background-color: #fff;
 }
-
+/*makes button text white*/
 div.skins.home ul.actions li a,
 ul.navigation.actions li a,
 ul.actions li a {
   color: #f7f7f7;
+}
+/*makesa button black so it can be seen.
+*/
+fieldset p.submit.actions a#comment_cancel{
+background-color:#393e46;
 }
 
 #outer #header #greeting .icon,
@@ -2189,8 +2195,4 @@ quick and likely messy fix to scroll box in inbox on desktop due to line height.
 form.inbox {
   overflow-x: visible;
 }
-/*makesa button black so it can be seen.
-*/
-fieldset p.submit.actions a#comment_cancel{
-background-color:#393e46;
-}
+
