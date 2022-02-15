@@ -1730,7 +1730,8 @@ a.cloud8 {
 .actions input:hover,
 ul.user.navigation.actions li span.current:hover,
 div.skins.home ul.actions li a:hover,
-ol.pagination.actions li a:hover {
+ol.pagination.actions li a:hover,
+ul.user.navigation.actions li a:hover {
   color: #393E46;
   background-color: #f7f7f7;
 
