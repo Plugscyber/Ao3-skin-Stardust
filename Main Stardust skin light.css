@@ -1736,7 +1736,8 @@ fieldset.actions ul li a.check_none:hover,
 .comment.group ul.actions li a:hover,
 ul.rtf-html-switch.actions li a.rtf-link:hover,
 p.actions a#expand-fandoms:hover,
-ul.actions li a:hover {
+ul.actions li a:hover,
+ dl dd.skin p.actions a:hover{
   color: #393E46;
   background-color: #fff;
 }
