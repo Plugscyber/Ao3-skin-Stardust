@@ -73,6 +73,10 @@ div#notes.notes.module blockquote.userstuff p {
   font-size: 0.99em;
 }
 
+div.chapter.preface.group .end.notes.module blockquote.userstuff p {
+  font-size: 0.99em;
+}
+
 dl.work.meta.group {
   font-size: 1.2em;
 }
@@ -83,12 +87,24 @@ ul.work.navigation.actions {
 
 div#feedback.feedback ul.actions {
   font-size: 1.2em;
-
 }
-h4 {
+
+div#add_comment fieldset p.submit.actions {
   font-size: 1.2em;
 }
 
+div#kudos p.kudos {
+  font-size: 1.2em;
+}
+
+fieldset p {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1.2em;
+  
+}
 div#inner,
 #workskin,
 .collection blockquote.userstuff,
