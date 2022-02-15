@@ -1728,6 +1728,10 @@ a.cloud8 {
 }
 /*corrects button colour*/
 
+div#user-works.work.listbox.group ul.index.group ul.actions li a:hover {
+  background-color: #eee;
+  
+}
 .actions input:hover,
 div.skins.home ul.actions li a:hover,
 ol.pagination.actions li a:hover,
