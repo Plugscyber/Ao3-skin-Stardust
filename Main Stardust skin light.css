@@ -1540,7 +1540,7 @@ dl.meta,
   border-radius: 5px;
   margin-bottom: 10px;
 }
-/* remove the margin button from span.unread and replied so they sit correctly with other inbox buttons*/
+/* removes the margin from span.unread and replied so it sits correctly with other inbox buttons*/
 span.unread,
 .replied {
   border-color: #393E46;
