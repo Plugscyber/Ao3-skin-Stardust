@@ -1958,6 +1958,11 @@ span.symbol {
 buttons!
 ----
 */
+/*fixes comment button alignment*/
+p.submit.actions input {
+  vertical-align: top;
+}
+
 .btn,
 input[type=submit],
 .actions li a,
