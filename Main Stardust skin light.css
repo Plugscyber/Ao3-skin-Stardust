@@ -129,7 +129,13 @@ button,
 select {
   font-size: 1em;
 }
-
+/*makes sup ect small again*/
+small,
+sub,
+sup {
+  font-size: 87.5%;
+  
+}
 .home .header h2,
 .preface h3,
 .faq .categories h3,
