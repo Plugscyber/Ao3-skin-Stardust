@@ -1765,10 +1765,12 @@ ol.pagination.actions li span.current:hover {
   background-color: #ea6b6f;
   color: #f7f7f7;
 }
-/* stops button text being black*/
+/* stops button text being black when I don't want it to be*/
 ul div.skins.home ul.actions li a,
-ul.actions li a {
-  color: #f7f7f7;
+ul.actions li a,
+p.submit.actions a#comment_cancel,
+#footer ul.navigation a {
+  color: #f7f7f7; 
 }
 /* stops a button being white I guess?*/
 fieldset p.submit.actions a#comment_cancel {
@@ -1824,9 +1826,7 @@ fieldset.comments,
   background: #f7f7f7;
 }
 
-#footer ul.navigation a {
-  color: #f7f7f7;
-}
+
 
 #footer a:hover,
 fieldset dl,
