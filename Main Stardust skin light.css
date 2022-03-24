@@ -129,11 +129,11 @@ button,
 select {
   font-size: 1em;
 }
-/*makes sup ect small again*/
+/*makes sup ect small again. I know Important isn't great but I'm not sure about removing font-size:100% incase that breaks ten things trying to fix one.*/
 small,
 sub,
 sup {
-  font-size: 87.5%;
+  font-size: 87.5% !important;
   
 }
 .home .header h2,
