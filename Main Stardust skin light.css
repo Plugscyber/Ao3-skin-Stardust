@@ -1230,7 +1230,8 @@ li.search fieldset,
   border: 1px solid #393E46;
   border-radius: .25em;
   box-shadow: none;
-  font: 90% Avenir, Helvetica, Arial, sans-serif;
+  font-size: 90%;
+  font-family: 'Trebuchet MS', Calibri, 'Open Sans', sans-serif;
   padding: 5px;
   width: 90%;
 }
