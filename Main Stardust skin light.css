@@ -32,6 +32,48 @@ STARDUST LIGHT
 Font settings. 
 ----
 */
+/*
+font sizing and font family
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading,
+body,
+blockquote,
+pre,
+textarea,
+.datetime,
+input,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+button,
+.filters dt,
+.filters dd,
+.filters input[type=submit],
+.filters .expander,
+.bookmark .user .meta,
+a.work,
+span.symbol,
+.splash .news .meta,
+select,
+code,
+.actions input[type="text"],
+.autocomplete input,
+form.search input[type="text"],
+form.search input[type="text"],
+li.search fieldset,
+.search input[type="text"],
+dl dd.summary textarea,
+dl dd.notes ul li.end fieldset#end-notes-options.end textarea,
+dl dd.notes ul li.start fieldset#front-notes-options.start textarea {
+  font-family: 'Trebuchet MS', 'Arial', 'Open Sans', sans-serif;
+}
 
 h1,
 h2,
@@ -40,40 +82,16 @@ h4,
 h5,
 h6,
 .heading {
-  font-family: 'Trebuchet MS' , Calibri, 'Open Sans', sans-serif;
   border-bottom: none;
   font-weight: 700;
 }
 
-body,
-input,
-.toggled form,
-.dynamic form,
-.secondary,
-.dropdown,
-button,
-blockquote,
-.filters dt,
-.filters dd,
-.filters input[type=submit],
-.bookmark .user .meta,
-.datetime,
-a.work,
-span.symbol,
-.splash .news .meta,
-select {
-  font-family: 'Trebuchet MS', Calibri, 'Open Sans', sans-serif;
-}
-
 code,
 pre {
-  font-family: 'Trebuchet MS', Calibri, 'Open Sans', sans-serif;
   font-size: 1em;
   padding: 1em 0.5em;
 }
-/*
-font sizing 
-*/
+
 #footer li,
 .comment .userstuff,
 .blurb dl.stats,
@@ -129,11 +147,12 @@ button,
 select {
   font-size: 1em;
 }
-/*makes sup ect small again. I know Important isn't great but I'm not sure about removing font-size:100% incase that breaks ten things trying to fix one.*/
+
 small,
 sub,
 sup {
-  font-size: 87.5% !important;
+  font-size: 0.9em !important;
+
   
 }
 .home .header h2,
@@ -1231,7 +1250,6 @@ li.search fieldset,
   border-radius: .25em;
   box-shadow: none;
   font-size: 90%;
-  font-family: 'Trebuchet MS', Calibri, 'Open Sans', sans-serif;
   padding: 5px;
   width: 90%;
 }
