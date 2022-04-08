@@ -117,3 +117,11 @@ li.blurb .fandoms {
   max-height: 5em;
   overflow-y: auto;
 }
+/*stops fics sideways scrolling*/
+div#main.works-show.region div#workskin {
+  overflow-x: hidden;
+}
+/*fixed overflowing front page comments*/
+ul.abbreviated.comment.group .unread.comment.group blockquote.userstuff {
+  width: 90%;
+}
