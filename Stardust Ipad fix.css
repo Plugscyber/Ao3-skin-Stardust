@@ -118,7 +118,7 @@ li.blurb .fandoms {
   overflow-y: auto;
 }
 /*stops fics sideways scrolling*/
-div#main.works-show.region div#workskin {
+div#workskin {
   overflow-x: hidden;
 }
 /*fixed overflowing front page comments*/
