@@ -1,3 +1,25 @@
+/*
+ABOUT
+This site skin uses code based off ElectricAlice's Stardust, Dyslexia freindly and Tide skin. 
+This will work regardless of if you are using the light or dark version of Stardust.
+Note that these code comments will vanish when you click 'submit' to make the site skin, so make sure you can refrence this webpage if needed.
+
+IMPORTANT
+This skin is a work in progress. I am working on streamlining and improving it.
+
+TO USE
+(this will be on my Ao3 post but just incase.)
+1. Copy all of this into the Ao3 CSS box for your new skin. Call it something like 'Stardust' for convenience sake. 
+2. Go the advanced section and select 'adds onto an archive skin.'
+3. Go to the instructions for the tablet/mobile skin.
+*/
+
+/*
+--
+text settings
+--
+*/
+
 h1,
 h2,
 h3,
@@ -110,7 +132,7 @@ button,
 select {
   font-size: 1em;
 }
-
+/*has to be !important or it won't work*/
 small,
 sub,
 sup {
@@ -124,7 +146,7 @@ sup {
 #footer a {
   border-bottom: none;
 }
-
+/*According to Electric Alice this is needed not to break things*/
 html,
 body,
 div,
@@ -336,7 +358,7 @@ body,
 .filters .expander {
   letter-spacing: 0.02em;
 }
-
+/*left aligned text*/
 #chapters,
 #chapters p,
 textarea,
@@ -354,7 +376,7 @@ div#comments_placeholder,
 .collection blockquote.userstuff {
   text-align: left;
 }
-
+/*forces workskins to left align text*/
 #workskin {
   text-align: left !important;
 }
@@ -367,7 +389,7 @@ div#comments_placeholder,
   width: 70%;
   max-width: 45em;
 }
-
+/*forces comments to not wrap under the user icon*/
 ol.comment.index.group blockquote.userstuff p {
   width: 70%;
   max-width: 45em;
@@ -392,7 +414,17 @@ ol.thread blockquote.userstuff p {
 li.post.group {
   padding-bottom: 1em;
 }
-
+/*
+--
+get rid of default box shadows ect
+--
+*/
+.actions a:active,
+.current,
+a.current,
+.current a:visited {
+  box-shadow: none;
+}
 #header .menu,
 #header .dropdown:hover .current + .menu,
 .event .userstuff,
@@ -451,7 +483,26 @@ button,
 .actions label {
   box-shadow: none;
 }
+.ui-sortable li:hover,
+.secondary,
+.wrapper,
+.ui-draggable form {
+  box-shadow: none;
+}
 
+#header #small_login {
+  box-shadow: none;
+}
+
+.delete a,
+span.delete {
+  box-shadow: none;
+}
+h2,
+.system p#signup,
+#header h2 {
+  text-shadow: none;
+}
 #footer,
 .autocomplete .dropdown ul li:hover,
 li.selected,
@@ -529,10 +580,6 @@ button,
   border: none;
 }
 
-input {
-  width: 96%;
-  border: 1px solid;
-}
 
 .actions a:hover,
 a:hover,
@@ -590,6 +637,32 @@ form dt,
   border-left: none;
   border-right: none;
 }
+#footer a:hover,
+fieldset dl,
+fieldset.actions,
+fieldset dl fieldset dl,
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+#outer.wrapper,
+#inner.wrapper,
+dl.index,
+dl.stats,
+.listbox,
+fieldset fieldset.listbox,
+.listbox li.blurb,
+fieldset.comments,
+dl.nomination {
+  box-shadow: none;
+}
 
 #header .menu,
 #header .dropdown:hover .current + .menu,
@@ -609,7 +682,11 @@ form dt,
 .comment fieldset {
   border: 0px;
 }
-
+/*
+--
+button and checkbox stuff
+--
+*/
 .btn:hover,
 input[type="submit"]:hover,
 .actions li input[type="submit"]:hover,
@@ -727,7 +804,11 @@ input[type=checkbox]:hover,
 fieldset.work.meta .fandom.required ul.autocomplete {
   background: transparent;
 }
-
+/*
+--
+tag styling
+--
+*/
 a.tag,
 a.tag:visited,
 a.tag:link {
@@ -753,7 +834,7 @@ h5.fandoms.heading {
   color: #f7f7f7;
   background-color: #464e59;
 }
-
+/*stars before tags and colourful tags*/
 .relationships a::before {
   content: "☆";
   padding: 0 .25em 0 0;
@@ -811,7 +892,7 @@ h5.fandoms.heading {
   background-color: #393E46;
   color: white;
 }
-
+/*no tag commas*/
 .commas li:after {
   content: "";
 }
@@ -831,7 +912,11 @@ a.tag:hover,
   background: #393E46;
   color: #fff;
 }
-
+/*
+--
+Filter styling
+--
+*/
 .filters .expander {
   padding: 0 .25em 0 0;
   font-size: 1.05em;
@@ -844,7 +929,7 @@ a.tag:hover,
   background-image: none;
   color: #f7f7f7;
 }
-
+/*adds stars to filters*/
 .filters .expander::before {
   content: "★";
   padding: 0 .25em 0 0;
@@ -863,7 +948,11 @@ a.tag:hover,
 dl.stats dt {
   display: none;
 }
-
+/*
+--
+Adds icons to fic stats
+--
+*/
 li.collection dl.stats dt,
 li.series dl.stats dt,
 dl.series dl.stats dt {
@@ -927,7 +1016,11 @@ dl.stats dd.status::before {
   width: 0px;
   margin-right: 0px;
 }
-
+/*
+--
+colour settings
+--
+*/
 body,
 th,
 tr:hover,
@@ -1550,21 +1643,9 @@ span.unread,
 span.claimed {
   border-bottom-color: #393E46;
 }
-
-.ui-sortable li:hover,
-.secondary,
-.wrapper,
-.ui-draggable form {
-  box-shadow: none;
-}
-
-#header #small_login {
-  box-shadow: none;
-}
-
-.delete a,
-span.delete {
-  box-shadow: none;
+input {
+  width: 96%;
+  border: 1px solid;
 }
 
 a,
@@ -1595,12 +1676,6 @@ a.cloud2 {
   border-bottom: 0px;
 }
 
-.actions a:active,
-.current,
-a.current,
-.current a:visited {
-  box-shadow: none;
-}
 
 #header ul.primary,
 #footer,
@@ -1640,7 +1715,7 @@ a.cloud7,
 a.cloud8 {
   color: #393E46;
 }
-
+/*makes buttons hover in right colours*/
 div#user-works.work.listbox.group ul.index.group ul.actions li a:hover,
 div#user-series.series.listbox.group ol.index.group p.actions a:hover,
 div#user-bookmarks.bookmark.listbox.group ol.index.group div.own.user.module.group ul.actions li a:hover,
@@ -1668,7 +1743,7 @@ dl.inspired.index.group dd.parent span.submit.actions a:hover {
   color: #393E46;
   background-color: #fff;
 }
-
+/*red pagination marker*/
 ol.pagination.actions li span.current:hover {
   background-color: #ea6b6f;
   color: #f7f7f7;
@@ -1735,38 +1810,6 @@ fieldset.comments,
   background: #f7f7f7;
 }
 
-#footer a:hover,
-fieldset dl,
-fieldset.actions,
-fieldset dl fieldset dl,
-.dynamic form fieldset,
-.toggled form fieldset,
-.toggled form dl,
-.secondary .toggled form,
-.actions a,
-.action,
-.actions input,
-input[type="submit"],
-button,
-.current,
-.actions label,
-#outer.wrapper,
-#inner.wrapper,
-dl.index,
-dl.stats,
-.listbox,
-fieldset fieldset.listbox,
-.listbox li.blurb,
-fieldset.comments,
-dl.nomination {
-  box-shadow: none;
-}
-
-h2,
-.system p#signup,
-#header h2 {
-  text-shadow: none;
-}
 
 .dashboard .listbox {
   border: 1px solid #929AAB;
@@ -1936,7 +1979,7 @@ dl.stats dt {
   padding: .5em 0;
   border-radius: .25em;
 }
-
+/*makes datetime text black*/
 .user .datetime {
   color: #000000;
 }
@@ -2048,7 +2091,8 @@ input[name="post_button"]:hover {
   text-align: left;
   padding: 10px;
 }
-
+/*
+Stars for lists*/
 div.userstuff ul li {
   list-style-type: none;
 }
@@ -2063,11 +2107,11 @@ div.userstuff ul li::before {
   border-bottom: none;
   text-align: center;
 }
-
+/*star text dividers*/
 .userstuff hr::before {
   content: "—☆★☆—";
 }
-
+/*stops inbox overflow*/
 form.inbox {
   overflow-x: visible;
 }
