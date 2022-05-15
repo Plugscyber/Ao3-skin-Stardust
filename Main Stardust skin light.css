@@ -1,40 +1,3 @@
-/*
-ABOUT
-This site skin uses code based off ElectricAlice's Minimal Ao3 skin, Dyslexia freindly site skin, Tide Ao3 skin and site skin for a border around tags. 
-It also uses vanetta's tag scrolling code. This code has been modified to my own specfications.
-Note that these code comments will vanish when you click 'submit' to make the site skin, so make sure you can refrence this webpage if needed.
-*/
-
-/*
-IMPORTANT
-This skin is a work in progress, the code is messy and I am working on streamlining it. However, this is a useable working skin!
-*/
-
-/*
-TO USE
-(this will be on my Ao3 post but just incase.)
-1. Copy all of this into the Ao3 CSS box for your new skin. Call it something like 'Stardust main' for convenience sake. 
-
-2. If you ONlY use Ao3 on desktop then click 'use'. 
-
-3. If you mainly use Ao3 on Ipad/tablet or mobile then DO NOT click use but still submit this skin.
-
-4. You need to make the Ipad fix and mobile fix skins and then do some fiddling with parent skins and media settings in the advanced skin making settings. 
-Don't worry I will explain this in the other skin codes.
-*/
-
-/*
-STARDUST LIGHT
-*/
-
-/*
-----
-Font settings. 
-----
-*/
-/*
-font sizing and font family
-*/
 h1,
 h2,
 h3,
@@ -72,7 +35,7 @@ li.search fieldset,
 dl dd.summary textarea,
 dl dd.notes ul li.end fieldset#end-notes-options.end textarea,
 dl dd.notes ul li.start fieldset#front-notes-options.start textarea {
-  font-family: 'Trebuchet MS', 'Arial', 'Open Sans', sans-serif;
+  font-family: 'trebutchet ms', 'arial', 'Open Sans', sans-serif;
 }
 
 h1,
@@ -152,9 +115,8 @@ small,
 sub,
 sup {
   font-size: 0.9em !important;
-
-  
 }
+
 .home .header h2,
 .preface h3,
 .faq .categories h3,
@@ -162,9 +124,7 @@ sup {
 #footer a {
   border-bottom: none;
 }
-/*
-according to EletricAlice this is needed so fonts dont do weird things.
-*/
+
 html,
 body,
 div,
@@ -220,9 +180,7 @@ td,
 .filters .expander {
   font-size: 100%;
 }
-/*
-line height settings.
-*/
+
 #chapters,
 #chapters p,
 textarea,
@@ -262,9 +220,6 @@ button,
 select {
   line-height: 1.8em;
 }
-/*
-hedding size. 
-*/
 
 h4.heading {
   font-size: 1.3em;
@@ -274,15 +229,11 @@ h4.heading {
 h4 {
   font-size: 1.3125em;
 }
-/*
-Stops icon text overlap in comments.
-*/
+
 .comment h4.byline {
   padding: .25em .25em .25em 120px;
 }
-/*
-the size of the date and time text for fic updates.
-*/
+
 h4.heading .datetime {
   padding: 5px;
   font-size: 0.5376em;
@@ -291,18 +242,15 @@ h4.heading .datetime {
 .preface a:hover {
   text-decoration: none;
 }
-/*
-header font size.
-*/
+
 #header {
   font-size: 1.05em;
 }
+
 .news h4.heading {
   margin: 0;
 }
-/* 
-word spacing settings.
-*/
+
 .blurb dl.stats,
 .actions li a,
 .actions li input,
@@ -351,9 +299,7 @@ body,
 .filters .expander {
   word-spacing: 0.21em;
 }
-/*
-letter spacing settings.
-*/
+
 .blurb dl.stats,
 .actions li a,
 .actions li input,
@@ -390,9 +336,7 @@ body,
 .filters .expander {
   letter-spacing: 0.02em;
 }
-/*
-makes the text align left.
-*/
+
 #chapters,
 #chapters p,
 textarea,
@@ -410,15 +354,11 @@ div#comments_placeholder,
 .collection blockquote.userstuff {
   text-align: left;
 }
-/*
-tries to force left text align in custom work skins
-*/
+
 #workskin {
   text-align: left !important;
 }
-/*
-Paragraph width. 
-*/
+
 #workskin,
 .blurb .userstuff,
 .news .userstuff,
@@ -427,9 +367,7 @@ Paragraph width.
   width: 70%;
   max-width: 45em;
 }
-/*
-Makes comments in inbox and on fics have text that doesn't wrap under images.
-*/
+
 ol.comment.index.group blockquote.userstuff p {
   width: 70%;
   max-width: 45em;
@@ -445,24 +383,15 @@ ol.thread blockquote.userstuff p {
 .blurb .userstuff {
   padding: 20px 0;
 }
-/*
-Makes the fic body, summary and notes bigger on desktop.
-*/
+
 .userstuff p {
   margin: 2em auto;
   font-size: 1.2em;
 }
-/*wider bottom margin on news posts*/
-li.post.group {
-padding-bottom:1em;
-}
-/*
-----
-Skin flattening 
-----
 
-makes the skin flat.
-*/
+li.post.group {
+  padding-bottom: 1em;
+}
 
 #header .menu,
 #header .dropdown:hover .current + .menu,
@@ -672,6 +601,7 @@ form dt,
 .autocomplete .dropdown ul li {
   min-width: 10px;
 }
+
 .chapter .preface {
   border-top: none;
 }
@@ -692,11 +622,6 @@ input[type="submit"]:hover,
   border-radius: .25em;
   box-shadow: none;
 }
-/*
-----
-Check box settings.
-----
-*/
 
 .filters [type=radio] + .indicator:before,
 .filters [type=radio]:checked + .indicator:before,
@@ -802,14 +727,7 @@ input[type=checkbox]:hover,
 fieldset.work.meta .fandom.required ul.autocomplete {
   background: transparent;
 }
-/*
-----
-tag settings.
-----
-*/
-/*
-gives tags padding and size.
-*/
+
 a.tag,
 a.tag:visited,
 a.tag:link {
@@ -818,37 +736,28 @@ a.tag:link {
   margin: 4px 0px;
   border-radius: 5px;
 }
+
 h5.fandoms.heading {
-  /*this removes the commas in the fandom tags*/
   color: transparent;
 }
-/*
-favorite tags all have grey background 
-*/
+
 .favorite a.tag,
-.splash .favorite li:nth-of-type(2n+1) a{ 
+.splash .favorite li:nth-of-type(2n+1) a {
   border: none;
   background-color: #eee;
 }
-/*
-makes favorite tags all black background on hover
-*/
+
 .splash .favorite li:nth-of-type(odd) a:hover,
 .splash .favorite a:hover,
 .favorite li:nth-of-type(2n+1) a:hover {
- color: #f7f7f7;
-background-color: #464e59;
+  color: #f7f7f7;
+  background-color: #464e59;
 }
-/*
-stars on tags. can be swapped for another html symbol.
-*/
+
 .relationships a::before {
   content: "☆";
   padding: 0 .25em 0 0;
 }
-/*
-colourful tags.
-*/
 
 .tags li.relationships:nth-of-type(3n+1) a.tag {
   background-color: #ff8e43;
@@ -895,24 +804,18 @@ colourful tags.
 .tags li.freeforms:nth-of-type(3n+3) a.tag {
   background-color: #e9e8e7;
 }
-/*
-tags are black with white text on hover.
-*/
+
 .tags li.freeforms a.tag:hover,
 .tags li.characters a.tag:hover,
 .tags li.relationships a.tag:hover {
   background-color: #393E46;
   color: white;
 }
-/*
-no commas after tags.
-*/
+
 .commas li:after {
   content: "";
 }
-/*
-scrolling tags for long tag feilds
-*/
+
 li.blurb .tags {
   max-height: 8.5em;
   overflow-y: auto;
@@ -928,11 +831,6 @@ a.tag:hover,
   background: #393E46;
   color: #fff;
 }
-/*
-----
-filter settings.
-----
-*/
 
 .filters .expander {
   padding: 0 .25em 0 0;
@@ -946,9 +844,7 @@ filter settings.
   background-image: none;
   color: #f7f7f7;
 }
-/*
-filter star settings.
-*/
+
 .filters .expander::before {
   content: "★";
   padding: 0 .25em 0 0;
@@ -963,9 +859,7 @@ filter star settings.
 .filters input:checked + .indicator + span {
   font-weight: inherit;
 }
-/*
-stat symbols.
-*/
+
 dl.stats dt {
   display: none;
 }
@@ -1033,11 +927,7 @@ dl.stats dd.status::before {
   width: 0px;
   margin-right: 0px;
 }
-/*
----
-skin colours.
----
-*/
+
 body,
 th,
 tr:hover,
@@ -1060,7 +950,6 @@ textarea:focus,
   background: #f7f7f7;
 }
 
-.comment_notice,
 ul.notes,
 .caution,
 .error,
@@ -1234,9 +1123,7 @@ form.verbose legend,
   margin: 10px;
   border-radius: .5em;
 }
-/*
-don't change the font here. Ao3 doesn't like it.
-*/
+
 .actions input[type="text"],
 .textarea,
 .autocomplete input,
@@ -1262,6 +1149,7 @@ li.search fieldset,
 .filters input:checked + .indicator + span {
   font-weight: inherit;
 }
+
 #header .actions a:hover,
 #header .actions a:focus,
 #header .dropdown:hover a,
@@ -1297,8 +1185,9 @@ span.claimed,
   border-radius: .25em;
   box-shadow: none;
 }
+
 .unreviewed {
-color: #393e46;
+  color: #393e46;
 }
 
 dl.index dd {
@@ -1433,6 +1322,7 @@ dl.index dd,
   border-bottom: none;
   font-size: 1.914em;
 }
+
 .actions a,
 .action,
 .actions input,
@@ -1559,7 +1449,7 @@ dl.meta,
   border-radius: 5px;
   margin-bottom: 10px;
 }
-/* removes the margin from span.unread and replied so it sits correctly with other inbox buttons*/
+
 span.unread,
 .replied {
   border-color: #393E46;
@@ -1751,7 +1641,6 @@ a.cloud7,
 a.cloud8 {
   color: #393E46;
 }
-/*corrects button colour. I know it's a mess and I'll try clean it up.*/
 
 div#user-works.work.listbox.group ul.index.group ul.actions li a:hover,
 div#user-series.series.listbox.group ol.index.group p.actions a:hover,
@@ -1779,24 +1668,24 @@ p.actions a:hover,
 dl.inspired.index.group dd.parent span.submit.actions a:hover {
   color: #393E46;
   background-color: #fff;
-
 }
-/* overrides hover to keep current pagination red*/
+
 ol.pagination.actions li span.current:hover {
   background-color: #ea6b6f;
   color: #f7f7f7;
 }
-/* stops button text being black when I don't want it to be*/
+
 ul div.skins.home ul.actions li a,
 ul.actions li a,
 p.submit.actions a#comment_cancel,
 #footer ul.navigation a {
-  color: #f7f7f7; 
+  color: #f7f7f7;
 }
-/* stops a button being white I guess?*/
+
 fieldset p.submit.actions a#comment_cancel {
   background-color: #393e46;
 }
+
 #outer #header #greeting .icon,
 #dashboard.own,
 .error,
@@ -1847,8 +1736,6 @@ fieldset.comments,
   background: #f7f7f7;
 }
 
-
-
 #footer a:hover,
 fieldset dl,
 fieldset.actions,
@@ -1886,18 +1773,9 @@ h2,
   border: 1px solid #929AAB;
 }
 
-/*
-makes date time black so it isn't white. put in colour section,
-*/
 .blurb .datetime {
   color: #393E46;
 }
-/*
-----
-icon styling.
-----
-makes icons rounded.
-*/
 
 #greeting img.icon {
   border-radius: .75em;
@@ -1943,11 +1821,7 @@ img.icon {
 .bookmark .count a {
   color: #393E46;
 }
-/*
-----
-does something else.
-----
-*/
+
 span.symbol {
   color: #393E46;
   background: #f7f7f7;
@@ -1974,12 +1848,7 @@ span.symbol {
   content: "\272D";
   padding: 0 .25em 0 0;
 }
-/*
-----
-buttons!
-----
-*/
-/*fixes comment button alignment*/
+
 p.submit.actions input {
   vertical-align: top;
 }
@@ -1997,11 +1866,8 @@ input[type=submit],
   background-image: none;
   border-radius: .25em;
   box-shadow: none;
-
 }
-/*
-check what this does and that it doesn't need clean up.
-*/
+
 .tags input[type='radio'],
 .filters [type="radio"] + .indicator::before,
 .filters [type="radio"] + .indicator::before {
@@ -2015,9 +1881,7 @@ check what this does and that it doesn't need clean up.
 #header .primary>li:first-of-type {
   margin-left: 2em;
 }
-/*
-more colour stuff. clean up.
-*/
+
 #dashboard a,
 .unread,
 #dashboard span,
@@ -2109,11 +1973,8 @@ ul.series li {
   border: 0px;
   background-color: #ffffff;
   border-radius: 5px;
-  
 }
-/*
-announcement styling? move elsewhere or make its own section.
-*/
+
 .announcement .userstuff {
   background: #ce4c4c;
   border-color: #ce4c4c;
@@ -2132,9 +1993,7 @@ announcement styling? move elsewhere or make its own section.
   padding: .25em .5em;
   border-radius: 2em;
 }
-/*
-more buttons. Make neat button section.
-*/
+
 input[name="preview_button"] {
   color: #f7f7f7;
   background: #ea6b6f !important;
@@ -2175,39 +2034,22 @@ input[name="post_button"]:hover {
   box-shadow: none;
 }
 
-/*
-----
-makes visted fic titles red.
-----
-*/
 .blurb h4.heading a:link:visited,
 .blurb h4.heading a:visited {
   color: #ea6b6f !important;
 }
-/*
-----
-active pagenation styling
-----
-makes current pagnation red. put in colour section.
-*/
+
 .pagination .current {
   background-color: #ea6b6f;
 }
-/*
-okay this should go somewhere else to be neat.
-*/
+
 .blurb blockquote {
   clear: none;
   margin: .643em auto;
   text-align: left;
   padding: 10px;
 }
-/*
-----
-list styling
-----
-makes bullet points stars.
-*/
+
 div.userstuff ul li {
   list-style-type: none;
 }
@@ -2216,12 +2058,7 @@ div.userstuff ul li::before {
   content: "★";
   padding-right: 8px;
 }
-/*
----- 
-star text dividers.
-----
-put somewhere else.
-*/
+
 .userstuff hr {
   border: none;
   border-bottom: none;
@@ -2231,10 +2068,7 @@ put somewhere else.
 .userstuff hr::before {
   content: "—☆★☆—";
 }
-/*
-quick and likely messy fix to scroll box in inbox on desktop due to line height.
-*/
+
 form.inbox {
   overflow-x: visible;
 }
-
