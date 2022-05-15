@@ -13,6 +13,8 @@ TO USE
 1. Copy all of this into the Ao3 CSS box for your new skin. Call it something like 'Stardust' for convenience sake. 
 2. Go the advanced section and select 'adds onto an archive skin.'
 3. Go to the instructions for the tablet/mobile skin.
+
+
 */
 
 /*
@@ -692,8 +694,8 @@ button and checkbox stuff
 input[type="submit"]:hover,
 .actions li input[type="submit"]:hover,
 .actions .current:hover {
-  color: #393E46;
-  background: #fff;
+  color: #f7f7f7;
+  background: #000;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -747,7 +749,7 @@ input[type=radio] {
   vertical-align: -0.125em;
   background: none;
   background-color: #ebebeb;
-  border: 1px solid #393e46;
+  border: 1px solid #f7f7f7;
 }
 
 .filters [type=checkbox]:checked + .indicator:before,
@@ -890,7 +892,7 @@ h5.fandoms.heading {
 .tags li.freeforms a.tag:hover,
 .tags li.characters a.tag:hover,
 .tags li.relationships a.tag:hover {
-  background-color: #393E46;
+  background-color: #f7f7f7;
   color: white;
 }
 /*no tag commas*/
@@ -910,7 +912,7 @@ li.blurb .fandoms {
 
 a.tag:hover,
 .listbox .heading a.tag:visited:hover {
-  background: #393E46;
+  background: #f7f7f7;
   color: #fff;
 }
 /*
@@ -926,9 +928,9 @@ Filter styling
 }
 
 .filters .expanded .expander {
-  background-color: #393E46;
+  background-color: #f7f7f7;
   background-image: none;
-  color: #f7f7f7;
+  color: #393E46;
 }
 /*adds stars to filters*/
 .filters .expander::before {
@@ -938,7 +940,7 @@ Filter styling
 
 .filters .expanded .expander::before {
   content: "☆";
-  color: #f7f7f7;
+  color: #393E46;
   padding: 0 .25em 0 0;
 }
 
@@ -1041,7 +1043,7 @@ textarea:focus,
 .listbox .index,
 .dashboard .listbox .index,
 .nomination dt {
-  background: #f7f7f7;
+  background: #393E46;
 }
 
 ul.notes,
@@ -1065,12 +1067,12 @@ ul.notes,
 .splash .favorite li:nth-of-type(odd) a:hover,
 .splash .favorite a:hover {
   color: #eee;
-  background-color: #393e46;
+  background-color: #f7f7f7;
 }
 
 #dashboard .actions a,
 #dashboard .actions a:visited {
-  color: #393E46 !important;
+  color: #f7f7f7 !important;
 }
 
 .blurb ul.required-tags {
@@ -1082,8 +1084,8 @@ ul.notes,
 }
 
 #dashboard .actions .current {
-  color: #f7f7f7;
-  background: #393e46;
+  color: #393E46;
+  background: #f7f7f7;
 }
 
 #dashboard.own {
@@ -1092,20 +1094,20 @@ ul.notes,
 
 .announcement .userstuff h2 {
   margin-top: 10px;
-  color: #f7f7f7;
+  color: #393E46;
 }
 
 fieldset fieldset,
 fieldset dl dl,
 .fieldset,
 fieldset {
-  background: #f7f7f7;
+  background: #393E46;
 }
 
 #header .user a,
 #header .user a:visited {
   margin: 2px;
-  color: #393E46 !important;
+  color: #f7f7f7 !important;
 }
 
 .picture .header {
@@ -1151,7 +1153,7 @@ h5.heading,
 
 .reading h4.viewed {
   background: #eeeeee;
-  border: 1px solid #393E46;
+  border: 1px solid #f7f7f7;
   padding: 0.50em;
   border-radius: .25em;
 }
@@ -1161,7 +1163,7 @@ h5.heading,
 }
 
 #header .dropdown .menu .current {
-  background-color: #393E46;
+  background-color: #f7f7f7;
   color: #eee;
 }
 
@@ -1193,8 +1195,8 @@ li.blurb {
   padding-left: 0;
   padding-right: 0;
   text-align: center;
-  color: #f7f7f7;
-  background: #393E46;
+  color: #393E46;
+  background: #f7f7f7;
 }
 
 #header #search > * {
@@ -1225,9 +1227,9 @@ form.search input[type="text"],
 form.search input[type="text"],
 li.search fieldset,
 .search input[type="text"] {
-  color: #393E46;
-  background: #f7f7f7;
-  border: 1px solid #393E46;
+  color: #f7f7f7;
+  background: #393E46;
+  border: 1px solid #f7f7f7;
   border-radius: .25em;
   box-shadow: none;
   font-size: 90%;
@@ -1271,8 +1273,8 @@ span.claimed,
 .unread,
 .child,
 .unwrangled {
-  color: #f7f7f7;
-  background: #393E46;
+  color: #393E46;
+  background: #f7f7f7;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -1281,16 +1283,16 @@ span.claimed,
 }
 
 .unreviewed {
-  color: #393e46;
+  color: #f7f7f7;
 }
 
 dl.index dd {
-  color: #393e46;
+  color: #f7f7f7;
 }
 
 .draft,
 .draft .wrapper {
-  color: #393E46;
+  color: #f7f7f7;
 }
 
 #header h2,
@@ -1319,7 +1321,7 @@ a.current,
 .current a:visited,
 .search span.tip,
 #header ul.primary .current {
-  border-color: #f7f7f7;
+  border-color: #393E46;
 }
 
 .heading a,
@@ -1327,11 +1329,11 @@ a.current,
 .heading,
 #heading h3,
 .splash .module h3 {
-  color: #393E46;
+  color: #f7f7f7;
 }
 
 .listbox>.heading {
-  color: #393E46;
+  color: #f7f7f7;
   padding: 10px;
   padding-left: 15px;
 }
@@ -1359,8 +1361,8 @@ a.tag {
 a.current,
 .current a:visited,
 .current a:link {
-  color: #f7f7f7;
-  background: #393E46;
+  color: #393E46;
+  background: #f7f7f7;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -1405,8 +1407,8 @@ dl.index dd,
 
 .action.top,
 .action a:link {
-  background: #393E46;
-  color: #f7f7f7;
+  background: #f7f7f7;
+  color: #393E46;
   height: auto;
   font-weight: bolder;
   padding: .15em .25em;
@@ -1505,12 +1507,12 @@ button,
 .actions label,
 a.cloud4,
 a.cloud5 {
-  color: #393E46;
+  color: #f7f7f7;
 }
 
 a:visited,
 a.cloud6 {
-  color: #393E46;
+  color: #f7f7f7;
 }
 
 thead,
@@ -1537,16 +1539,16 @@ fieldset fieldset.listbox,
 dl.meta,
 .picture .header,
 .bookmark .user {
-  border-color: #393E46;
-  background: #f7f7f7;
+  border-color: #f7f7f7;
+  background: #393E46;
   border-radius: 5px;
   margin-bottom: 10px;
 }
 
 span.unread,
 .replied {
-  border-color: #393E46;
-  background: #f7f7f7;
+  border-color: #f7f7f7;
+  background: #393E46;
   border-radius: 5px;
 }
 
@@ -1570,7 +1572,7 @@ li.blurb,
 }
 
 .autocomplete div.dropdown ul {
-  border: 1px solid #393E46;
+  border: 1px solid #f7f7f7;
   border-radius: 0.5em;
 }
 
@@ -1625,11 +1627,11 @@ body,
 .userstuff th a:link,
 a.cloud3,
 #header .search input[type="text"] {
-  color: #393E46;
+  color: #f7f7f7;
 }
 
 .draft {
-  border-color: #393E46;
+  border-color: #f7f7f7;
 }
 
 .actions a,
@@ -1642,7 +1644,7 @@ button,
 span.unread,
 .replied,
 span.claimed {
-  border-bottom-color: #393E46;
+  border-bottom-color: #f7f7f7;
 }
 input {
   width: 96%;
@@ -1683,7 +1685,7 @@ a.cloud2 {
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
-  background: #393E46;
+  background: #f7f7f7;
 }
 
 #header #greeting img,
@@ -1714,7 +1716,7 @@ a.work,
 .error,
 a.cloud7,
 a.cloud8 {
-  color: #393E46;
+  color: #f7f7f7;
 }
 /*makes buttons hover in right colours*/
 div#user-works.work.listbox.group ul.index.group ul.actions li a:hover,
@@ -1741,24 +1743,24 @@ dl dd.skin p.actions a:hover,
 fieldset p.submit.actions a:hover,
 p.actions a:hover,
 dl.inspired.index.group dd.parent span.submit.actions a:hover {
-  color: #393E46;
+  color: #f7f7f7;
   background-color: #fff;
 }
 /*red pagination marker*/
 ol.pagination.actions li span.current:hover {
   background-color: #ea6b6f;
-  color: #f7f7f7;
+  color: ##393E46;
 }
 
 ul div.skins.home ul.actions li a,
 ul.actions li a,
 p.submit.actions a#comment_cancel,
 #footer ul.navigation a {
-  color: #f7f7f7;
+  color: #393E46;
 }
 
 fieldset p.submit.actions a#comment_cancel {
-  background-color: #393e46;
+  background-color: #f7f7f7;
 }
 
 #outer #header #greeting .icon,
@@ -1776,7 +1778,7 @@ textarea.LV_invalid_field:active,
 #header .primary .current,
 #header .primary input,
 #header .search input {
-  border-color: #393E46;
+  border-color: #f7f7f7;
 }
 
 #dashboard a,
@@ -1808,7 +1810,7 @@ fieldset.comments,
 .userstuff thead td,
 .userstuff th a,
 .userstuff th a:link {
-  background: #f7f7f7;
+  background: #393E46;
 }
 
 
@@ -1817,7 +1819,7 @@ fieldset.comments,
 }
 
 .blurb .datetime {
-  color: #393E46;
+  color: #f7f7f7;
 }
 
 #greeting img.icon {
@@ -1862,12 +1864,12 @@ img.icon {
 }
 
 .bookmark .count a {
-  color: #393E46;
+  color: #f7f7f7;
 }
 
 span.symbol {
-  color: #393E46;
-  background: #f7f7f7;
+  color: #f7f7f7;
+  background: #393E46;
   border: 1px solid;
   vertical-align: super;
   border-radius: .75em;
@@ -1875,19 +1877,19 @@ span.symbol {
 }
 
 .notice {
-  border: 1px solid #393E46;
-  color: #393E46;
-  background: #f7f7f7;
+  border: 1px solid #f7f7f7;
+  color: #f7f7f7;
+  background: #393E46;
   box-shadow: none;
   padding: 1em;
 }
 
 #modal-bg {
-  background: #393E46;
+  background: #f7f7f7;
 }
 
 .splash .browse li a:before {
-  color: #393E46;
+  color: #f7f7f7;
   content: "\272D";
   padding: 0 .25em 0 0;
 }
@@ -1902,8 +1904,8 @@ input[type=submit],
 .actions li input,
 .actions li input[type="submit"],
 .actions li label {
-  color: #f7f7f7;
-  background: #393E46;
+  color: #393E46;
+  background: #f7f7f7;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -1914,9 +1916,9 @@ input[type=submit],
 .tags input[type='radio'],
 .filters [type="radio"] + .indicator::before,
 .filters [type="radio"] + .indicator::before {
-  color: #393E46;
-  background: #f7f7f7;
-  border: 1px solid #393E46;
+  color: #f7f7f7;
+  background: #393E46;
+  border: 1px solid #f7f7f7;
   border-radius: 1em;
   box-shadow: none;
 }
@@ -1975,8 +1977,8 @@ dl.stats dt {
 }
 
 #dashboard {
-  border-bottom: 0px solid #f7f7f7;
-  border-top: 0px solid #f7f7f7;
+  border-bottom: 0px solid #393E46;
+  border-top: 0px solid #393E46;
   padding: .5em 0;
   border-radius: .25em;
 }
@@ -2038,7 +2040,7 @@ ul.series li {
 }
 
 input[name="preview_button"] {
-  color: #f7f7f7;
+  color: #393E46;
   background: #ea6b6f !important;
   border: none;
   border-bottom: none;
@@ -2048,7 +2050,7 @@ input[name="preview_button"] {
 }
 
 input[name="post_button"] {
-  color: #f7f7f7;
+  color: #393E46;
   background: #ea6b6f !important;
   border: none;
   border-bottom: none;
@@ -2058,7 +2060,7 @@ input[name="post_button"] {
 }
 
 input[name="preview_button"]:hover {
-  color: #f7f7f7 !important;
+  color: ##393E46 !important;
   background: #ea7b6f !important;
   border: none;
   border-bottom: none;
@@ -2068,7 +2070,7 @@ input[name="preview_button"]:hover {
 }
 
 input[name="post_button"]:hover {
-  color: #f7f7f7 !important;
+  color: ##393E46!important;
   background: #ea7b6f !important;
   border: none;
   border-bottom: none;
