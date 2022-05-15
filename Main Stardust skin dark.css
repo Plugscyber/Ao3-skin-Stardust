@@ -17,12 +17,6 @@ TO USE
 
 */
 
-/*
---
-text settings
---
-*/
-
 h1,
 h2,
 h3,
@@ -135,7 +129,7 @@ button,
 select {
   font-size: 1em;
 }
-/*has to be !important or it won't work*/
+
 small,
 sub,
 sup {
@@ -149,7 +143,7 @@ sup {
 #footer a {
   border-bottom: none;
 }
-/*According to Electric Alice this is needed not to break things*/
+
 html,
 body,
 div,
@@ -361,7 +355,7 @@ body,
 .filters .expander {
   letter-spacing: 0.02em;
 }
-/*left aligned text*/
+
 #chapters,
 #chapters p,
 textarea,
@@ -379,7 +373,7 @@ div#comments_placeholder,
 .collection blockquote.userstuff {
   text-align: left;
 }
-/*forces workskins to left align text*/
+
 #workskin {
   text-align: left !important;
 }
@@ -392,7 +386,7 @@ div#comments_placeholder,
   width: 70%;
   max-width: 45em;
 }
-/*forces comments to not wrap under the user icon*/
+
 ol.comment.index.group blockquote.userstuff p {
   width: 70%;
   max-width: 45em;
@@ -417,17 +411,14 @@ ol.thread blockquote.userstuff p {
 li.post.group {
   padding-bottom: 1em;
 }
-/*
---
-get rid of default box shadows ect
---
-*/
+
 .actions a:active,
 .current,
 a.current,
 .current a:visited {
   box-shadow: none;
 }
+
 #header .menu,
 #header .dropdown:hover .current + .menu,
 .event .userstuff,
@@ -486,6 +477,7 @@ button,
 .actions label {
   box-shadow: none;
 }
+
 .ui-sortable li:hover,
 .secondary,
 .wrapper,
@@ -501,11 +493,13 @@ button,
 span.delete {
   box-shadow: none;
 }
+
 h2,
 .system p#signup,
 #header h2 {
   text-shadow: none;
 }
+
 #footer,
 .autocomplete .dropdown ul li:hover,
 li.selected,
@@ -583,7 +577,6 @@ button,
   border: none;
 }
 
-
 .actions a:hover,
 a:hover,
 .actions input:hover,
@@ -640,6 +633,7 @@ form dt,
   border-left: none;
   border-right: none;
 }
+
 #footer a:hover,
 fieldset dl,
 fieldset.actions,
@@ -685,11 +679,7 @@ dl.nomination {
 .comment fieldset {
   border: 0px;
 }
-/*
---
-button and checkbox stuff
---
-*/
+
 .btn:hover,
 input[type="submit"]:hover,
 .actions li input[type="submit"]:hover,
@@ -807,11 +797,7 @@ input[type=checkbox]:hover,
 fieldset.work.meta .fandom.required ul.autocomplete {
   background: transparent;
 }
-/*
---
-tag styling
---
-*/
+
 a.tag,
 a.tag:visited,
 a.tag:link {
@@ -837,7 +823,7 @@ h5.fandoms.heading {
   color: #f7f7f7;
   background-color: #464e59;
 }
-/*stars before tags and colourful tags*/
+
 .relationships a::before {
   content: "☆";
   padding: 0 .25em 0 0;
@@ -895,7 +881,7 @@ h5.fandoms.heading {
   background-color: #f7f7f7;
   color: white;
 }
-/*no tag commas*/
+
 .commas li:after {
   content: "";
 }
@@ -915,11 +901,7 @@ a.tag:hover,
   background: #f7f7f7;
   color: #fff;
 }
-/*
---
-Filter styling
---
-*/
+
 .filters .expander {
   padding: 0 .25em 0 0;
   font-size: 1.05em;
@@ -932,7 +914,7 @@ Filter styling
   background-image: none;
   color: #393E46;
 }
-/*adds stars to filters*/
+
 .filters .expander::before {
   content: "★";
   padding: 0 .25em 0 0;
@@ -951,11 +933,7 @@ Filter styling
 dl.stats dt {
   display: none;
 }
-/*
---
-Adds icons to fic stats
---
-*/
+
 li.collection dl.stats dt,
 li.series dl.stats dt,
 dl.series dl.stats dt {
@@ -1019,11 +997,7 @@ dl.stats dd.status::before {
   width: 0px;
   margin-right: 0px;
 }
-/*
---
-colour settings
---
-*/
+
 body,
 th,
 tr:hover,
@@ -1043,7 +1017,7 @@ textarea:focus,
 .listbox .index,
 .dashboard .listbox .index,
 .nomination dt {
-  background: #393E46;
+  background: #363636;
 }
 
 ul.notes,
@@ -1171,8 +1145,8 @@ h5.heading,
 #header .menu li a:link,
 #header .menu li a:visited {
   border-radius: 0.75em;
-  background: #eeeeee !important;
-  color: #393E46 !important;
+  background: #454545 !important;
+  color: #f7f7f7 !important;
   border: none;
 }
 
@@ -1540,7 +1514,7 @@ dl.meta,
 .picture .header,
 .bookmark .user {
   border-color: #f7f7f7;
-  background: #393E46;
+  background: #363636;
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -1646,6 +1620,7 @@ span.unread,
 span.claimed {
   border-bottom-color: #f7f7f7;
 }
+
 input {
   width: 96%;
   border: 1px solid;
@@ -1679,13 +1654,12 @@ a.cloud2 {
   border-bottom: 0px;
 }
 
-
 #header ul.primary,
 #footer,
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
-  background: #f7f7f7;
+  background: #2e2e2e;
 }
 
 #header #greeting img,
@@ -1718,7 +1692,7 @@ a.cloud7,
 a.cloud8 {
   color: #f7f7f7;
 }
-/*makes buttons hover in right colours*/
+
 div#user-works.work.listbox.group ul.index.group ul.actions li a:hover,
 div#user-series.series.listbox.group ol.index.group p.actions a:hover,
 div#user-bookmarks.bookmark.listbox.group ol.index.group div.own.user.module.group ul.actions li a:hover,
@@ -1746,10 +1720,10 @@ dl.inspired.index.group dd.parent span.submit.actions a:hover {
   color: #f7f7f7;
   background-color: #fff;
 }
-/*red pagination marker*/
+
 ol.pagination.actions li span.current:hover {
   background-color: #ea6b6f;
-  color: ##393E46;
+  color: #393E46;
 }
 
 ul div.skins.home ul.actions li a,
@@ -1812,7 +1786,6 @@ fieldset.comments,
 .userstuff th a:link {
   background: #393E46;
 }
-
 
 .dashboard .listbox {
   border: 1px solid #929AAB;
@@ -1982,7 +1955,7 @@ dl.stats dt {
   padding: .5em 0;
   border-radius: .25em;
 }
-/*makes datetime text black*/
+
 .user .datetime {
   color: #000000;
 }
@@ -2060,7 +2033,7 @@ input[name="post_button"] {
 }
 
 input[name="preview_button"]:hover {
-  color: ##393E46 !important;
+  color: #393E46 !important;
   background: #ea7b6f !important;
   border: none;
   border-bottom: none;
@@ -2070,7 +2043,7 @@ input[name="preview_button"]:hover {
 }
 
 input[name="post_button"]:hover {
-  color: ##393E46!important;
+  color: #393E46 !important;
   background: #ea7b6f !important;
   border: none;
   border-bottom: none;
@@ -2094,8 +2067,7 @@ input[name="post_button"]:hover {
   text-align: left;
   padding: 10px;
 }
-/*
-Stars for lists*/
+
 div.userstuff ul li {
   list-style-type: none;
 }
@@ -2110,11 +2082,11 @@ div.userstuff ul li::before {
   border-bottom: none;
   text-align: center;
 }
-/*star text dividers*/
+
 .userstuff hr::before {
   content: "—☆★☆—";
 }
-/*stops inbox overflow*/
+
 form.inbox {
   overflow-x: visible;
 }
