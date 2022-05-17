@@ -829,15 +829,15 @@ h5.fandoms.heading {
 }
 
 .tags li.relationships:nth-of-type(3n+1) a.tag {
-  background-color: #ff8e43;
+  background-color: #538693;
 }
 
 .tags li.relationships:nth-of-type(3n+2) a.tag {
-  background-color: #ffa366;
+  background-color: #5c95a3;
 }
 
 .tags li.relationships:nth-of-type(3n+3) a.tag {
-  background-color: #ffb98a;
+  background-color: #6ca0ac;
 }
 
 .characters a::before {
@@ -846,15 +846,15 @@ h5.fandoms.heading {
 }
 
 .tags li.characters:nth-of-type(3n+1) a.tag {
-  background-color: #f8b920;
+  background-color: #5ca390;
 }
 
 .tags li.characters:nth-of-type(3n+2) a.tag {
-  background-color: #f9c443;
+  background-color: #6cac9b;
 }
 
 .tags li.characters:nth-of-type(3n+3) a.tag {
-  background-color: #facf66;
+  background-color: #7cb6a6;
 }
 
 .freeforms a::before {
@@ -863,15 +863,15 @@ h5.fandoms.heading {
 }
 
 .tags li.freeforms:nth-of-type(3n+1) a.tag {
-  background-color: #d0cfcc;
+  background-color: #7b9d9d;
 }
 
 .tags li.freeforms:nth-of-type(3n+2) a.tag {
-  background-color: #dcdcda;
+  background-color: #8aa8a8;
 }
 
 .tags li.freeforms:nth-of-type(3n+3) a.tag {
-  background-color: #e9e8e7;
+  background-color: #97b4b4;
 }
 
 .tags li.freeforms a.tag:hover,
@@ -1557,7 +1557,6 @@ li.blurb,
 table,
 thead td,
 #header #small_login,
-#dashboard a:hover,
 fieldset,
 form dl,
 fieldset dl dl,
@@ -1575,6 +1574,10 @@ fieldset fieldset.listbox,
 .error,
 .comment_error {
   background: #464e59;
+}
+
+#dashboard a:hover {
+  background: #393e46;
 }
 
 .comment h4.byline {
@@ -1639,11 +1642,14 @@ a:link,
 .current,
 a.current,
 .current a:visited,
-a.tag,
-.tags a,
 a.cloud1,
 a.cloud2 {
   color: #b0ccd3;
+}
+
+a.tag,
+.tags a {
+  color: #f7f7f7;
 }
 
 .userstuff h3,
