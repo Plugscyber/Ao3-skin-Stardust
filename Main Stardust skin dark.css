@@ -16,7 +16,6 @@ TO USE
 
 
 */
-
 h1,
 h2,
 h3,
@@ -814,7 +813,7 @@ h5.fandoms.heading {
 .favorite a.tag,
 .splash .favorite li:nth-of-type(2n+1) a {
   border: none;
-  background-color: #eee;
+  background-color: #535d6d;
 }
 
 .splash .favorite li:nth-of-type(odd) a:hover,
@@ -1017,7 +1016,7 @@ textarea:focus,
 .listbox .index,
 .dashboard .listbox .index,
 .nomination dt {
-  background: #363636;
+  background: #393e46;
 }
 
 ul.notes,
@@ -1054,7 +1053,7 @@ ul.notes,
 }
 
 .filters dl {
-  background: #eeeeee;
+  background: #464e59;
 }
 
 #dashboard .actions .current {
@@ -1075,7 +1074,7 @@ fieldset fieldset,
 fieldset dl dl,
 .fieldset,
 fieldset {
-  background: #393E46;
+  background: #464e59;
 }
 
 #header .user a,
@@ -1424,7 +1423,6 @@ form dl,
 #symbols-key dl,
 .toggled form,
 .dynamic form,
-div.comment,
 .comment div.icon,
 .autocomplete div.dropdown ul,
 #modal,
@@ -1432,8 +1430,9 @@ div.comment,
 .ui-sortable li:hover,
 .actions a:hover,
 .actions input:hover,
-.userstuff blockquote {
-  border-color: #eeeeee;
+.userstuff blockquote,
+div.comment {
+  border-color: #393e46;
 }
 
 fieldset,
@@ -1506,8 +1505,6 @@ button,
 .current,
 .actions label,
 span.claimed,
-.system .latest h3,
-.system div.news h3,
 .listbox,
 fieldset fieldset.listbox,
 dl.meta,
@@ -1517,6 +1514,13 @@ dl.meta,
   background: #363636;
   border-radius: 5px;
   margin-bottom: 10px;
+}
+
+.system .latest h3,
+.system div.news h3 {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #393e46;
 }
 
 span.unread,
@@ -1570,7 +1574,7 @@ fieldset fieldset.listbox,
 .notice,
 .error,
 .comment_error {
-  background: #eeeeee;
+  background: #464e59;
 }
 
 .comment h4.byline {
@@ -1639,7 +1643,7 @@ a.tag,
 .tags a,
 a.cloud1,
 a.cloud2 {
-  color: #000e16;
+  color: #b0ccd3;
 }
 
 .userstuff h3,
@@ -1659,7 +1663,7 @@ a.cloud2 {
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
-  background: #2e2e2e;
+  background: #464e59;
 }
 
 #header #greeting img,
@@ -1718,7 +1722,7 @@ fieldset p.submit.actions a:hover,
 p.actions a:hover,
 dl.inspired.index.group dd.parent span.submit.actions a:hover {
   color: #f7f7f7;
-  background-color: #fff;
+  background-color: #464e59;
 }
 
 ol.pagination.actions li span.current:hover {
@@ -1929,7 +1933,7 @@ fieldset.comments,
 .userstuff thead td,
 .userstuff th a,
 .userstuff th a:link {
-  background: #ffffff;
+  background: #464e59;
 }
 
 .assignment dl.stats,
