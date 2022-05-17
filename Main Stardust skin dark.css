@@ -1057,8 +1057,8 @@ ul.notes,
 }
 
 #dashboard .actions .current {
-  color: #393E46;
-  background: #f7f7f7;
+  color: #f7f7f7;
+  background: #2a2e33;
 }
 
 #dashboard.own {
@@ -1144,7 +1144,7 @@ h5.heading,
 #header .menu li a:link,
 #header .menu li a:visited {
   border-radius: 0.75em;
-  background: #454545 !important;
+  background: #464e59 !important;
   color: #f7f7f7 !important;
   border: none;
 }
@@ -1659,7 +1659,10 @@ a.cloud2 {
 }
 
 #header ul.primary,
-#footer,
+#footer {
+  background: #2a2e33;
+}
+
 .autocomplete .dropdown ul li:hover,
 li.selected,
 a.tag:hover {
