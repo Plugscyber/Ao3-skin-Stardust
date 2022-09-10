@@ -781,14 +781,15 @@ h5.fandoms.heading {
 }
 
 .favorite a.tag,
-.splash .favorite li:nth-of-type(2n+1) a {
+.splash .favorite li:nth-of-type(2n+1) a{
   border: none;
   background-color: #eee;
 }
 
 .splash .favorite li:nth-of-type(odd) a:hover,
 .splash .favorite a:hover,
-.favorite li:nth-of-type(2n+1) a:hover {
+.favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+1) a:hover{
   color: #f7f7f7;
   background-color: #464e59;
 }
@@ -1689,7 +1690,9 @@ dl.inspired.index.group dd.parent span.submit.actions a:hover {
   color: #393E46;
   background-color: #fff;
 }
+.splash .favorite li:nth-of-type(2n+1) a:hover{
 
+}
 ol.pagination.actions li span.current:hover {
   background-color: #ea6b6f;
   color: #f7f7f7;
@@ -2059,3 +2062,4 @@ div.userstuff ul li::before {
 form.inbox {
   overflow-x: visible;
 }
+
