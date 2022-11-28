@@ -781,7 +781,8 @@ h5.fandoms.heading {
 }
 
 .favorite a.tag,
-.splash .favorite li:nth-of-type(2n+1) a{
+.splash .favorite li:nth-of-type(2n+1) a,
+.splash .favorite li:nth-of-type(2n+1) a:focus {
   border: none;
   background-color: #eee;
 }
