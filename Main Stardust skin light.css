@@ -1,3 +1,5 @@
+/*Ao3 Stardust light. Currently being worked on again.*/
+/*Main skin font controls*/
 h1,
 h2,
 h3,
@@ -117,14 +119,6 @@ sup {
   font-size: 0.9em !important;
 }
 
-.home .header h2,
-.preface h3,
-.faq .categories h3,
-.userstuff h3,
-#footer a {
-  border-bottom: none;
-}
-
 html,
 body,
 div,
@@ -239,10 +233,6 @@ h4.heading .datetime {
   font-size: 0.5376em;
 }
 
-.preface a:hover {
-  text-decoration: none;
-}
-
 #header {
   font-size: 1.05em;
 }
@@ -336,7 +326,7 @@ body,
 .filters .expander {
   letter-spacing: 0.02em;
 }
-
+/*forces left aligned text*/
 #chapters,
 #chapters p,
 textarea,
@@ -380,14 +370,23 @@ div#comments_placeholder,
 li.post.group {
   padding-bottom: 1em;
 }
-
+/*Makes skin flat and gets rid of default Ao3 styling.*/
+.home .header h2,
+.preface h3,
+.faq .categories h3,
+.userstuff h3,
+#footer a {
+  border-bottom: none;
+}
 .actions a:active,
 .current,
 a.current,
 .current a:visited {
   box-shadow: none;
 }
-
+.picture .header {
+  border: none;
+}
 #header .menu,
 #header .dropdown:hover .current + .menu,
 .event .userstuff,
@@ -468,7 +467,9 @@ h2,
 #header h2 {
   text-shadow: none;
 }
-
+.preface a:hover {
+  text-decoration: none;
+}
 #footer,
 .autocomplete .dropdown ul li:hover,
 li.selected,
@@ -533,6 +534,9 @@ label.action:hover,
 .toggled form,
 .dynamic form,
 .ui-draggable form {
+  border: none;
+}
+#dashboard.own {
   border: none;
 }
 
@@ -683,7 +687,7 @@ input[type=checkbox]:hover,
 input[type=radio] {
   border-radius: 50%;
 }
-
+/*check box styling code*/
 .filters [type=radio] + .indicator:before {
   content: "";
   vertical-align: -0.125em;
@@ -766,7 +770,7 @@ input[type=checkbox]:hover,
 fieldset.work.meta .fandom.required ul.autocomplete {
   background: transparent;
 }
-
+/*Tags code*/
 a.tag,
 a.tag:visited,
 a.tag:link {
@@ -910,7 +914,7 @@ li.series dl.stats dt,
 dl.series dl.stats dt {
   display: inline-block !important;
 }
-
+/*Symbols on fic stats*/
 dl.stats dd.kudos::before {
   background: url(https://64.media.tumblr.com/23a3c6f134a96386f50fb8982a353590/8b704f26c7323545-01/s100x200/31e25f0be03646918168c4d49bd2ee9733b2cd59.png);
 }
@@ -968,7 +972,7 @@ dl.stats dd.status::before {
   width: 0px;
   margin-right: 0px;
 }
-
+/*main site skin colour*/
 body,
 th,
 tr:hover,
@@ -1032,11 +1036,6 @@ ul.notes,
   color: #f7f7f7;
   background: #393e46;
 }
-
-#dashboard.own {
-  border: none;
-}
-
 .announcement .userstuff h2 {
   margin-top: 10px;
   color: #f7f7f7;
@@ -1053,10 +1052,6 @@ fieldset {
 #header .user a:visited {
   margin: 2px;
   color: #393E46 !important;
-}
-
-.picture .header {
-  border: none;
 }
 
 li.comment,
@@ -1974,7 +1969,7 @@ ul.series li {
 .announcement .userstuff p {
   color: #ffffff;
 }
-
+/*buttons*/
 .announcement input[type="submit"],
 .announcement .action {
   background: #fff none;
@@ -2039,7 +2034,7 @@ input[name="post_button"]:hover {
   text-align: left;
   padding: 10px;
 }
-
+/*List stuff*/
 div.userstuff ul li {
   list-style-type: none;
 }
