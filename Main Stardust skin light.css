@@ -35,7 +35,7 @@ li.search fieldset,
 dl dd.summary textarea,
 dl dd.notes ul li.end fieldset#end-notes-options.end textarea,
 dl dd.notes ul li.start fieldset#front-notes-options.start textarea {
-  font-family: arial, 'Open Sans', sans-serif;
+  font-family: 'trebuchet ms', 'Open Sans', sans-serif;
 }
 
 h1,
@@ -653,8 +653,8 @@ dl.nomination {
 input[type="submit"]:hover,
 .actions li input[type="submit"]:hover,
 .actions .current:hover {
-  color: #393E46;
-  background: #fff;
+  color: #393e46;
+  background: #ccc;
   border: none;
   border-bottom: none;
   background-image: none;
@@ -790,7 +790,7 @@ h5.fandoms.heading {
 .splash .favorite li:nth-of-type(odd) a:hover,
 .splash .favorite a:hover,
 .favorite li:nth-of-type(2n+1) a:hover,
-.splash .favorite li:nth-of-type(2n+1) a:hover{
+.splash .favorite li:nth-of-type(2n+1) a:hover {
   color: #f7f7f7;
   background-color: #464e59;
 }
@@ -1687,13 +1687,12 @@ ul.actions li a:hover,
 dl dd.skin p.actions a:hover,
 fieldset p.submit.actions a:hover,
 p.actions a:hover,
-dl.inspired.index.group dd.parent span.submit.actions a:hover {
+dl.inspired.index.group dd.parent span.submit.actions a:hover,
+fieldset p.submit.actions a#comment_cancel:hover {
   color: #393E46;
-  background-color: #fff;
+  background-color: #ccc;
 }
-.splash .favorite li:nth-of-type(2n+1) a:hover{
 
-}
 ol.pagination.actions li span.current:hover {
   background-color: #ea6b6f;
   color: #f7f7f7;
@@ -2063,4 +2062,3 @@ div.userstuff ul li::before {
 form.inbox {
   overflow-x: visible;
 }
-
