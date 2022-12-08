@@ -1067,11 +1067,6 @@ ul.notes,
 .blurb ul.required-tags {
   background: #eeeeee !important;
 }
-
-.filters dl {
-  background: #eeeeee;
-}
-
 #dashboard .actions .current {
   color: #f7f7f7;
   background: #393e46;
@@ -1462,7 +1457,28 @@ dl.index dd,
 .unread,
 .child,
 .unwrangled,
-.unreviewed {
+.unreviewed,
+table,
+thead td,
+#header #small_login,
+#dashboard a:hover,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+.ui-sortable li:hover,
+.listbox,
+fieldset fieldset.listbox,
+.readings-index h3,
+.search span.tip,
+.flash,
+.notice,
+.error,
+.comment_error,
+.filters dl {
   background: #eeeeee;
 }
 
@@ -1544,29 +1560,6 @@ li.blurb,
 .autocomplete div.dropdown ul {
   border: 1px solid #393E46;
   border-radius: 0.5em;
-}
-
-table,
-thead td,
-#header #small_login,
-#dashboard a:hover,
-fieldset,
-form dl,
-fieldset dl dl,
-fieldset fieldset fieldset,
-fieldset fieldset dl dl,
-dd.hideme,
-form blockquote.userstuff,
-.ui-sortable li:hover,
-.listbox,
-fieldset fieldset.listbox,
-.readings-index h3,
-.search span.tip,
-.flash,
-.notice,
-.error,
-.comment_error {
-  background: #eeeeee;
 }
 
 .comment h4.byline {
