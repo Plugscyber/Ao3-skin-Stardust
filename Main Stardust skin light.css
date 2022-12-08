@@ -501,6 +501,13 @@ textarea,
 .action:link,
 button,
 .current,
+.actions label,
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
 .actions label {
   -webkit-appearance: none;
 }
@@ -665,7 +672,7 @@ input[type="submit"]:hover,
   border-radius: .25em;
   box-shadow: none;
 }
-
+/*Checkboxes*/
 .filters [type=radio] + .indicator:before,
 .filters [type=radio]:checked + .indicator:before,
 .filters [type=checkbox] + .indicator:before,
@@ -991,7 +998,40 @@ textarea:focus,
 .secondary,
 .listbox .index,
 .dashboard .listbox .index,
-.nomination dt {
+.nomination dt,
+fieldset fieldset,
+fieldset dl dl,
+.fieldset,
+fieldset,
+#dashboard a,
+.unread,
+#dashboard span,
+#dashboard.own,
+fieldset dl,
+fieldset.actions,
+fieldset dl fieldset dl,
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.dashboard .own,
+.mods li,
+dl.stats dt,
+.blurb .header .heading,
+.blurb .header ul,
+.blurb .header p.status,
+fieldset.comments,
+.userstuff table,
+.userstuff td,
+.userstuff col,
+.userstuff tr,
+.userstuff thead,
+.userstuff tfoot,
+.userstuff tbody,
+.userstuff th,
+.userstuff thead td,
+.userstuff th a,
+.userstuff th a:link   {
   background: #f7f7f7;
 }
 
@@ -1041,12 +1081,6 @@ ul.notes,
   color: #f7f7f7;
 }
 
-fieldset fieldset,
-fieldset dl dl,
-.fieldset,
-fieldset {
-  background: #f7f7f7;
-}
 
 #header .user a,
 #header .user a:visited {
@@ -1065,10 +1099,6 @@ li.comment,
 
 .blurb .header .heading {
   background: transparent !important;
-}
-
-.blurb .stats {
-  color: #000000;
 }
 
 .module .heading h4,
@@ -1357,20 +1387,17 @@ dl.index dd,
   font-size: 1.914em;
 }
 
-.actions a,
-.action,
-.actions input,
-input[type="submit"],
-button,
-.current,
-.actions label {
-  -webkit-appearance: none;
-}
+
 
 li.relationships,
 li.relationships a,
 .thread .even,
-.preface h3 {
+.preface h3,
+.own .header,
+.inbox .actions,
+.inbox .comments,
+.pseud .header,
+.collection .header {
   background-color: transparent;
 }
 
@@ -1724,38 +1751,6 @@ textarea.LV_invalid_field:active,
   border-color: #393E46;
 }
 
-#dashboard a,
-.unread,
-#dashboard span,
-#dashboard.own,
-fieldset dl,
-fieldset.actions,
-fieldset dl fieldset dl,
-.dynamic form fieldset,
-.toggled form fieldset,
-.toggled form dl,
-.secondary .toggled form,
-.dashboard .own,
-.mods li,
-dl.stats dt,
-.blurb .header .heading,
-.blurb .header ul,
-.blurb .header p.status,
-fieldset.comments,
-.userstuff table,
-.userstuff td,
-.userstuff col,
-.userstuff tr,
-.userstuff thead,
-.userstuff tfoot,
-.userstuff tbody,
-.userstuff th,
-.userstuff thead td,
-.userstuff th a,
-.userstuff th a:link {
-  background: #f7f7f7;
-}
-
 .dashboard .listbox {
   border: 1px solid #929AAB;
 }
@@ -1910,11 +1905,8 @@ dl.stats dt {
   color: #000000;
 }
 
-.assignment .index dt {
-  margin-bottom: 5px;
-}
-
-.blurb dl.stats {
+.assignment .index dt,
+.blurb dl.stats  {
   margin-bottom: 5px;
 }
 
@@ -1925,9 +1917,6 @@ dl.stats dt {
   border-radius: .25em;
 }
 
-.user .datetime {
-  color: #000000;
-}
 
 .preface blockquote {
   border: 0;
@@ -1939,22 +1928,12 @@ p.kudos {
 }
 
 ul.series,
-ul.series li {
+ul.series li,
+.own .type,
+.blurb .stats,
+.user .datetime  {
   color: #000000;
 }
-
-.own .header,
-.inbox .actions,
-.inbox .comments,
-.pseud .header,
-.collection .header {
-  background-color: transparent;
-}
-
-.own .type {
-  color: #000000;
-}
-
 .faq .example,
 .guideline .example {
   border: 0px;
@@ -1981,7 +1960,8 @@ ul.series li {
   border-radius: 2em;
 }
 
-input[name="preview_button"] {
+input[name="preview_button"],
+input[name="post_button"]  {
   color: #f7f7f7;
   background: #ea6b6f !important;
   border: none;
@@ -1991,27 +1971,9 @@ input[name="preview_button"] {
   box-shadow: none;
 }
 
-input[name="post_button"] {
-  color: #f7f7f7;
-  background: #ea6b6f !important;
-  border: none;
-  border-bottom: none;
-  background-image: none;
-  border-radius: .25em;
-  box-shadow: none;
-}
 
-input[name="preview_button"]:hover {
-  color: #f7f7f7 !important;
-  background: #ea7b6f !important;
-  border: none;
-  border-bottom: none;
-  background-image: none;
-  border-radius: .25em;
-  box-shadow: none;
-}
-
-input[name="post_button"]:hover {
+input[name="preview_button"]:hover,
+input[name="post_button"]:hover  {
   color: #f7f7f7 !important;
   background: #ea7b6f !important;
   border: none;
