@@ -1447,15 +1447,17 @@ button,
 .current,
 .actions label,
 a.cloud4,
-a.cloud5 {
-  color: #393E46;
-}
-
+a.cloud5,
+.actions input:focus,
 a:visited,
-a.cloud6 {
+a.cloud6,
+.draft,
+.draft .wrapper,
+dl.index dd,
+.unreviewed 
+{
   color: #393E46;
 }
-
 thead,
 tfoot,
 tfoot td,
