@@ -381,12 +381,7 @@ li.post.group {
 .actions a:active,
 .current,
 a.current,
-.current a:visited {
-  box-shadow: none;
-}
-.picture .header {
-  border: none;
-}
+.current a:visited,
 #header .menu,
 #header .dropdown:hover .current + .menu,
 .event .userstuff,
@@ -442,24 +437,53 @@ textarea,
 .action:link,
 button,
 .current,
-.actions label {
-  box-shadow: none;
-}
-
+.actions label,
 .ui-sortable li:hover,
 .secondary,
 .wrapper,
-.ui-draggable form {
-  box-shadow: none;
-}
-
-#header #small_login {
-  box-shadow: none;
-}
-
+.ui-draggable form,
 .delete a,
-span.delete {
+span.delete,
+#header #small_login,
+li.blurb,
+.blurb .blurb,
+.listbox .index,
+.dashboard .listbox .index,
+#footer a:hover,
+fieldset dl,
+fieldset.actions,
+fieldset dl fieldset dl,
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.actions a,
+.action,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+#outer.wrapper,
+#inner.wrapper,
+dl.index,
+dl.stats,
+.listbox,
+fieldset fieldset.listbox,
+.listbox li.blurb,
+fieldset.comments,
+dl.nomination,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
   box-shadow: none;
+}
+.picture .header {
+  border: none;
 }
 
 h2,
@@ -614,32 +638,7 @@ form dt,
   border-right: none;
 }
 
-#footer a:hover,
-fieldset dl,
-fieldset.actions,
-fieldset dl fieldset dl,
-.dynamic form fieldset,
-.toggled form fieldset,
-.toggled form dl,
-.secondary .toggled form,
-.actions a,
-.action,
-.actions input,
-input[type="submit"],
-button,
-.current,
-.actions label,
-#outer.wrapper,
-#inner.wrapper,
-dl.index,
-dl.stats,
-.listbox,
-fieldset fieldset.listbox,
-.listbox li.blurb,
-fieldset.comments,
-dl.nomination {
-  box-shadow: none;
-}
+
 
 #header .menu,
 #header .dropdown:hover .current + .menu,
@@ -1425,16 +1424,6 @@ div.comment,
   border-left: 4px solid #ea6b6f;
 }
 
-fieldset,
-form dl,
-fieldset dl dl,
-fieldset fieldset fieldset,
-fieldset fieldset dl dl,
-dd.hideme,
-form blockquote.userstuff {
-  box-shadow: none;
-}
-
 #header .actions a:hover,
 #header .actions a:focus,
 #header .dropdown:hover a,
@@ -1538,12 +1527,7 @@ span.unread,
   border-radius: 5px;
 }
 
-li.blurb,
-.blurb .blurb,
-.listbox .index,
-.dashboard .listbox .index {
-  box-shadow: none;
-}
+
 
 #header ul.primary {
   box-shadow: none;
