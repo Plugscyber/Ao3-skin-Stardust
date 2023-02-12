@@ -1542,15 +1542,15 @@ dl.meta,
   border-radius: 5px;
   margin-bottom: 10px;
 }
-
+div#main.users-confirm_mute.region form p.actions a {
+  margin-bottom: 0;
+}
 span.unread,
 .replied {
   border-color: #393E46;
   background: #f7f7f7;
   border-radius: 5px;
 }
-
-
 
 #header ul.primary {
   box-shadow: none;
