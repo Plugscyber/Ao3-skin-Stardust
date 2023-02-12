@@ -790,21 +790,36 @@ h5.fandoms.heading {
   color: transparent;
 }
 
+/*colourful favorite tags*/
 .favorite a.tag,
-.splash .favorite li:nth-of-type(2n+1) a,
-.splash .favorite li:nth-of-type(2n+1) a:focus {
+.splash .favorite li:nth-of-type(3n+1) a,
+.splash .favorite li:nth-of-type(3n+1) a:focus {
   border: none;
-  background-color: #eee;
+  background-color: #ff8e43;
 }
 
+.favorite a.tag,
+.splash .favorite li:nth-of-type(3n+2) a,
+.splash .favorite li:nth-of-type(3n+2) a:focus {
+  border: none;
+  background-color: #ffa366;
+}
+
+.favorite a.tag,
+.splash .favorite li:nth-of-type(3n+3) a,
+.splash .favorite li:nth-of-type(3n+3) a:focus {
+  border: none;
+  background-color: #ffb98a;
+}
 .splash .favorite li:nth-of-type(odd) a:hover,
-.splash .favorite a:hover,
+.splash .favorite a.tag:hover,
 .favorite li:nth-of-type(2n+1) a:hover,
 .splash .favorite li:nth-of-type(2n+1) a:hover {
   color: #f7f7f7;
   background-color: #464e59;
 }
 
+/*colourful relationship tags*/
 .relationships a::before {
   content: "☆";
   padding: 0 .25em 0 0;
@@ -1050,35 +1065,6 @@ ul.notes,
 
 .subscription dd {
   background-color: transparent !important;
-}
-
-.favorite a.tag,
-.splash .favorite li:nth-of-type(3n+1) a,
-.splash .favorite li:nth-of-type(3n+1) a:focus {
-  border: none;
-  background-color: #ff8e43;
-}
-
-.favorite a.tag,
-.splash .favorite li:nth-of-type(3n+2) a,
-.splash .favorite li:nth-of-type(3n+2) a:focus {
-  border: none;
-  background-color: #ffa366;
-}
-
-.favorite a.tag,
-.splash .favorite li:nth-of-type(3n+3) a,
-.splash .favorite li:nth-of-type(3n+3) a:focus {
-  border: none;
-  background-color: #ffb98a;
-}
-
-.splash .favorite li:nth-of-type(odd) a:hover,
-.splash .favorite a.tag:hover,
-.favorite li:nth-of-type(2n+1) a:hover,
-.splash .favorite li:nth-of-type(2n+1) a:hover {
-  color: #f7f7f7;
-  background-color: #464e59;
 }
 
 #dashboard .actions a,
@@ -1542,6 +1528,7 @@ dl.meta,
   border-radius: 5px;
   margin-bottom: 10px;
 }
+/*Stops mute button being misaligned*/
 div#main.users-confirm_mute.region form p.actions a {
   margin-bottom: 0;
 }
