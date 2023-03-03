@@ -1164,7 +1164,7 @@ h5.heading,
 
 li.blurb {
   border-radius: 0.75em;
-  background: #eeeeee;
+  background: #393e46;
   border: none;
 }
 
@@ -1629,7 +1629,7 @@ a.tag,
 .tags a,
 a.cloud1,
 a.cloud2 {
-  color: #000e16;
+  color: #ebebeb;
 }
 
 .userstuff h3,
@@ -1679,7 +1679,7 @@ a.work,
 .error,
 a.cloud7,
 a.cloud8 {
-  color: #393E46;
+  color: #eee;
 }
 
 div#user-works.work.listbox.group ul.index.group ul.actions li a:hover,
