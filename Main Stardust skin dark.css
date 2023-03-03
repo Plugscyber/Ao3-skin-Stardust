@@ -4,6 +4,7 @@ blue grey #393e46
 warm grey #363636
 dark grey #2e2e2e
 light grey #444443
+off white text #f7f7f7
 */
 /*Main skin font controls*/
 h1,
@@ -669,7 +670,7 @@ form dt,
 input[type="submit"]:hover,
 .actions li input[type="submit"]:hover,
 .actions .current:hover {
-  color: #393e46;
+  color: #f7f7f7;
   background: #ccc;
   border: none;
   border-bottom: none;
@@ -1052,7 +1053,7 @@ fieldset.comments,
 .userstuff thead td,
 .userstuff th a,
 .userstuff th a:link   {
-  background: #f7f7f7;
+  background: #2e2e2e;
 }
 
 ul.notes,
@@ -1206,7 +1207,7 @@ form.search input[type="text"],
 form.search input[type="text"],
 li.search fieldset,
 .search input[type="text"] {
-  color: #393E46;
+  color: #f7f7f7;
   background: #f7f7f7;
   border: 1px solid #393E46;
   border-radius: .25em;
@@ -1261,16 +1262,16 @@ span.claimed,
 }
 
 .unreviewed {
-  color: #393e46;
+  color: #f7f7f7;
 }
 
 dl.index dd {
-  color: #393e46;
+  color: #f7f7f7;
 }
 
 .draft,
 .draft .wrapper {
-  color: #393E46;
+  color: #f7f7f7;
 }
 
 #header h2,
@@ -1306,11 +1307,11 @@ a.current,
 .heading,
 #heading h3,
 .splash .module h3 {
-  color: #393E46;
+  color: #f7f7f7;
 }
 
 .listbox>.heading {
-  color: #393E46;
+  color: #f7f7f7;
   padding: 10px;
   padding-left: 15px;
 }
@@ -1503,7 +1504,7 @@ a.cloud6,
 dl.index dd,
 .unreviewed 
 {
-  color: #393E46;
+  color: #f7f7f7;
 }
 thead,
 tfoot,
@@ -1590,7 +1591,7 @@ body,
 .userstuff th a:link,
 a.cloud3,
 #header .search input[type="text"] {
-  color: #393E46;
+  color: #f7f7f7;
 }
 
 .draft {
@@ -1749,7 +1750,7 @@ textarea.LV_invalid_field:active,
 }
 
 .blurb .datetime {
-  color: #393E46;
+  color: #f7f7f7;
 }
 
 #greeting img.icon {
@@ -1794,11 +1795,11 @@ img.icon {
 }
 
 .bookmark .count a {
-  color: #393E46;
+  color: #f7f7f7;
 }
 
 span.symbol {
-  color: #393E46;
+  color: #f7f7f7;
   background: #f7f7f7;
   border: 1px solid;
   vertical-align: super;
@@ -1808,7 +1809,7 @@ span.symbol {
 
 .notice {
   border: 1px solid #393E46;
-  color: #393E46;
+  color: #f7f7f7;
   background: #f7f7f7;
   box-shadow: none;
   padding: 1em;
@@ -1819,7 +1820,7 @@ span.symbol {
 }
 
 .splash .browse li a:before {
-  color: #393E46;
+  color: #f7f7f7;
   content: "\272D";
   padding: 0 .25em 0 0;
 }
@@ -1846,7 +1847,7 @@ input[type=submit],
 .tags input[type='radio'],
 .filters [type="radio"] + .indicator::before,
 .filters [type="radio"] + .indicator::before {
-  color: #393E46;
+  color: #f7f7f7;
   background: #f7f7f7;
   border: 1px solid #393E46;
   border-radius: 1em;
